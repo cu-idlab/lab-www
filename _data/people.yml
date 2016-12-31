@@ -1,0 +1,38 @@
+# Lab Members
+# Include all the lab members here!
+
+# TEMPLATE
+# If a line doesn't apply, leave it commented out.
+# - name        : "Full Name"
+#   position    : "TBC"
+#   uri         : "http://...."
+#   email       : "email here"
+#   bio         : "TBC"
+#   avatar      : "/assets/images/members/brubaker.jpg"
+#   facebook    : "TBC"
+#   twitter     : "TBC"
+
+- name        : "Jed R. Brubaker"
+  position    : "Assistant Professor, Lab Director"
+  uri         : "http://www.jedbrubaker.com"
+  email       : "jed.brubaker@colorado.edu"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/members/brubaker.jpg"
+  facebook    : "jedbrubaker"
+  twitter     : "whatknows"
+
+- name        : "Katie Gach"
+  position    : "Ph.D. Student, ATLAS Institute"
+  email       : "something here"
+  bio         : "TBC"
+  avatar      : "/assets/images/bio-photo.jpg"
+  # twitter     : "rhymeswithsackit"
+  # google_plus : "CorneliusFiddlebone"
+
+- name        : "Aaron Jiang"
+  position    : "Ph.D. Student, Information Science"
+  email       : "something here"
+  bio         : "TBC"
+  avatar      : "/assets/images/bio-photo.jpg"
+  # twitter     : "rhymeswithsackit"
+  # google_plus : "CorneliusFiddlebone"

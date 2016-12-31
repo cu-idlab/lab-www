@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Identity Lab"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "An amazing website."
+description              : "IDLab is the research group of Dr. Jed Brubaker, housed in the department of Information Science at the University of Colorado Boulder"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -184,6 +184,33 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
+# BibTex Citation plugin
+# citation:
+#     citation_style: apa
+#     citation_locale: en
+
+# Citations
+scholar:
+  style: assets/bibliography/custom-hdp.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  source: assets/bibliography
+  repository: pdf
+  bibliography: lab
+  bibliography_template: bibliography
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 # mimic GitHub Pages with --safe
 whitelist:
