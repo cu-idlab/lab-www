@@ -16,10 +16,14 @@
   position    : "Assistant Professor, Lab Director"
   uri         : "http://www.jedbrubaker.com"
   email       : "jed.brubaker@colorado.edu"
+<<<<<<< HEAD
   bio         : "What do you want, jewels? I am a very extravagant man."
+=======
+>>>>>>> master
   avatar      : "/assets/images/people/brubaker-bio.jpg"
   facebook    : "jedbrubaker"
   twitter     : "whatknows"
+  bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder."
 
 - name        : "Katie Gach"
   position    : "Ph.D. Student, ATLAS Institute"
