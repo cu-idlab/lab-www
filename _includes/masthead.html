@@ -1,4 +1,5 @@
-<div class="masthead">
+<!-- Old Masthead -->
+<!-- <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -18,4 +19,32 @@
       </nav>
     </div>
   </div>
-</div>
+</div> -->
+
+<!--Header-->
+<header class="boxed" id="header-white" style="background-color: #DDD;">
+
+  <div class="header-margin">
+
+    <div class="logo"><a class="ajax-link" href="index.html">identity lab</a></div>
+    <ul class="header-nav">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = site.url | append: site.baseurl %}
+        {% endif %}
+        <li class="masthead__menu-item"><a class="ajax-link" href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <!-- <ul class="social-icon">
+      <div class="social-index">
+      <li><a href="https://www.facebook.com/thomsooncom"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.behance.net/TomaszMazurczak"><i class="fa fa-behance"></i></a></li>
+      </div>
+    </ul> -->
+
+  </div>
+
+</header>

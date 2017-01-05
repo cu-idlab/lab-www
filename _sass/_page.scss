@@ -399,3 +399,40 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   People Page
+   ========================================================================== */
+ .person {
+   @include clearfix();
+   margin: 1em 0;
+   display:block;
+
+   &:not(:last-child) {
+     border-bottom: 1px solid $border-color;
+   }
+ }
+
+div .person-photo-wrapper {
+  width: 30%;
+  position: relative;
+  float: left;
+  min-height: 150px;
+}
+.person-photo {
+  // float: left;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  @include clearfix();
+}
+
+div .person-details-wrapper {
+  width: 70%;
+  position: relative;
+  float: left;
+}
+
+.person-details {
+  margin: 10px 0px;
+}
