@@ -12,4 +12,3 @@ gem "jekyll"
 gem "bibtex-ruby"
 gem "citeproc-ruby"
 gem "jekyll-scholar"
-gemspec
