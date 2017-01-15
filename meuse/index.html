@@ -2,12 +2,12 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/@stock/boxed-slide-5.jpg
-    title: Creative theme
-    tagline: It is very easy to customize
-  - bg: images/@stock/boxed-slide-4.jpg
-    title: Powerful
-    tagline: a Multi-Purpose theme
+  - bg: images/DeathtoStock_Wired10.jpg
+#    title: We study how identity is
+    tagline: We study how identity<br/>is designed, represented<br />and experienced in technology
+#  - bg: images/@stock/boxed-slide-4.jpg
+#    title: Powerful
+#    tagline: a Multi-Purpose theme
 works:
   - image: images/@stock/one-page-work-1.jpg
     title: Beautiful Girl
@@ -25,20 +25,6 @@ works:
     title: Umbrella
     desc: Design &amp; Development
     class: development
-
-services:
-  - icon_class: fa fa-paper-plane-o
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-  - icon_class: fa fa-tablet
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-  - icon_class: fa fa-comments-o
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-  - icon_class: fa fa-flask
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
 
 bars:
   - title: Web Design
@@ -73,6 +59,8 @@ clients:
   - images/@stock/client-grey-6.png
 ---
 
+
+
 <div class='full no-padding'>
   <div class='two spacing'></div>
   <div class='row'>
@@ -83,7 +71,7 @@ clients:
             <div class='slide'>
               <img alt="" src="{{slide.bg}}" />
               <div class='caption'>
-                <p>{{slide.title}}</p>
+                <!-- <p>{{slide.title}}</p> -->
                 <h2>{{slide.tagline}}</h2>
               </div>
             </div>
@@ -93,7 +81,7 @@ clients:
     </div>
   </div>
 </div>
-<div class='full no-padding'>
+<!-- <div class='full no-padding'>
   <div class='spacing'></div>
   <div class='row'>
     <div class='large-12 columns'>
@@ -103,14 +91,14 @@ clients:
     </div>
   </div>
   <hr>
-</div>
+</div> -->
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
     <h3>
-      Our recent work
+      Current Projects
       /
-      <a href='portfolio.html'>View more</a>
+      <a href='{{ site.nav.projects.path }}'>View more</a>
     </h3>
     <div class='spacing'></div>
   </div>
@@ -133,28 +121,6 @@ clients:
   </div>
 </div>
 <div class='two spacing'></div>
-<hr>
-<div class='two spacing'></div>
-<div class='row'>
-  <div class='large-12 columns'>
-    <h3>Our services</h3>
-    <div class='two spacing'></div>
-  </div>
-</div>
-<div class='row'>
-  {% for service in page.services %}
-    <div class='medium-3 large-3 columns'>
-      <div class='fadein mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
-        <div class='icon-text-circle'>
-          <i class='{{service.icon_class}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-        <div class='two spacing'></div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
 <hr>
 <div class='two spacing'></div>
 <div class='row'>
@@ -210,21 +176,6 @@ clients:
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
-    <h3>Our clients</h3>
-    <div class='spacing'></div>
-    <div class='mod modClients' data-slides_to_show='5'>
-      <div class='clients'>
-        {% for client in page.clients %}
-          <div><img alt="" src="{{client}}" /></div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
-<hr>
-<div class='two spacing'></div>
-<div class='row'>
-  <div class='large-12 columns'>
     <h3>
       Our recent posts
       /
@@ -238,8 +189,6 @@ clients:
     {% if forloop.index > 3 %}
       {% break %}
     {% endif %}
-
-
     <div class='large-4 medium-4 columns'>
       <div class='mod modBlogPost no_bg simple'>
         {% for image in post.images %}
@@ -255,7 +204,6 @@ clients:
         </div>
       </div>
     </div>
-
   {% endfor %}
   <div class='two spacing'></div>
 </div>
