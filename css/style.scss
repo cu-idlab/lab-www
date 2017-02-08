@@ -3427,3 +3427,46 @@ body {
     display: none;
   }
 }
+
+/** Publications **/
+//*[@id="main"]/ol[2]/li
+ol.bibliography li{
+   list-style: none;
+}
+// li:before{
+//    content: '';
+//    display: inline-block;
+//    height: 30px;
+//    width: 30px;
+//    background-image: url('../images/pdf_icon.png');
+// }
+.bibliography .pdf-icon {
+  display: inline-block;
+  width: 3em;
+}
+
+.bibliography .title {
+  font-weight: bold;
+  display: block;
+}
+
+.bibliography .author {
+
+}
+
+.bibliography ul.nav {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.bibliography li.pill {
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.bibliography a.details {
+  display: none;
+}
+//
+// //*[@id="Brubaker2016-materials"]/ul/li[1]/a
+//
+// #Brubaker2016-materials > ul > li.pill > a

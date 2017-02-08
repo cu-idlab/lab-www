@@ -1,10 +1,8 @@
 ---
 title: "Publications"
-layout: page
+layout: single
 author_profile: false
 ---
-
-# Publications
 
 ### 2017
 {% bibliography --query @*[year=2017] %}

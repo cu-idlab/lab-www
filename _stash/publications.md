@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: single
+layout: post
 author_profile: false
 ---
 
