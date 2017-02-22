@@ -1,24 +1,24 @@
 ---
 layout: default
-section_id: portfolio
+section_id: projects
 works:
   - image: images/@stock/one-page-work-1.jpg
-    title: Beautiful Girl
+    title: Death and the Social Network
     link_to: portfolio-item.html
     class: graphic-design
     desc: Design &amp; Development
   - image: images/@stock/one-page-work-2.jpg
-    title: Look at me
+    title: Stewarding Online Identities for the Deceased
     link_to: portfolio-item.html
     class: web-design print
     desc: Design &amp; Development
   - image: images/@stock/one-page-work-3.jpg
-    title: Am I cute
+    title: #GIFeels
     link_to: portfolio-item.html
     class: brand
     desc: Design &amp; Development
   - image: images/@stock/one-page-work-4.jpg
-    title: Umbrella
+    title: Post-userism
     link_to: portfolio-item.html
     class: development
     desc: Design &amp; Development
@@ -67,8 +67,9 @@ works:
 
 <div class='full'>
   <div class='row'>
+    <h1>Projects</h1>
     <div class='mod modGallery'>
-      <div class='gallery-nav'>
+      <!-- <div class='gallery-nav'>
         <ul>
           <li class='current'>
             <a data-cat='all' href='#'>All</a>
@@ -89,12 +90,12 @@ works:
             <a data-cat='print' href='#'>Print</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-        {% for work in page.works %}
+        {% for work in site.data.projects %}
           <li class='{{work.class}}'>
             <a href='{{work.link_to}}'>
-              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <img alt="" src="{{site.url}}/{{work.image_crop}}" />
               <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
                 <div class='thumb-info'>
                   <h3>{{work.title}}</h3>

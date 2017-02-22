@@ -9,22 +9,26 @@ slides:
 #    title: Powerful
 #    tagline: a Multi-Purpose theme
 works:
-  - image: images/@stock/one-page-work-1.jpg
-    title: Beautiful Girl
-    desc: Design &amp; Development
-    class: graphic-design
-  - image: images/@stock/one-page-work-5.jpg
-    title: Look at me
-    desc: Design &amp; Development
-    class: web-design print
-  - image: images/@stock/one-page-work-3.jpg
-    title: Am I cute
-    desc: Design &amp; Development
-    class: brand
+  - image: images/projects/fb-grave-crop.jpg
+    title: Death and the Social Network
+    link_to: /project/death-sns/
+    <!-- class: graphic-design -->
+    <!-- desc: Design &amp; Development -->
+  - image: images/projects/stewardship-crop.png
+    title: Stewarding Online Identities for the Deceased
+    link_to: /project/stewardship/
+    <!-- class: web-design print -->
+    <!-- desc: Design &amp; Development -->
+  - image: images/projects/gifeels-crop.gif
+    title: GIFeels
+    link_to: /project/gifeels/
+    <!-- class: brand -->
+    <!-- desc: Design &amp; Development -->
   - image: images/@stock/one-page-work-4.jpg
-    title: Umbrella
-    desc: Design &amp; Development
-    class: development
+    title: Post-userism
+    link_to: /project/post-userism/
+    <!-- class: development -->
+    <!-- desc: Design &amp; Development -->
 
 bars:
   - title: Web Design
@@ -97,8 +101,8 @@ clients:
   <div class='large-12 columns'>
     <h3>
       Current Projects
-      /
-      <a href='{{ site.nav.projects.path }}'>View more</a>
+      <!-- /
+      <a href='{{ site.nav.projects.path }}'>View more</a> -->
     </h3>
     <div class='spacing'></div>
   </div>
@@ -106,7 +110,7 @@ clients:
     <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
       {% for work in page.works %}
         <li class='{{work.class}}'>
-          <a href='portfolio-item.html'>
+          <a href='{{work.link_to}}'>
             <img alt="" src="{{work.image}}" />
             <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
               <div class='thumb-info'>
@@ -115,6 +119,7 @@ clients:
               </div>
             </div>
           </a>
+          <p>{{work.title}}</p>
         </li>
       {% endfor %}
     </ul>
@@ -123,7 +128,7 @@ clients:
 <div class='two spacing'></div>
 <hr>
 <div class='two spacing'></div>
-<div class='row'>
+<!-- <div class='row'>
   <div class='medium-6 columns'>
     <h3>Our skills</h3>
     <div class='spacing'></div>
@@ -173,7 +178,7 @@ clients:
   </div>
 </div>
 <hr>
-<div class='two spacing'></div>
+<div class='two spacing'></div> -->
 <div class='row'>
   <div class='large-12 columns'>
     <h3>

@@ -13,16 +13,18 @@
 #   twitter     : "TBC"
 
 - name        : "Jed R. Brubaker"
-  position    : "Assistant Professor, Lab Director"
+  position    : "Lab Director<br/>Assistant Professor"
+  program     : "Information Science"
   uri         : "http://www.jedbrubaker.com"
   email       : "jed.brubaker@colorado.edu"
-  avatar      : "/assets/images/people/brubaker-bio.jpg"
+  avatar      : images/members/brubaker-bio.jpg
   facebook    : "jedbrubaker"
   twitter     : "whatknows"
   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder."
 
 - name        : "Katie Gach"
-  position    : "Ph.D. Student, ATLAS Institute"
+  position    : "Ph.D. Student"
+  program     : "ATLAS Institute"
   email       : "something here"
   bio         : "TBC"
   avatar      : "/assets/images/bio-photo.jpg"
@@ -30,11 +32,24 @@
   # google_plus : "CorneliusFiddlebone"
 
 - name        : "Aaron Jiang"
-  position    : "Ph.D. Student, Information Science"
-  email       : "aaron.jiang@colorado.edu"
+  position    : "Ph.D. Student"
+  program     : "Information Science"
+  email       : "aaron.jiang@colorado.edu "
   bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I have a B.S. in Computer Science from the University of Minnesota. I do research in social computing, online communities, and social media. I love data, coffee, and Dota."
   uri         : "https://aaronjiang.me"
-  avatar      : "/assets/images/bio-photo.jpg"
+  avatar      : images/members/aaron_jiang_bio.jpg
+  twitter     : "aaroniidx"
+  facebook    : "aaron.j.jiang"
+  steam       : "http://steamcommunity.com/profiles/76561198051935658/"
+
+# ETHAN, Will you update this with your information? Thx.
+- name        : "Ethan Hanner"
+  position    : "Ph.D. Student"
+  program     : "Computer Science"
+  email       : "aaron.jiang@colorado.edu "
+  bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I have a B.S. in Computer Science from the University of Minnesota. I do research in social computing, online communities, and social media. I love data, coffee, and Dota."
+  uri         : "https://aaronjiang.me"
+  avatar      : images/members/aaron_jiang_bio.jpg
   twitter     : "aaroniidx"
   facebook    : "aaron.j.jiang"
   steam       : "http://steamcommunity.com/profiles/76561198051935658/"

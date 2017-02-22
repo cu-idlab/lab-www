@@ -69,7 +69,7 @@ members:
       <div class='spacing'></div>
       <p>The Idenitity Lab is led by <a href="http://www.jedbrubaker.com">Jed Brubaker</a>, an Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology. We like puppies, mixed methods and new students (particularly MS).</p>
     </div>
-    <div class='medium-6 columns'>
+    <!-- <div class='medium-6 columns'>
       <h3>Our skills</h3>
       <div class='spacing'></div>
       <div class='mod modBarGraph'>
@@ -85,7 +85,7 @@ members:
           {% endfor %}
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 <div class='two spacing'></div>
@@ -98,7 +98,7 @@ members:
   </div>
 </div>
 <div class='row'>
-  {% for member in page.members %}
+  {% for member in site.data.people %}
     <div class='small-6 medium-3 large-3 columns'>
       <div class='mod modTeamMember style-2'>
         <div class='member'>
@@ -117,7 +117,7 @@ members:
         </div>
         <h3>{{member.name}}</h3>
         <p class='position'>{{member.position}}</p>
-        <p>{{member.desc}}</p>
+        <p>{{member.bio}}</p>
         <div class='two spacing'></div>
       </div>
     </div>
