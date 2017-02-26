@@ -94,7 +94,7 @@ works:
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in site.data.projects %}
           <li class='{{work.class}}'>
-            <a href='{{work.link_to}}'>
+            <a href='{{work.link_to | prepend: site.url }}'>
               <img alt="" src="{{site.url}}/{{work.image_crop}}" />
               <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
                 <div class='thumb-info'>
