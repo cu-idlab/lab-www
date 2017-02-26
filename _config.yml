@@ -7,8 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 # baseurl: "/idlab" # the subpath of your site, e.g. /blog/ <-- but I think this trail nees to go away.
 url: "http://cmci.colorado.edu/idlab" # the base hostname & protocol for your site
-# twitter_us
-ername: jekyllrb
+# twitter_username: jekyllrb
 github_username:  cu-idlab
 
 # Site sections
