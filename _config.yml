@@ -5,13 +5,43 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# baseurl: "/idlab" # the subpath of your site, e.g. /blog/ <-- but I think this trail nees to go away.
+url: "http://cmci.colorado.edu/idlab" # the base hostname & protocol for your site
+# twitter_us
+ername: jekyllrb
+github_username:  cu-idlab
+
+# Site sections
+include: ["_pages", "_projects"]
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
 
 paginate: 4
 paginate_path: "blog/page:num"
+
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
+
+# Scholar
+scholar:
+  style: assets/bibliography/sigchi.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: assets/bibliography
+  repository: assets/bibliography/pdf
+  bibliography: lab
+  bibliography_template: bibtex
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

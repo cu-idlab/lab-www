@@ -1,0 +1,23 @@
+# - name: Home
+#   path: index.html
+#   section_id: home
+- name: About
+  path: about
+  section_id: about
+# - name: People
+#   path: people.html
+  section_id: people
+- name: Projects
+  path: projects
+  section_id: projects
+  # children:
+  #   - name: Portfolio
+  #     path: portfolio.html
+  #   - name: Portfolio item
+  #     path: portfolio-item.html
+- name: Publications
+  path: publications
+  section_id: publications
+- name: Join Us!
+  path: join
+  section_id: join

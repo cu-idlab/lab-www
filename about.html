@@ -1,0 +1,106 @@
+---
+layout: default
+section_id: about
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h1>Who are we?</h1>
+      <div class='spacing'></div>
+      <p>The Idenitity Lab is led by <a href="http://www.jedbrubaker.com">Jed Brubaker</a>, an Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology. We like puppies, mixed methods and new students (particularly MS).</p>
+    </div>
+    <!-- <div class='medium-6 columns'>
+      <h3>Our skills</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class="bars">
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div> -->
+  </div>
+</div>
+<div class='two spacing'></div>
+<hr>
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>The team</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for member in site.data.people %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember style-2'>
+        <div class='member'>
+          <img class="avatar" alt="{{member.name}}" src="{{site.url}}/{{member.avatar}}" />
+          <div class='overlay'>
+            <ul class='socials'>
+
+              <!-- Homepage -->
+              {% if member.uri %}
+                <li>
+                  <a href='{{member.uri}}' title='Homepage'>
+                    <i class='fa fa-home'></i>
+                  </a>
+                </li>
+              {% endif %}
+
+              <!-- Email -->
+              {% if member.email %}
+              <li>
+                <a href='{{member.email}}' title='E-mail'>
+                  <i class='fa fa-envelope-o'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Twitter -->
+              {% if member.twitter %}
+              <li>
+                <a href='https://www.twitter.com/{{member.twitter}}' title='Twitter'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Facebook -->
+              {% if member.facebook %}
+              <li>
+                <a href='https://www.facebook.com/{{member.facebook}}' title='Facebook'>
+                  <i class='fa fa-facebook'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Steam -->
+              {% if member.steam %}
+              <li>
+                <a href='{{member.steam}}' title='Steam'>
+                  <i class='fa fa-steam'></i>
+                </a>
+              </li>
+              {% endif %}
+
+            </ul>
+          </div>
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.position}}</p>
+        <p>{{member.bio}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<div class='three spacing'></div>

@@ -1,0 +1,42 @@
+---
+---
+
+<!-- <img class="pdf-icon" src="{{ "/images/pdf_icon.png" | prepend: site.baseurl }}"> -->
+<span class="title">{{entry.title}}</span>
+<span class="author">{{entry.author}}</span><br />
+<span class="venue">{{entry.booktitle}}</span>
+<!-- {{reference}} -->
+
+<div id="{{key}}-materials">
+  <ul class="nav nav-pills">
+
+    {% if entry.abstract %}
+      <li class="pill"><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
+    {% endif %}
+
+    {% if link %}
+      <li class="pill"><a href="{{link}}">PDF</a></li>
+    {% endif %}
+
+    <li class="pill"><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-reference')">Reference</a></li>
+    <li class="pill"><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
+
+    {% if entry.doi %}
+      <li class="pill">DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
+    {% endif %}
+
+    <div id="{{key}}-reference" style="display:none;">
+      <span class="collapse">{{reference}}</span>
+    </div>
+
+    <div id="{{key}}-bibtex" style="display:none;">
+      <pre class="collapse">{{entry.bibtex}}</pre>
+    </div>
+
+  </ul>
+
+  {% if entry.abstract %}
+    <p id="{{key}}-abstract" class="collapse" style="display:none;">{{entry.abstract}}</p>
+  {% endif %}
+
+</div>

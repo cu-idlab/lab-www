@@ -17,7 +17,7 @@
         <h4>Sitemap</h4>
         <ul>
           {% for item in site.data.nav %}
-            <li><a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a></li>
+            <li><a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
