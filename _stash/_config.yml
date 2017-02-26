@@ -200,7 +200,7 @@ scholar:
   bibliography_list_tag: ul
 
   source: assets/bibliography
-  repository: pdf
+  repository: assets/bibliography/pdf
   bibliography: lab
   bibliography_template: bibliography
 

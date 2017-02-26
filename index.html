@@ -8,62 +8,8 @@ slides:
 #  - bg: images/@stock/boxed-slide-4.jpg
 #    title: Powerful
 #    tagline: a Multi-Purpose theme
-works:
-  - image: images/projects/fb-grave-crop.jpg
-    title: Death and the Social Network
-    link_to: /project/death-sns/
-    <!-- class: graphic-design -->
-    <!-- desc: Design &amp; Development -->
-  - image: images/projects/stewardship-crop.png
-    title: Stewarding Online Identities for the Deceased
-    link_to: /project/stewardship/
-    <!-- class: web-design print -->
-    <!-- desc: Design &amp; Development -->
-  - image: images/projects/gifeels-crop.gif
-    title: GIFeels
-    link_to: /project/gifeels/
-    <!-- class: brand -->
-    <!-- desc: Design &amp; Development -->
-  - image: images/@stock/one-page-work-4.jpg
-    title: Post-userism
-    link_to: /project/post-userism/
-    <!-- class: development -->
-    <!-- desc: Design &amp; Development -->
 
-bars:
-  - title: Web Design
-    percent: 84
-  - title: Web Development
-    percent: 95
-  - title: Site Management
-    percent: 70
-  - title: Branding
-    percent: 61
-
-testimonials:
-  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-1.png
-  - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-2.png
-  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
-    author: David White
-    position: Designer at Huglab
-    avatar: images/@stock/author-avatar-3.png
-
-clients:
-  - images/@stock/client-grey-1.png
-  - images/@stock/client-grey-2.png
-  - images/@stock/client-grey-3.png
-  - images/@stock/client-grey-4.png
-  - images/@stock/client-grey-5.png
-  - images/@stock/client-grey-6.png
 ---
-
-
 
 <div class='full no-padding'>
   <div class='two spacing'></div>
@@ -100,18 +46,16 @@ clients:
 <div class='row'>
   <div class='large-12 columns'>
     <h3>
-      Current Projects
-      <!-- /
-      <a href='{{ site.nav.projects.path }}'>View more</a> -->
+      Projects <!-- / <a href='{{ site.nav.projects.path }}'>View more</a> -->
     </h3>
     <div class='spacing'></div>
   </div>
   <div class='mod modGallery'>
     <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-      {% for work in page.works %}
+      {% for work in site.data.projects %}
         <li class='{{work.class}}'>
           <a href='{{work.link_to}}'>
-            <img alt="" src="{{work.image}}" />
+            <img alt="" src="{{work.image_crop}}" />
             <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
               <div class='thumb-info'>
                 <h3>{{work.title}}</h3>
@@ -182,9 +126,9 @@ clients:
 <div class='row'>
   <div class='large-12 columns'>
     <h3>
-      Our recent posts
-      /
-      <a href='#'>View more posts</a>
+      News
+      <!-- / -->
+      <!-- <a href='#'>View more posts</a> -->
     </h3>
     <div class='spacing'></div>
   </div>

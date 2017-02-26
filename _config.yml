@@ -34,6 +34,7 @@ scholar:
   order: descending
 
   source: assets/bibliography
+  repository: assets/bibliography/pdf
   bibliography: lab
   bibliography_template: bibtex
 

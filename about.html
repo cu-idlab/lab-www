@@ -1,71 +1,12 @@
 ---
 layout: default
 section_id: about
-skills:
-  - title: Web Design
-    percent: 84
-  - title: Web Development
-    percent: 95
-  - title: Site Management
-    percent: 70
-  - title: Branding
-    percent: 61
-
-members:
-  - name: Jed R. Brubaker
-    position: Assistant Professor
-    #<br />Lab Director
-    desc: I'm an Assistant Professor in the Department of Information Science at CU Boulder.
-    avatar: images/members/brubaker-bio.jpg
-    email       : jed.brubaker@colorado.edu
-    socials:
-      - icon_class: fa fa-www
-        url: http://www.jedbrubaker.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com/jedbrubaker
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/whatknows
-
-  - name: Kate Holms
-    position: Creative Director
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-2.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-dribbble
-        url: http://dribbble.com
-  - name: Tom Hason
-    position: Designer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-3.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-tumblr
-        url: http://tumblr.com
-  - name: Lily Whrem
-    position: Developer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-4.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
 ---
 
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <h3>Who are we?</h3>
+      <h1>Who are we?</h1>
       <div class='spacing'></div>
       <p>The Idenitity Lab is led by <a href="http://www.jedbrubaker.com">Jed Brubaker</a>, an Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology. We like puppies, mixed methods and new students (particularly MS).</p>
     </div>
@@ -105,13 +46,52 @@ members:
           <img class="avatar" alt="{{member.name}}" src="{{site.url}}/{{member.avatar}}" />
           <div class='overlay'>
             <ul class='socials'>
-              {% for social in member.socials %}
+
+              <!-- Homepage -->
+              {% if member.uri %}
                 <li>
-                  <a href='{{social.url}}'>
-                    <i class='{{social.icon_class}}'></i>
+                  <a href='{{member.uri}}' title='Homepage'>
+                    <i class='fa fa-home'></i>
                   </a>
                 </li>
-              {% endfor %}
+              {% endif %}
+
+              <!-- Email -->
+              {% if member.email %}
+              <li>
+                <a href='{{member.email}}' title='E-mail'>
+                  <i class='fa fa-envelope-o'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Twitter -->
+              {% if member.twitter %}
+              <li>
+                <a href='https://www.twitter.com/{{member.twitter}}' title='Twitter'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Facebook -->
+              {% if member.facebook %}
+              <li>
+                <a href='https://www.facebook.com/{{member.facebook}}' title='Facebook'>
+                  <i class='fa fa-facebook'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Steam -->
+              {% if member.steam %}
+              <li>
+                <a href='{{member.steam}}' title='Steam'>
+                  <i class='fa fa-steam'></i>
+                </a>
+              </li>
+              {% endif %}
+
             </ul>
           </div>
         </div>

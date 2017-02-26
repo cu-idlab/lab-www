@@ -19,5 +19,5 @@
   path: publications
   section_id: publications
 - name: Join Us!
-  path: join.html
+  path: join
   section_id: join

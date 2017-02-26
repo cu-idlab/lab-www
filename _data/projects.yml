@@ -26,9 +26,14 @@
   image_crop: images/projects/gifeels-crop.gif
   homepage: true
 
-- title: Post-userism
-  link_to: /project/post-userism
-  image: images/@stock/one-page-work-4.jpg
-  image_crop: images/@stock/one-page-work-4.jpg
+- title: 'Snapchat, Ephemerality, and Loss'
+  link_to: "/project/snapchat-cscw2017/"
+  image: images/projects/snapchat-hand.jpg
+  image_crop: images/projects/snapchat-hand.jpg
   homepage: true
-  
+
+# - title: Post-userism
+#   link_to: /project/post-userism
+#   image: images/@stock/one-page-work-4.jpg
+#   image_crop: images/@stock/one-page-work-4.jpg
+#   homepage: false

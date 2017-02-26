@@ -14,5 +14,8 @@ Given the important role that social network sites play in online bereavement pr
 
 Post-mortem solutions need to account for the needs of stewards in addition to those of the deceased and survivors. Stewardship as a model better accounts for the interpersonal responsibilities that accompany online data than inheritance alone.
 
+<iframe src="https://player.vimeo.com/video/87832501?color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 ### Publications
 {% bibliography --query @*[mendeley-tags=stewardship] %}
