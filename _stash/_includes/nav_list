@@ -12,7 +12,7 @@
           {% if nav.url contains "://" %}
             {% assign domain = "" %}
           {% else %}
-            {% assign domain = site.url | append: site.baseurl %}
+            {% assign domain = site.url | append: site.url %}
           {% endif %}
 
           <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
@@ -27,7 +27,7 @@
             {% if child.url contains "://" %}
               {% assign domain = "" %}
             {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
+              {% assign domain = site.url | append: site.url %}
             {% endif %}
 
             {% comment %} set "active" class on current page {% endcomment %}

@@ -1,6 +1,6 @@
 <!-- begin SEO -->
 {% if site.url %}
-  {% assign seo_url = site.url | append: site.baseurl %}
+  {% assign seo_url = site.url | append: site.url %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
