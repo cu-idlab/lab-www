@@ -30,130 +30,64 @@ slides:
       </div>
     </div>
   </div>
-</div>
-<!-- <div class='full no-padding'>
-  <div class='spacing'></div>
+  <div class='two spacing'></div>
+  <div class='row'>
+
+    <!-- PROJECTS -->
+    <div class='large-12 columns'>
+      <h3>
+        Projects <!-- / <a href='{{ site.nav.projects.path }}'>View more</a> -->
+      </h3>
+      <div class='spacing'></div>
+      <div class='mod modGallery'>
+        <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+          {% for work in site.pages reversed limit:4 %}
+              <li class='{{work.class}}'>
+              <a href='{{work.link_to | prepend: site.url}}'>
+                <img alt="" src="{{work.image_crop}}" />
+                <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                  <div class='thumb-info'>
+                    <h3>{{work.title}}</h3>
+                    <!-- <p>{{work.desc}}</p> -->
+                  </div>
+                </div>
+              </a>
+              <p class="date">{{work.title}}</p>
+              <h4>{{work.title}}</h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+  <hr>
+  <div class='two spacing'></div>
+
+  <!-- NEWS -->
   <div class='row'>
     <div class='large-12 columns'>
-      <p style='font-size: 1.5rem; font-style: italic;'>
-        This is the introduction of your team, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
+      <h3>
+        News
+        <!-- / -->
+        <!-- <a href='#'>View more posts</a> -->
+      </h3>
+      <div class='spacing'></div>
     </div>
   </div>
-  <hr>
-</div> -->
-<div class='two spacing'></div>
-<div class='row'>
-  <div class='large-12 columns'>
-    <h3>
-      Projects <!-- / <a href='{{ site.nav.projects.path }}'>View more</a> -->
-    </h3>
-    <div class='spacing'></div>
-  </div>
-  <div class='mod modGallery'>
-    <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-      {% for work in site.data.projects %}
-        <li class='{{work.class}}'>
-          <a href='{{work.link_to | prepend: site.url}}'>
-            <img alt="" src="{{work.image_crop}}" />
-            <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
-              <div class='thumb-info'>
-                <h3>{{work.title}}</h3>
-                <p>{{work.desc}}</p>
-              </div>
+  <div class='row'>
+      {% for post in site.posts %}
+        <div class='large-4 medium-4 columns'>
+          <div class='mod modBlogPost no_bg simple'>
+            <div class='content'>
+              <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+              <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+              <p>{{post.excerpt}}</p>
             </div>
-          </a>
-          <p>{{work.title}}</p>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-<div class='two spacing'></div>
-<hr>
-<div class='two spacing'></div>
-<!-- <div class='row'>
-  <div class='medium-6 columns'>
-    <h3>Our skills</h3>
-    <div class='spacing'></div>
-    <div class='mod modBarGraph'>
-      <ul class='bars'>
-        {% for bar in page.bars %}
-          <li>
-            <h4 style=''>
-              {{bar.title}}
-              <strong>{{bar.percent}}%</strong>
-            </h4>
-            <p class='highlighted' data-percent='{{bar.percent}}'></p>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class='two spacing'></div>
-  </div>
-  <div class='medium-6 columns'>
-    <h3>What our clients say</h3>
-    <div class='spacing'></div>
-    <div class='mod modTestimonials simple'>
-      <div class='row'>
-        <div class='small-12 columns'>
-          <div class='items'>
-            {% for t in page.testimonials  %}
-              <div class='item'>
-                <p class='quote'>{{t.text}}</p>
-                <div class='author'>
-                  <p class='author-avatar'>
-                    <img alt="" src="{{t.avatar}}" />
-                  </p>
-                  <p class='author-name'>
-                    -
-                    <strong>
-                      {{t.author}}
-                    </strong>
-                    , {{t.position}}
-                  </p>
-                </div>
-              </div>
-            {% endfor %}
           </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
-  </div>
-</div>
-<hr>
-<div class='two spacing'></div> -->
-<div class='row'>
-  <div class='large-12 columns'>
-    <h3>
-      News
-      <!-- / -->
-      <!-- <a href='#'>View more posts</a> -->
-    </h3>
-    <div class='spacing'></div>
-  </div>
-</div>
-<div class='row'>
-  {% for post in site.posts %}
-    {% if forloop.index > 3 %}
-      {% break %}
-    {% endif %}
-    <div class='large-4 medium-4 columns'>
-      <div class='mod modBlogPost no_bg simple'>
-        {% for image in post.images %}
-          {% if forloop.index > 1 %}
-            {% break %}
-          {% endif %}
-          <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-        {% endfor %}
-        <div class='content'>
-          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-          <p>{{post.excerpt | truncatewords: 25 }}</p>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
   <div class='two spacing'></div>
 </div>
 <!-- <div class='full no-padding' style='background: #f5f5f5'>
@@ -170,3 +104,4 @@ slides:
   </div>
   <div class='spacing'></div>
 </div> -->
+</div>
