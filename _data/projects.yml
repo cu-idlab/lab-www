@@ -32,8 +32,8 @@
   image_crop: images/projects/snapchat-hand.jpg
   homepage: true
 
-# - title: Post-userism
-#   link_to: /project/post-userism
-#   image: images/@stock/one-page-work-4.jpg
-#   image_crop: images/@stock/one-page-work-4.jpg
-#   homepage: false
+- title: Post-userism
+  link_to: /project/post-userism
+  image: images/projects/post-userism.png
+  image_crop: images/projects/post-userism.png
+  homepage: false
