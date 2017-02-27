@@ -2,10 +2,13 @@
 layout: project
 permalink: "/project/death-sns/"
 title:  'Death & the Social Network'
+image: images/projects/fb-grave.jpg
+image_crop: images/projects/fb-grave-crop.jpg
 images:
   - images/projects/fb-grave.jpg
 excerpt:
   TBC
+homepage: true
 ---
 
 The mass adoption of social network sites includes, as a natural consequence, the growing presence of profiles representing individuals who are no longer alive. However, the death of a user does not result in the elimination of his or her account nor the profile’s place inside a network of digital peers. Indeed, the fact that friends use a user’s profile page, post mortem, to say last goodbyes, share memories, and coordinate funereal arrangements is well known, if not frequently discussed.  Death plays an increasingly significant role, then, in the experience of social networking. More broadly, the entwining of online and offline experience highlights the importance of thinking about digital representations as things that might well survive their owners or referents.

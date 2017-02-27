@@ -4,6 +4,9 @@ permalink: "/project/snapchat-cscw2017/"
 title:  'Snapchat, Ephemerality, and Loss'
 images:
   - images/projects/snapchat-hand.jpg
+image: images/projects/snapchat-hand.jpg
+image_crop: images/projects/snapchat-hand.jpg
+homepage: true
 excerpt:
   We interviewed 15 Snapchat users about their experiences and practices. Our data reveal that Snapchat users experienced different types of loss, including media, meaning, and context loss, and developed workarounds to deal with those losses, including preemptive action and collaborative saving practices.
 ---
