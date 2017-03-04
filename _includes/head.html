@@ -6,12 +6,12 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="http://cmci.colorado.edu/idlab/images/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/icons/apple-touch-icon.png' | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" href="http://cmci.colorado.edu/idlab/images/icons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="http://cmci.colorado.edu/idlab/images/icons/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="http://cmci.colorado.edu/idlab/images/icons/manifest.json">
@@ -22,7 +22,7 @@
   <meta name="msapplication-config" content="http://cmci.colorado.edu/idlab/images/icons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <script src="{{ "/javascripts/libs.js" | prepend: site.url }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <script>
     // terrificjs bootstrap
     (function($) {
@@ -40,10 +40,10 @@
     })(Tc.$);
   </script>
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
-  <script src="{{ "/javascripts/masonry.pkgd.js" | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/slick.min.js" | prepend: site.url }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/masonry.pkgd.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/slick.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url | prepend: site.url }}" />
+  <link rel="canonical" href="{{ page.url | replace:'/index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
