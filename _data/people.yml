@@ -43,14 +43,12 @@
   facebook    : "aaron.j.jiang"
   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
 
-# ETHAN, Will you update this with your information? Thx.
-# - name        : "Ethan Hanner"
-#   position    : "Ph.D. Student"
-#   program     : "Computer Science"
-#   email       : "aaron.jiang@colorado.edu"
-#   bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I have a B.S. in Computer Science from the University of Minnesota. I do research in social computing, online communities, and social media. I love data, coffee, and Dota."
-#   uri         : "https://aaronjiang.me"
-#   avatar      : images/members/aaron_jiang_bio.jpg
-#   twitter     : "aaroniidx"
-#   facebook    : "aaron.j.jiang"
-#   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
+- name        : "Ethan Hanner"
+  position    : "Ph.D. Student"
+  program     : "Computer Science"
+  email       : "ethan.hanner@colorado.edu"
+  bio         : "I am a PhD student in Computer Science, focusing on Human-Centered Computing and Information Science. I received my Bachelor's degree in Computer Science from Winthrop University in Rock Hill, SC in May 2016, with a minor in Outdoor Leadership. My research focuses on hacktivism and other forms of online activism, and I also work on augmented and virtual reality projects. When I'm not working, I love to play video games and spend time with my dog, Pocky."
+  # uri         : "https://aaronjiang.me"
+  avatar      : images/members/ethanhanner.jpg
+  twitter     : "ethan_hanner"
+  facebook    : "mehlord2"
