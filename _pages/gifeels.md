@@ -2,10 +2,11 @@
 layout: project
 permalink: "/project/gifeels/"
 title:  '#GIFeels'
+category: project
 images:
-  - images/projects/gifeels-crop.gif
-image: images/projects/gifeels-crop.gif
-image_crop: images/projects/gifeels-crop.gif
+  - /images/projects/gifeels-crop.gif
+image: /images/projects/gifeels-crop.gif
+image_crop: /images/projects/gifeels-crop.gif
 excerpt:
   Animated GIFs are increasingly popular in text-based communication. We are exploring whether people have different interpretations of animated GIFs, how those interpretations differ, and what factors impact the degree of difference.
 homepage: true

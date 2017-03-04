@@ -2,10 +2,11 @@
 layout: project
 permalink: "/project/death-sns/"
 title:  'Death & the Social Network'
-image: images/projects/fb-grave.jpg
-image_crop: images/projects/fb-grave-crop.jpg
+category: project
+image: /images/projects/fb-grave.jpg
+image_crop: /images/projects/fb-grave-crop.jpg
 images:
-  - images/projects/fb-grave.jpg
+  - /images/projects/fb-grave.jpg
 excerpt:
   TBC
 homepage: true

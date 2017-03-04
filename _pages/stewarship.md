@@ -3,10 +3,10 @@ layout: project
 permalink: "/project/stewardship/"
 title:  Stewarding Online Identities for the Deceased
 images:
-  - images/projects/stewardship.png
-image: images/projects/stewardship-crop.png
-image_crop: images/projects/stewardship-crop.png
-homepage: true
+  - /images/projects/stewardship.png
+image: /images/projects/stewardship-crop.png
+image_crop: /images/projects/stewardship-crop.png
+homepage: false
 excerpt:
   We are exploring issues around inheritance and post-mortem data management of Facebook accounts. We are finding that people focus less on ownership of data, and instead on the duties and potential conflicts associated with maintaining accounts post-mortem. "Stewardship" is an alternative to inheritance when designing for post-mortem data management practices.
 ---
