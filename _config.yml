@@ -4,7 +4,7 @@ email: jed.brubaker@colorado.edu
 description: > # this means to ignore newlines until "baseurl:"
   The Idenitity Lab is led by Jed Brubaker, an Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology.
 baseurl: "/idlab" # the subpath of your site, e.g. /blog/ <-- but I think this trail nees to go away.
-url: "http://cmci.colorado.edu/" # the base hostname & protocol for your site
+url: "http://cmci.colorado.edu" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  cu-idlab
 
