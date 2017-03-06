@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/project/post-userism"
+permalink: "/project/post-userism/"
 title:  Post-userism
 category: project
 image_crop: /images/projects/post-userism.png
