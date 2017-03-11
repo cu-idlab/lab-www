@@ -42,12 +42,12 @@ scholar:
   source: assets/bibliography
   repository: assets/bibliography/pdf
   bibliography: lab
-  bibliography_template: bibtex
+  bibliography_template: reference
 
   replace_strings: true
 
-  details_dir:    publications
-  details_layout: publication.html
-  details_link:   Details
+  # details_dir:    publications
+  # details_layout: publication.html
+  # details_link:   Details
 
   query: "@*"
