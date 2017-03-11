@@ -34,7 +34,7 @@ section_id: projects
         {% if work.layout == "project" %}
           <li class='{{work.class}}'>
             <a href='{{work.permalink | prepend: site.baseurl }}'>
-              <img alt="" src="{{work.image_crop | prepend: site.baseurl}}" />
+              <img alt="{{work.title}}" src="{{work.image_crop | prepend: site.baseurl}}" />
               <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
                 <div class='thumb-info'>
                   <h3>{{work.title}}</h3>
