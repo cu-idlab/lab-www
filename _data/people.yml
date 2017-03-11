@@ -13,21 +13,21 @@
 #   twitter     : "TBC"
 
 - name        : "Jed R. Brubaker"
-  position    : "Lab Director<br/>Assistant Professor"
-  program     : "Information Science"
+  position    : "Lab Director"
+  program     : "Assistant Professor"
   uri         : "http://www.jedbrubaker.com"
   email       : "jed.brubaker@colorado.edu"
   avatar      : images/members/brubaker-bio.jpg
   facebook    : "jedbrubaker"
   twitter     : "whatknows"
-  bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder."
+  bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
 
 - name        : "Katie Gach"
   position    : "Ph.D. Student"
   program     : "ATLAS Institute"
   # uri         :
   # email       : "something here"
-  bio         : "I am a digital ethnographer studying human experiences on social platforms. I am currently working on memorialization and postmortem interactions. My past work looked at real name policies and kindness on discussion boards about charity campaigns. I earned an MA in Communication, Culture, and Technology at Georgetown University in 2015, and a BA in Cultural Anthropology at Kansas State University in 2009. I like memes, mountains, and making ice cream."
+  bio         : "I'm a digital ethnographer studying human experiences on social platforms. I currently work on memorialization and postmortem interactions. My past work looked at real name policies and kindness on discussion boards about charity campaigns. I earned an MA in Communication, Culture, and Technology at Georgetown, and a BA in Cultural Anthropology at Kansas State University. I like memes, mountains, and making ice cream."
   avatar      : images/members/gach-bio.jpg
   twitter     : "kzgach"
   # google_plus : "CorneliusFiddlebone"
@@ -47,7 +47,7 @@
   position    : "Ph.D. Student"
   program     : "Computer Science"
   email       : "ethan.hanner@colorado.edu"
-  bio         : "I am a PhD student in Computer Science, focusing on Human-Centered Computing and Information Science. I received my Bachelor's degree in Computer Science from Winthrop University in Rock Hill, SC in May 2016, with a minor in Outdoor Leadership. My research focuses on hacktivism and other forms of online activism, and I also work on augmented and virtual reality projects. When I'm not working, I love to play video games and spend time with my dog, Pocky."
+  bio         : "I am a PhD student in Computer Science, focusing on Human-Centered Computing and Information Science. I have a B.S. in Computer Science from Winthrop University, and a minor in Outdoor Leadership. My research focuses on hacktivism and other forms of online activism, and augmented and virtual reality projects. I love to play video games and spend time with my dog, Pocky."
   # uri         : "https://aaronjiang.me"
   avatar      : images/members/ethanhanner.jpg
   twitter     : "ethan_hanner"
