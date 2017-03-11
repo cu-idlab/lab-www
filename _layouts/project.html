@@ -20,7 +20,7 @@
             <div class='slides'>
               {% for image in page.images %}
                 <div class="slide">
-                  <img src="{{image | prepend: site.baseurl}}" alt="">
+                  <img src="{{image | prepend: site.baseurl}}" alt={{page.title}}"">
                 </div>
               {% endfor %}
             </div>
