@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
-bundle exec jekyll build
+bundle exec jekyll build -d _site/idlab
 # bundle exec htmlproofer ./_site
 bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
