@@ -1,0 +1,96 @@
+---
+layout: default
+section_id: home
+slides:
+  - bg: images/DeathtoStock_Wired10.jpg
+#    title: We study how identity is
+    tagline: We study how identity is<br/>designed, represented and<br />experienced through technology
+#  - bg: images/@stock/boxed-slide-4.jpg
+#    title: Powerful
+#    tagline: a Multi-Purpose theme
+
+---
+
+<div class='full no-padding'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-9 medium-9 columns'>
+      <div class="text-intro" id="site-type">
+          <h1 style="text-transform: initial;">
+            We study how identity is<br/>
+
+          <span class="typewrite">designed</span><br/>
+          through technology.</h1>
+
+    </div>
+  </div>
+  <div class='two spacing'></div>
+  <div class='row'>
+
+    <!-- PROJECTS -->
+    <div class='large-12 columns'>
+      <h3>
+        Projects / <a href='{{ '/projects' | prepend: site.baseurl}}'>View more</a>
+
+      </h3>
+      <div class='spacing'></div>
+      <div class='mod modGallery'>
+        <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+
+          {% for work in site.pages %}
+
+            {% if work.homepage == true %}
+
+              <li class='{{work.class}}'>
+                <a href='{{work.permalink | prepend: site.baseurl}}'>
+                  <img alt="{{work.title}}" src="{{work.image_crop | prepend: site.baseurl}}" />
+                  <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                    <div class='thumb-info'>
+                      <h3>{{work.title}}</h3>
+                      <!-- <p>{{work.desc}}</p> -->
+                    </div>
+                  </div>
+                </a>
+                <!-- <p class="date">{{work.title}}</p> -->
+                <h4>{{work.title}}</h4>
+              </li>
+            {% endif %}
+
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+  <hr>
+  <div class='two spacing'></div>
+
+  <!-- NEWS -->
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>
+        News
+        <!-- / -->
+        <!-- <a href=''>View more posts</a> -->
+      </h3>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+      {% for post in site.posts limit:4 %}
+        <div class='large-4 medium-4 columns'>
+          <div class='mod modBlogPost no_bg simple'>
+            <div class='content'>
+              <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+              <h4>
+                  {{post.title}}
+              </h4>
+              <p>{{post.excerpt}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  <div class='two spacing'></div>
+</div>
+</div>
