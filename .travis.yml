@@ -5,7 +5,7 @@ verbose: true
 before_script:
 - chmod +x ./script/cibuild
 script: ./script/cibuild
-after_success: bundle exec travis-custom-deploy sftp _site/
+after_success: bundle exec travis-custom-deploy sftp _site/idlab/
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
