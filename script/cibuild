@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -x # Show the output of the following commands (useful for debugging)
 set -e # halt script on error
 bundle exec jekyll build -d _site/idlab
 # bundle exec htmlproofer ./_site
