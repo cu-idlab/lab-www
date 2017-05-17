@@ -6,6 +6,7 @@ author_profile: false
 
 # News
 {% for post in site.posts %}
+  <div class='large-4 medium-4 columns'>
     <div class='mod modBlogPost no_bg simple'>
       <div class='content'>
         <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
@@ -15,4 +16,5 @@ author_profile: false
         <p>{{post.excerpt}}</p>
       </div>
     </div>
+  </div>
 {% endfor %}
