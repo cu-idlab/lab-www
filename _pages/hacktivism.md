@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/project/hacktivism/"
-title:  'Understanding Perceptions of Ethics of Hacktivism'
+title:  'Understanding Perceptions of the Ethics of Hacktivism'
 category: project
 images:
   - /images/projects/hacktivism.png
