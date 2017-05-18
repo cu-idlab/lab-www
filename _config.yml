@@ -29,7 +29,7 @@ defaults:
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+gems:      [jekyll-paginate, jekyll-seo-tag]
 
 # Scholar
 scholar:
