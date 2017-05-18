@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: Publications
 layout: page
 author_profile: false
 ---
