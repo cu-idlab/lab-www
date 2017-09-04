@@ -16,6 +16,9 @@
     {% if link %}
       <li class="pill"><a href="{{link}}">PDF</a></li>
     {% endif %}
+    {% if links['poster.pdf'] %}
+      <li class="pill"><a href="{{links['poster.pdf']}}">Poster</a></li>
+    {% endif %}
 
     <li class="pill"><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-reference')">Reference</a></li>
     <li class="pill"><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
