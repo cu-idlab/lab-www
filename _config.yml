@@ -36,7 +36,7 @@ scholar:
   style: assets/bibliography/sigchi.csl
   locale: en
 
-  sort_by: year
+  sort_by: year, author
   order: descending
 
   source: assets/bibliography
