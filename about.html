@@ -41,7 +41,7 @@ section_id: about
 </div>
 
 {% for member in site.data.people %}
-  {% cycle "<div class='row'>", "", "", ""%}
+  {% cycle "<div class='row'>", "", "", "" %}
     <div class='small-6 medium-3 large-3 columns'>
       <div class='mod modTeamMember style-2'>
         <div class='member'>
@@ -112,7 +112,7 @@ section_id: about
         <div class='two spacing'></div>
       </div>
     </div>
-    {% cycle "</div>", "", "", ""%}
+    {% cycle "", "", "", "</div>" %}
 {% endfor %}
 <!-- FUTURE SUPPORT SECTION
 We are affiliated with the following organizations...
