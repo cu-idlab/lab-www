@@ -102,7 +102,15 @@ section_id: about
                 </a>
               </li>
               {% endif %}
-
+              
+              {% if member.weibo %}
+              <li>
+                <a href='{{member.weibo}}' title='Weibo'>
+                  <i class='fa fa-weibo'></i>
+                </a>
+              </li>
+              {% endif %}
+              
             </ul>
           </div>
         </div>
