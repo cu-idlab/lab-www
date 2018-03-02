@@ -61,3 +61,11 @@
   avatar      : images/members/anthonypinter.jpg
   facebook    : "ATPinter"
   instagram   : "https://www.instagram.com/anthonypinter/"
+
+- name        : "Blake Hallinan"
+  position    : "Ph.D. Student"
+  program     : "Communication"
+  email       : "blake.hallinan@colorado.edu"
+  bio         : "I am a PhD student in communication. I received my Masters in Communication and Culture from Indiana University and a BA in English and Philosophy from Kansas State University. I am interested in the ethics of social computing and the ways of measuring affect and emotion. I love listening to darkwave, making art, and watching anime."
+  avatar      : images/members/blake-hallinan.jpg
+  twitter     : "blakeplease"
