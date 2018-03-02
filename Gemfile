@@ -8,7 +8,7 @@ gem "travis-custom-deploy"
 
 gem "bibtex-ruby"
 gem "citeproc"
-vem "csl-styles"
+gem "csl-styles"
 gem "jekyll-scholar"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
