@@ -29,7 +29,7 @@ defaults:
 
 # Plugins
 whitelist: []
-plugins:      [jekyll-paginate, jekyll-seo-tag]
+plugins:      [jekyll-paginate, jekyll-seo-tag, unicode_utils]
 
 # Scholar
 scholar:
