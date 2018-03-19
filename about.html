@@ -124,10 +124,10 @@ section_id: about
   </div>
 </div>
 <p>
-We are supported by many amazing undergraduate researchers' help, and many projects would not have been possible without them: <br/>
+We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
 Amjad Alharbi (Computer Science),
 Ian Fawaz (Computer Science),
-Kyle Frye (Information Science).
+Kyle Frye (Information Science),
 Elliot Huey (Media Studies),
 Chris Koehler (Information Science),
 Josh McCann (Computer Science),
@@ -135,7 +135,26 @@ Jacob Paul (Information Science),
 Tom Slesinger (Information Science).
 </p>
 
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>Research Support</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
 
+{% for funder in site.data.funders %}
+  {% cycle "<div class='row'>", "", "", "" %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod style-2'>
+        <div class='member'>
+          <img class="avatar" alt="{{funder.name}}" src="{{site.baseurl}}/{{funder.logo}}" />
+          <h3>{{funder.name}}</h3>
+        </div>
+      </div>
+    </div>
+  {% cycle "", "", "", "</div>" %}
+{% endfor %}
 
 
 

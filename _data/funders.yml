@@ -1,0 +1,20 @@
+# Funders
+# Include all funders here!
+
+# TEMPLATE
+# If a line doesn't apply, leave it commented out.
+# - name        : "Full Name"
+#   uri         : "http://...."
+#   logo        : "/assets/images/funders/image.jpg"
+
+- name        : "National Science Foundation"
+  uri         : "http://www.nsf.org"
+  logo        : "/assets/images/funders/nsf_crop.png"
+
+- name        : "Facebook"
+  uri         : "http://www.facebook.com"
+  logo        : "/assets/images/funders/fb_crop.png"
+
+- name        : "Mozilla Foundation"
+  uri         : "https://www.mozilla.org/en-US/foundation/"
+  logo        : "/assets/images/funders/mozilla_crop.png"
