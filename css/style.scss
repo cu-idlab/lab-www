@@ -3447,3 +3447,12 @@ ol.bibliography li{
 div.mod.modGallery ul {
   margin: -10px;
 }
+
+// Funder [About Page]
+div.funder {}
+div.funder img { padding: 2.5em; }
+div.funder p.name {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
