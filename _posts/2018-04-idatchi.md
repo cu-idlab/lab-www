@@ -1,0 +1,12 @@
+---
+layout: post
+title:  'We\'re at CHI 2018!'
+date:   2018-04-21 12:00:00
+categories: news
+tags:
+  - chi
+author: admin
+images:
+
+---
+Hello from Montreal! Brubaker and Hanner are in the Bad Actors workshop, and Pinter is questioning 'the man' in the Post-Capitalist HCI workshop. Come say hi!
