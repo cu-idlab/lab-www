@@ -124,15 +124,14 @@ section_id: about
   </div>
 </div>
 <p>
-We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
-Amjad Alharbi (Computer Science),
-Ian Fawaz (Computer Science),
-Kyle Frye (Information Science),
-Elliot Huey (Media Studies),
-Chris Koehler (Information Science),
-Josh McCann (Computer Science),
-Jacob Paul (Information Science),
-Tom Slesinger (Information Science).
+  We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
+  <ul>
+    {% for member in site.data.undergrads %}
+      <li>
+        member.name
+      </li>
+    {% endfor %}
+  </ul>
 </p>
 
 <div class='two spacing'></div>
