@@ -16,19 +16,15 @@ homepage: false
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
-There are three phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. *We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!*
+There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. *We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!*
 
 #### Phase 1: Exploratory Interviews
 
-Placeholder
+In this phase, we seek to understand what social media platforms are being used by trans users, how they are using them, and how they feel system design and their audiences affect they way they use them. This includes exploring how identity is constructed and changes over time in different social medias, as well how online interactions can lead to positive or negative outcomes.
 
 #### Phase 2: Trace Ethnography and Network Analysis
 
-Placeholder
-
-#### Phase 3: Research Through Design
-
-Placeholder
+Following Phase 1, we anticipate conducting a trace ethnography and network analysis using donated data from participants' social media. In this approach, we will observe what users post on social media, how they utilize system features to control the audience to these posts, and how this controlled audience responds. This phase will examine how these behaviors vary across the various social media sites that participants use.
 
 #### Research Team
 
