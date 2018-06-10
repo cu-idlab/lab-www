@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: "/project/trans-identity/"
-title:  'Trans Identity on Social Media'
+permalink: "/project/trans-experience/"
+title:  'Trans Experience on Social Media'
 category: project
 image: /images/projects/trans-identity.png
 image_crop: /images/projects/trans-identity.png
