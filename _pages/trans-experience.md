@@ -3,10 +3,10 @@ layout: project
 permalink: "/project/trans-experience/"
 title:  'Trans Experience on Social Media'
 category: project
-image: /images/projects/trans-identity.png
+image: /images/projects/trans-experience.png
 image_crop: /images/projects/trans-experience-crop.png
 images:
-  - /images/projects/trans-identity.png
+  - /images/projects/trans-experience.png
 excerpt:
   TBC
 homepage: false
