@@ -14,6 +14,3 @@ homepage: false
 
 [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
 
-
-<!-- ### Publications
-{% bibliography --query @*[mendeley-tags=death-sns] %} -->
