@@ -14,7 +14,7 @@ homepage: false
 
 ## [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}</br>
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
