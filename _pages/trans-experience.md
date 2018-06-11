@@ -12,11 +12,11 @@ excerpt:
 homepage: false
 ---
 
-### [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
+## [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
-There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. **We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!**
+There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. __We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!__
 
 #### Phase 1: Exploratory Interviews
 
@@ -33,3 +33,5 @@ This project is led by Anthony Pinter, a PhD student in the Identity Lab. Anthon
 Currently supporting Anthony in this project are two undergraduate research assistants:
 - Kayden Adams is an undergraduate student at CU Boulder, majoring in Computer Science. Kayden's pronouns are they/them.
 - Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her.
+
+## [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
