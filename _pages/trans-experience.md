@@ -16,7 +16,7 @@ homepage: false
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
-There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. *We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!*
+There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. **We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!**
 
 #### Phase 1: Exploratory Interviews
 
@@ -28,10 +28,8 @@ Following Phase 1, we anticipate conducting a trace ethnography and network anal
 
 #### Research Team
 
-This project is led by Anthony Pinter, a Ph.D. student in the Identity Lab who is advised by Dr. Jed Brubaker. Anthony's pronouns are he/his. More information about Anthony can be found on the [About](http://cmci.colorado.edu/idlab/about/) page.
+This project is led by Anthony Pinter, a PhD student in the Identity Lab. Anthony's pronouns are he/his. More information about Anthony can be found on the [About](http://cmci.colorado.edu/idlab/about/) page. Anthony's advisor, Dr. Jed Brubaker, is also involved in the project, and has experience in this research area (see [Haimson, Brubaker, Dombrowski, & Hayes, 2015](http://cmci.colorado.edu/idlab/assets/bibliography/pdf/p1176-haimson.pdf) and [Haimson, Brubaker, Dombrowski, & Hayes, 2016](http://cmci.colorado.edu/idlab/assets/bibliography/pdf/p2895-haimson.pdf)).
 
-Supporting Anthony in this project are two undergraduate research assistants:
-
-Kayden Adams is an undergraduate student at CU Boulder, majoring in Computer Science. Kayden's pronouns are they/them.
-
-Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her.
+Currently supporting Anthony in this project are two undergraduate research assistants:
+- Kayden Adams is an undergraduate student at CU Boulder, majoring in Computer Science. Kayden's pronouns are they/them.
+- Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her.
