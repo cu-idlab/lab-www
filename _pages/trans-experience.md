@@ -14,6 +14,8 @@ homepage: false
 
 ## [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
 
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
 There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. __We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!__
