@@ -12,9 +12,7 @@ excerpt:
 homepage: false
 ---
 
-## [Interested in participating? Fill out this form!](https://goo.gl/forms/JovmT22iTUPElgWE3)
-
-{% include note.html content="<a href=https://goo.gl/forms/JovmT22iTUPElgWE3>Interested in participating? Fill out this form!</a>" %}</br>
+{% include note.html content="<a href="https://goo.gl/forms/JovmT22iTUPElgWE3">Interested in participating? Fill out this form!</a>" %}
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
