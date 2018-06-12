@@ -12,6 +12,8 @@ excerpt:
 homepage: false
 ---
 
+{% include note.html content="<h3><a href="https://goo.gl/forms/JovmT22iTUPElgWE3">Interested in participating? Fill out this form!</a></h3>" %}
+
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
 
 There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. __We are looking for people interested in participating! If you are over 18 years old, identify as transgender, and use social media, please see the link above!__ You will receive a $20 Amazon giftcard in return for your participation.
@@ -33,4 +35,6 @@ Currently supporting Anthony in this project are two undergraduate research assi
 - Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her.
 
 This project is supported by the CU Beverly Sears Small Grant and the CU UROP programs.
+
+{% include note.html content="<h3><a href="https://goo.gl/forms/JovmT22iTUPElgWE3">Interested in participating? Fill out this form!</a></h3>" %}
 
