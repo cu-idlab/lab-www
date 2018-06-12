@@ -36,5 +36,5 @@ Currently supporting Anthony in this project are two undergraduate research assi
 
 This project is supported by the CU Beverly Sears Small Grant and the CU UROP programs.
 
-{% include note.html content="<a href="https://goo.gl/forms/JovmT22iTUPElgWE3">Interested in participating? Fill out this form!</a>" %}
+{% include note.html content="Interested in participating? Fill out this form!" %}
 
