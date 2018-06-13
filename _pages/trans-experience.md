@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/project/trans-experience/"
-title:  'Trans Experience on Social Media'
+title:  'Trans Experiences on Social Media'
 category: project
 image: /images/projects/trans-experience.png
 image_crop: /images/projects/trans-experience-crop.png
