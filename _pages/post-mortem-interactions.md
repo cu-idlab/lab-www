@@ -4,9 +4,9 @@ permalink: "/project/dead-data/"
 title:  'Post-Mortem Interaction Study'
 category: project
 image: /images/projects/dead-data.jpg
-image_crop: /images/projects/dead-data-crop.png
+image_crop: /images/projects/dead-data-crop.jpg
 images:
-  - /images/projects/dead-data2.png
+  - /images/projects/dead-data.jpg
 excerpt:
   TBC
 homepage: false
