@@ -1,9 +1,10 @@
 ---
 layout: project
-permalink: "/project/dead_data2/"
+permalink: "/project/dead-data/"
 title:  'Post-Mortem Interaction Study'
 category: project
-image: /images/projects/dead-data2.jpg
+image: /images/projects/dead-data.jpg
+image_crop: /images/projects/dead-data-crop.png
 images:
   - /images/projects/dead-data2.png
 excerpt:
