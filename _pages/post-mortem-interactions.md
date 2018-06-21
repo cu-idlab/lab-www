@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/project/trans-experience/"
+permalink: "/project/dead_data2/"
 title:  'Post-Mortem Interaction Study'
 category: project
 image: /images/projects/dead-data2.jpg
