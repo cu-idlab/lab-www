@@ -8,7 +8,7 @@ image_crop: /images/projects/fb-grave-crop.jpg
 images:
   - /images/projects/fb-grave.jpg
 excerpt:
-  TBC
+  Software developers of platforms of all kinds are creating features that make use of algorithmically curated content that leverage data about people's relationships, behavior, and identities. However, algorithms usually make decisions based on system metrics that are readily calculable, such as the number of likes, plays, and clicks. Even more sophisticated algorithms are limited by the social information explicitly given or inferred from provided data. As a result, algorithms can fail to capture the social context and human meaning that is important to the acceptability and success of the interactions these algorithms are meant to support.  
 homepage: true
 ---
 
