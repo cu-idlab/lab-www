@@ -31,8 +31,3 @@ Our objectives are to:
   2. demonstrate how designs that incorporate social data can adopt human-centered approaches to sensitize encounters with algorithmically curated content
   3. contribute to the development of design practices that encompass the design of interactions, systems, algorithms, and data, and
   4. engage students in multiple fields, including Information Science, Computer Science, Media Studies, and Communication through research and curricular activities focused on human-centered approaches to studying and designing social algorithms.
-
-<!--- 
-### Publications
-{% bibliography --query @*[mendeley-tags=death-sns] %}
--->
