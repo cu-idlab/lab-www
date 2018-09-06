@@ -69,3 +69,12 @@
   bio         : "I am a PhD student in communication. I received my Masters in Communication and Culture from Indiana University and a BA in English and Philosophy from Kansas State University. I am interested in the ethics of social computing and the ways of measuring affect and emotion. I love listening to darkwave, making art, and watching anime."
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
+
+- name        : "Morgan Klaus Scheuerman"
+  position    : "Ph.D. Student"
+  program     : "Information Science"
+  email       : "Morgan.Scheuerman@colorado.edu"
+  bio         : "I am an Information Science PhD student interested in exploring the ways individuals with diverse gender identities interact with technology. I grew up in Maryland, where I earned a Bachelor of Art in Communication & Media Studies with a minor in Gender Studies at Goucher College and a Master of Science in Human-Centered Computing at University of Maryland, Baltimore County. My Master thesis work focused on the way transgender individuals' experience safety and bias when interacting with digital technologies. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
+  avatar      : images/members/morgan_bio.png
+  uri         : "https://www.morgan-klaus.com"
+  twitter     : "morganklauss"
