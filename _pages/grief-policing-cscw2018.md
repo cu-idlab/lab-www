@@ -23,8 +23,8 @@ As social media platforms become a larger part of sharing life, they have by nec
 ["Control Your Emotions, Potter": An Analysis of Grief Policing on Facebook in Response to Celebrity Death](https://medium.com/@kzgach/control-your-emotions-potter-an-analysis-of-grief-policing-on-facebook-in-response-to-celebrity-1c0e39827eca)
 
 ### Press
-[Stories of grief — and hope — pour out on Twitter after suicides] (https://www.bostonglobe.com/lifestyle/health-wellness/2018/06/14/stories-grief-and-hope-pour-out-twitter-after-suicides/G0tWv69d5VV8pJJpjh6VMK/story.html)
+[Stories of grief — and hope — pour out on Twitter after suicides](https://www.bostonglobe.com/lifestyle/health-wellness/2018/06/14/stories-grief-and-hope-pour-out-twitter-after-suicides/G0tWv69d5VV8pJJpjh6VMK/story.html)
 
-[‘Grief Policing’ After Celebrity Deaths] (https://www.byuradio.org/episode/7b45649a-d229-4ea0-8e69-dd170a22539d/top-of-mind-with-julie-rose-puerto-rico-recovery-man-flu-metoo)
+[‘Grief Policing’ After Celebrity Deaths](https://www.byuradio.org/episode/7b45649a-d229-4ea0-8e69-dd170a22539d/top-of-mind-with-julie-rose-puerto-rico-recovery-man-flu-metoo)
 
 [When celebrities die, 'grief policing' abounds, social media gets toxic](https://www.colorado.edu/today/2017/12/06/when-celebrities-die-grief-policing-abounds-social-media-gets-toxic)
