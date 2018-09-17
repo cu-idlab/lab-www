@@ -24,6 +24,7 @@ As social media platforms become a larger part of sharing life, they have by nec
 
 ### Press
 
+
 [Stories of grief — and hope — pour out on Twitter after suicides] (https://www.bostonglobe.com/lifestyle/health-wellness/2018/06/14/stories-grief-and-hope-pour-out-twitter-after-suicides/G0tWv69d5VV8pJJpjh6VMK/story.html)
 
 [‘Grief Policing’ After Celebrity Deaths] (https://www.byuradio.org/episode/7b45649a-d229-4ea0-8e69-dd170a22539d/top-of-mind-with-julie-rose-puerto-rico-recovery-man-flu-metoo)
