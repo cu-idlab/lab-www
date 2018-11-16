@@ -17,7 +17,7 @@ As social media platforms become a larger part of sharing life, they have by nec
 {% include gach2017.html%}
 
 ### Publications
-{% bibliography --query @*[mendeley-tags=grief-policing] %}
+{% bibliography --query @*[tags=grief-policing] %}
 
 ### Blog
 ["Control Your Emotions, Potter": An Analysis of Grief Policing on Facebook in Response to Celebrity Death](https://medium.com/@kzgach/control-your-emotions-potter-an-analysis-of-grief-policing-on-facebook-in-response-to-celebrity-1c0e39827eca)
