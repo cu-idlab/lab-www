@@ -16,3 +16,6 @@ Animated GIFs are increasingly popular in text-based communication. Like other f
 
 ### Publications
 {% bibliography --query @*[tags~=gifeels] %}
+
+### Blog
+[Do You Really Know Your GIFs?](https://medium.com/acm-cscw/do-you-really-know-your-gifs-b90c2af7b7d1)
