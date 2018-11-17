@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/project/death-sns/"
+permalink: "/project/humanizing-algorithms/"
 title:  'Humanizing Algorithms'
 category: project
 image: /images/projects/fb-grave.jpg
