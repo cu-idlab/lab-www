@@ -19,4 +19,4 @@ We examine what the construct of the user highlights, as well as what it conceal
 Drawing on developments across the historical trajectory of HCI, we articulate how the user is enacted across four different levels of representation—systems, interface, design process, and the ideology—and identify situations where the user breaks down. Synthesizing prior work, we offer a series of strategies for grappling with such situations. In doing so, we seek to overcome the limitations imposed by the user and develop a language that will aid in evolving the foundations of HCI by asking what, exactly, we place at the center of our scholarship and design.
 
 ### Publications
-{% bibliography --query @*[mendeley-tags=post-userism] %}
+{% bibliography --query @*[tags~=post-userism] %}

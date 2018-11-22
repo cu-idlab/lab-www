@@ -63,9 +63,18 @@
   instagram   : "https://www.instagram.com/anthonypinter/"
 
 - name        : "Blake Hallinan"
-  position    : "Ph.D. Student"
+  position    : "Ph.D. Candidate"
   program     : "Communication"
   email       : "blake.hallinan@colorado.edu"
-  bio         : "I am a PhD student in communication. I received my Masters in Communication and Culture from Indiana University and a BA in English and Philosophy from Kansas State University. I am interested in the ethics of social computing and the ways of measuring affect and emotion. I love listening to darkwave, making art, and watching anime."
+  bio         : "I am a PhD student in Communication. I received my Masters in Communication and Culture from Indiana University and a BA in English and Philosophy from Kansas State University. I am interested in the ethics of social computing and the ways of measuring affect and emotion. I love listening to darkwave, making art, and watching anime."
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
+
+- name        : "Morgan Klaus Scheuerman"
+  position    : "Ph.D. Student"
+  program     : "Information Science"
+  email       : "Morgan.Scheuerman@colorado.edu"
+  bio         : "I explore the ways individuals with diverse gender identities interact with technology. I grew up in Maryland, earned a B.A. in Communication & Media Studies with a minor in Gender Studies at Goucher College and a M.S. in Human-Centered Computing at University of Maryland, Baltimore County. My Master thesis focused on how transgender individuals' experience safety and bias with digital technologies. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
+  avatar      : images/members/morgan_bio.png
+  uri         : "https://www.morgan-klaus.com"
+  twitter     : "morganklauss"

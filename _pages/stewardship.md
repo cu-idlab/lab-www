@@ -21,4 +21,4 @@ Post-mortem solutions need to account for the needs of stewards in addition to t
 
 
 ### Publications
-{% bibliography --query @*[mendeley-tags=stewardship] %}
+{% bibliography --query @*[tags~=stewardship] %}

@@ -23,4 +23,4 @@ Focusing on death highlights three important themes for social networks and the 
 *Temporality* concerns the notion of “lifecycles” as it has been applied in system development—the circumstances under which digital systems come into being, are put to use, and are taken out of service. The life of a user and the life of that user’s data are frequently not the same, an issue particularly acute when considering the continuation of dead user profiles in SNS.
 
 ### Publications
-{% bibliography --query @*[mendeley-tags=death-sns] %}
+{% bibliography --query @*[tags~=death-sns] %}

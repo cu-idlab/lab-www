@@ -9,7 +9,7 @@ images:
   - /images/projects/trans-experience.png
 excerpt:
   TBC
-homepage: false
+homepage: true
 ---
 
 We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.

@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/project/death-sns/"
+permalink: "/project/humanizing-algorithms/"
 title:  'Humanizing Algorithms'
 category: project
 image: /images/projects/fb-grave.jpg
@@ -8,8 +8,8 @@ image_crop: /images/projects/fb-grave-crop.jpg
 images:
   - /images/projects/fb-grave.jpg
 excerpt:
-  TBC
-homepage: true
+  Software developers of platforms of all kinds are creating features that make use of algorithmically curated content that leverage data about people's relationships, behavior, and identities. However, algorithms usually make decisions based on system metrics that are readily calculable, such as the number of likes, plays, and clicks. Even more sophisticated algorithms are limited by the social information explicitly given or inferred from provided data. As a result, algorithms can fail to capture the social context and human meaning that is important to the acceptability and success of the interactions these algorithms are meant to support.  
+homepage: false
 ---
 
 We are studying algorithmic interactions and their design (AIxD) to develop strategies for the human-centered design of systems that incorporate algorithms and their underlying data.
@@ -31,6 +31,3 @@ Our objectives are to:
   2. demonstrate how designs that incorporate social data can adopt human-centered approaches to sensitize encounters with algorithmically curated content
   3. contribute to the development of design practices that encompass the design of interactions, systems, algorithms, and data, and
   4. engage students in multiple fields, including Information Science, Computer Science, Media Studies, and Communication through research and curricular activities focused on human-centered approaches to studying and designing social algorithms.
-
-<!-- ### Publications
-{% bibliography --query @*[mendeley-tags=death-sns] %} -->
