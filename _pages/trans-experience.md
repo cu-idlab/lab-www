@@ -12,11 +12,11 @@ excerpt:
 homepage: true
 ---
 
-We are studying the experiences of trans users across different social media sites in order to understand how system design and audience interaction affects this experience. This understanding can be used in turn to develop designs that are inclusive and encourage audiences to provide social support.
+We are studying the experiences of trans and non-binary social media users to understand their experiences with coming out across their various social media presences. We are particularly focusing on the effect of audience and platform, and how these factors affect the decision around and experience of coming out across various social media sites.
 
-There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants.
+<!-- There are initially two phases in this project. We are currently in Phase 1, conducting exploratory interviews with participants. -->
 
-#### Phase 1: Exploratory Interviews
+<!-- #### Phase 1: Exploratory Interviews
 
 In this phase, we seek to understand what social media platforms are being used by trans users, how they are using them, and how they feel system design and their audiences affect they way they use them. This includes exploring how identity is constructed and changes over time in different social medias, as well how online interactions can lead to positive or negative outcomes.
 
@@ -30,6 +30,6 @@ This project is led by Anthony Pinter, a PhD student in the Identity Lab. Anthon
 
 Currently supporting Anthony in this project are two undergraduate research assistants:
 - Kayden Adams is an undergraduate student at CU Boulder, majoring in Computer Science. Kayden's pronouns are they/them.
-- Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her.
+- Rachael Robinson is an undergraduate student at CU Boulder, majoring in Applied Mathematics. Rachael's pronouns are she/her. -->
 
 This project is supported by the CU Beverly Sears Small Grant and the CU UROP programs.
