@@ -43,15 +43,6 @@
   facebook    : "aaron.j.jiang"
   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
 
-- name        : "Ethan Hanner"
-  position    : "Ph.D. Student"
-  program     : "Computer Science"
-  email       : "ethan.hanner@colorado.edu"
-  bio         : "I am a PhD student in Computer Science, focusing on Human-Centered Computing and Information Science. I have a B.S. in Computer Science from Winthrop University, and a minor in Outdoor Leadership. My research focuses on hacktivism and other forms of online activism, and augmented and virtual reality projects. I love to play video games and spend time with my dog, Pocky."
-  avatar      : images/members/ethanhanner.jpg
-  twitter     : "ethan_hanner"
-  facebook    : "mehlord2"
-
 - name        : "Anthony Pinter"
   position    : "Ph.D. Student"
   program     : "Information Science"
@@ -61,14 +52,6 @@
   avatar      : images/members/anthonypinter.jpg
   facebook    : "ATPinter"
   instagram   : "https://www.instagram.com/anthonypinter/"
-
-- name        : "Blake Hallinan"
-  position    : "Ph.D. Candidate"
-  program     : "Communication"
-  email       : "blake.hallinan@colorado.edu"
-  bio         : "I am a PhD student in Communication. I received my Masters in Communication and Culture from Indiana University and a BA in English and Philosophy from Kansas State University. I am interested in the ethics of social computing and the ways of measuring affect and emotion. I love listening to darkwave, making art, and watching anime."
-  avatar      : images/members/blake-hallinan.jpg
-  twitter     : "blakeplease"
 
 - name        : "Morgan Klaus Scheuerman"
   position    : "Ph.D. Student"

@@ -119,6 +119,91 @@ section_id: about
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
+    <h3>Alumni</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+
+{% for member in site.data.alum %}
+  {% cycle "<div class='row'>", "", "", "" %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember style-2'>
+        <div class='member'>
+          <img class="avatar" alt="{{member.name}}" src="{{site.baseurl}}/{{member.avatar}}" />
+          <div class='overlay'>
+            <ul class='socials'>
+
+              <!-- Homepage -->
+              {% if member.uri %}
+                <li>
+                  <a href='{{member.uri}}' title='Homepage'>
+                    <i class='fa fa-home'></i>
+                  </a>
+                </li>
+              {% endif %}
+
+              <!-- Email -->
+              {% if member.email %}
+              <li>
+                <a href='mailto:{{member.email}}' title='E-mail'>
+                  <i class='fa fa-envelope-o'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Twitter -->
+              {% if member.twitter %}
+              <li>
+                <a href='https://www.twitter.com/{{member.twitter}}' title='Twitter'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Facebook -->
+              {% if member.facebook %}
+              <li>
+                <a href='https://www.facebook.com/{{member.facebook}}' title='Facebook'>
+                  <i class='fa fa-facebook'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Steam -->
+              {% if member.steam %}
+              <li>
+                <a href='{{member.steam}}' title='Steam'>
+                  <i class='fa fa-steam'></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <!-- Instagram -->
+              {% if member.instagram %}
+              <li>
+                <a href='{{member.instagram}}' title='Instagram'>
+                  <i class='fa fa-instagram'></i>
+                </a>
+              </li>
+              {% endif %}
+
+
+            </ul>
+          </div>
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.degree}}<br/>{{member.program}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    {% cycle "", "", "", "</div>" %}
+{% endfor %}
+
+
+
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
     <h3>Undergraduate Students</h3>
     <div class='spacing'></div>
   </div>
