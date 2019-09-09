@@ -6,6 +6,9 @@ author_profile: false
 
 # Publications
 
+### 2019
+{% bibliography --query @*[year=2019] %}
+
 ### 2018
 {% bibliography --query @*[year=2018] %}
 
