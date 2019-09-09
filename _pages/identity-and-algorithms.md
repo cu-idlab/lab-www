@@ -16,5 +16,8 @@ Characteristics that make up human identity have become increasingly embedded in
 
 To mitigate the potential risks of these types of technological methods, we are researching ways to appropriately develop algorithms that are sensitive to the nuanced human identities held and expressed by the people classified. Our aim is to inform design approaches that are empowering and safe for all users.
 
+### Researchers
+[Jed Brubaker](http://www.jedbrubaker.com), [Katie Gach](https://cmci.colorado.edu/idlab/about/), [Aaron Jiang](https://aaronjiang.me), [Anthony Pinter](http://www.anthonypinter.com/), [Morgan Klaus Scheuerman](https://www.morgan-klaus.com)
+
 ### Publications
 {% bibliography --query @*[tags~=identity-and-algorithms] %}
