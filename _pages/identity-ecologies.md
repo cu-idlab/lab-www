@@ -3,10 +3,10 @@ layout: project
 permalink: "/project/identity-ecologies/"
 title:  'Identity Ecologies'
 category: project
-image: /images/projects/trans-experience.png
-image_crop: /images/projects/trans-experience-crop.png
+image: /images/projects/id-ecos.jpg
+image_crop: /images/projects/id-ecos-crop.jpg
 images:
-  - /images/projects/trans-experience.png
+  - /images/projects/id-ecos.jpg
 excerpt:
   TBC
 homepage: true
