@@ -4,7 +4,7 @@ permalink: "/project/identity-ecologies/"
 title:  'Identity Ecologies'
 category: project
 image: /images/projects/id-ecos.jpg
-image_crop: /images/projects/id-ecos-crop.jpg
+image_crop: /images/projects/id-ecos.jpg
 images:
   - /images/projects/id-ecos.jpg
 excerpt:
