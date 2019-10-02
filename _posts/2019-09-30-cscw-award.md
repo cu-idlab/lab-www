@@ -9,4 +9,4 @@ author: admin
 images:
 
 ---
-Morgan Klaus Scheuerman, Jacob Paul, and Jed Brubaker received a Best Paper Award for their upcoming [CSCW 2019 paper](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf) on facial recognition and gender. Jed Brubaker also received a Best Paper Honorable Mention Award for his  [CSCW 2019 paper co-authored with colleages at UC Irvine] (https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Brubaker2019-cscw-orienting.pdf) about networked grief online. Congrats!
+Morgan Klaus Scheuerman, Jacob Paul, and Jed Brubaker received a Best Paper Award for their upcoming [CSCW 2019 paper](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf) on facial recognition and gender. Jed Brubaker also received a Best Paper Honorable Mention Award for his [CSCW 2019 paper co-authored with colleages at UC Irvine](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Brubaker2019-cscw-orienting.pdf) about networked grief online. Congrats!
