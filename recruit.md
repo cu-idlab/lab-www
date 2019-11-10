@@ -1,7 +1,14 @@
 ---
-title: Graduate Positions for 2020
-layout: page
-author_profile: false
+layout: project
+permalink: "/recruit/"
+title:  'Graduate Positions for 2020'
+category: project
+images:
+  - /images/recruit-begin.jpg
+image: /images/recruit-begin.jpg
+
+excerpt:
+homepage: false
 ---
 
 # Graduate Positions for 2020
