@@ -11,8 +11,6 @@ excerpt:
 homepage: false
 ---
 
-# Graduate Positions for 2020
-
 This year, I am looking to take on new PhD students who are interested in studying the intersections of technology, death, dying, and grief. We are spinning up a number of new initiatives that will benefit from the contributions of students interested in designing ways to make death kinder for those passing, as well as those they leave behind. Student looking to develop their skills in community- and family-based research, design, and/or ethnography are especially encouraged to reach out.
 
 You will join a hyper-collaborative lab studying intersections between identity and technology from a variety of perspectives. Our daily interactions include discussions about mortality, gender, marginalized communities, algorithmic bias, online moderation, and most importantly, how to make the internet a kinder place.
