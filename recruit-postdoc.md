@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/recruit-postdoc/"
-title:  'Postdoctoral Research Postition in the Identity Lab'
+title:  'Postdoctoral Research Position in the Identity Lab'
 category:
 images:
   - /images/recruit-begin.jpg
