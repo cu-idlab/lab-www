@@ -4,7 +4,8 @@
 <!-- <img class="pdf-icon" src="{{ "/images/pdf_icon.png" | prepend: site.baseurl }}"> -->
 <span class="title">{{entry.title}}</span>
 <span class="author">{{entry.author}}</span><br />
-<span class="venue">{{entry.booktitle}}</span>
+{% if entry.booktitle %}<span class="venue">{{entry.booktitle}}</span>{% endif %}
+{% if entry.journal %}<span class="venue">{{entry.journal}}</span>{% endif %}
 
 <div id="{{key}}-materials">
   <ul class="nav nav-pills">
