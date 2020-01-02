@@ -33,7 +33,7 @@ plugins:      [jekyll-paginate, jekyll-seo-tag, unicode_utils]
 
 # Scholar
 scholar:
-  style: assets/bibliography/journal-of-the-acm.csl
+  style: assets/bibliography/sigchi.csl
   locale: en
 
   sort_by: year, author
