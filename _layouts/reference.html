@@ -8,15 +8,15 @@
 {% if entry.journal %}
   <span class="venue">{{entry.journal}}</span>
   {% if entry.volume %}
-    <span class="volume">{{entry.volume}}</span>
-    {% if entry.number %},{% endif %}
+    <span class="volume">{{entry.volume}}</span><!--
+    -->{% if entry.number %},{% endif %}
   {% endif %}
   {% if entry.number %}
     <span class="number">
       {{entry.number}}
-    </span>
+    </span><!--
     {%comment%} Add colon if needed. {%endcomment%}
-    {% if entry.pages %}:{% endif %}
+    -->{% if entry.pages %}:{% endif %}
   {% endif %}
   {% if entry.pages %}<span class="pages">{{entry.pages}}</span>{% endif %}
 {% endif %}
