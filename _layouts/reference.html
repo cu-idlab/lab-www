@@ -5,7 +5,16 @@
 <span class="title">{{entry.title}}</span>
 <span class="author">{{entry.author}}</span><br />
 {% if entry.booktitle %}<span class="venue">{{entry.booktitle}}</span>{% endif %}
-{% if entry.journal %}<span class="venue">{{entry.journal}}</span>{% endif %}
+{% if entry.journal %}
+  <span class="venue">{{entry.journal}}</span>
+  {% if entry.volume %}<span class="volume">{{entry.volume}}</span>{% endif %}
+  {% if entry.number %}
+    {%comment%} Add preceeding comma if needed. {%endcomment%}
+    {% if entry.volume %},{% endif %}
+    <span class="number">{{entry.number}}</span>
+  {% endif %}
+  {% if entry.pages %}<span class="pages">:{{entry.pages}}</span>{% endif %}
+{% endif %}
 
 <div id="{{key}}-materials">
   <ul class="nav nav-pills">
