@@ -25,7 +25,7 @@ defaults:
     scope:
       type: "pages"
     values:
-      category: "project"
+      category: "page"
 
 # Plugins
 whitelist: []
