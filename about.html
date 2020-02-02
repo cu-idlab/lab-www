@@ -207,12 +207,12 @@ section_id: about
 <div class='row'>
   <div class='large-12 columns'>
     <h3>Undergraduate Students</h3>
-    <div class='spacing'></div>
+    <!-- <div class='spacing'></div> -->
   </div>
 </div>
 <p>
   We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
-  <ul style="list-style: none;">
+  <ul style="list-style: none; margin-left: 0rem;">
     {% for member in site.data.ugrads %}
       <li>
         {{member.name}}
@@ -230,7 +230,7 @@ section_id: about
 </div>
 <h4>Graduate Members</h4>
 <p>
-  <ul style="list-style: none;">
+  <ul style="list-style: none; margin-left: 0rem;">
     {% for member in site.data.alum %}
       <li>
         {{member.name}} ({{member.program}})
@@ -240,7 +240,7 @@ section_id: about
 </p>
 <h4>Undergraduate Members</h4>
 <p>
-  <ul style="list-style: none;">
+  <ul style="list-style: none; margin-left: 0rem;">
     {% for member in site.data.alum-ugrads %}
       <li>
         {{member.name}}

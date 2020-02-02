@@ -2,7 +2,7 @@
 layout: project
 permalink: "/recruit/"
 title:  'Graduate Positions for 2020'
-category: project
+category: misc
 images:
   - /images/recruit-begin.jpg
 image: /images/recruit-begin.jpg
