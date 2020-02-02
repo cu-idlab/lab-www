@@ -225,9 +225,20 @@ section_id: about
 <div class='row'>
   <div class='large-12 columns'>
     <h3>Lab Alumni</h3>
-    <div class='spacing'></div>
+    <!-- <div class='spacing'></div> -->
   </div>
 </div>
+<h4>Graduate Members</h4>
+<p>
+  <ul style="list-style: none;">
+    {% for member in site.data.alum %}
+      <li>
+        {{member.name}} ({{member.program}})
+      </li>
+    {% endfor %}
+  </ul>
+</p>
+<h4>Undergraduate Members</h4>
 <p>
   <ul style="list-style: none;">
     {% for member in site.data.alum-ugrads %}
