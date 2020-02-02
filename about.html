@@ -134,7 +134,7 @@ section_id: about
           <div class='overlay'>
             <ul class='socials'>
 
-              
+
               {% if member.uri %}
                 <li>
                   <a href='{{member.uri}}' title='Homepage'>
@@ -143,7 +143,7 @@ section_id: about
                 </li>
               {% endif %}
 
-              
+
               {% if member.email %}
               <li>
                 <a href='mailto:{{member.email}}' title='E-mail'>
@@ -152,7 +152,7 @@ section_id: about
               </li>
               {% endif %}
 
-              
+
               {% if member.twitter %}
               <li>
                 <a href='https://www.twitter.com/{{member.twitter}}' title='Twitter'>
@@ -161,7 +161,7 @@ section_id: about
               </li>
               {% endif %}
 
-              
+
               {% if member.facebook %}
               <li>
                 <a href='https://www.facebook.com/{{member.facebook}}' title='Facebook'>
@@ -170,7 +170,7 @@ section_id: about
               </li>
               {% endif %}
 
-              
+
               {% if member.steam %}
               <li>
                 <a href='{{member.steam}}' title='Steam'>
@@ -179,7 +179,7 @@ section_id: about
               </li>
               {% endif %}
 
-              
+
               {% if member.instagram %}
               <li>
                 <a href='{{member.instagram}}' title='Instagram'>
@@ -214,6 +214,23 @@ section_id: about
   We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
   <ul style="list-style: none;">
     {% for member in site.data.ugrads %}
+      <li>
+        {{member.name}}
+      </li>
+    {% endfor %}
+  </ul>
+</p>
+
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>Lab Alumni</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<p>
+  <ul style="list-style: none;">
+    {% for member in site.data.alum-ugrads %}
       <li>
         {{member.name}}
       </li>
