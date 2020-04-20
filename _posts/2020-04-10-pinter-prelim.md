@@ -9,4 +9,4 @@ author: admin
 images:
 
 ---
-Anthony Pinter successfully completed his prelim exams -- On to the dissertation!
+Anthony Pinter successfully completed his prelim exams -- Onto the dissertation!
