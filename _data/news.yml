@@ -1,0 +1,72 @@
+# News
+# Add news here. It used to be in a different location -- but that was annoying.
+
+# TEMPLATE
+# If a line doesn't apply, leave it commented out.
+# - headline    : "Full Name"
+#   body        : "TBC"
+#   date        : "http://...."
+
+- headline    : "Marissa Kelly is awarded honors for her senior thesis!"
+  body        : "Ugrad RA Marissa Kelly has successfully defended her senior thesis "How Can We Design Social Media to Better Respect the Boundaries of Third-Culture Users?" and is graduating with honors! Congrats!"
+  date        : "2019-04-20 12:00:00"
+
+- headline    : "Jacob Paul Recognized by the CRA for Contributions to Research"
+  body        : "Jacob Paul was awarded an honorable mention for the prestigious [Computing Research Association's Outstanding Undergraduate Research award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/). Congrats Jacob!"
+  date        : "2019-12-15 12:00:00"
+
+# - name        : "Jed R. Brubaker"
+#   position    : "Lab Director"
+#   program     : "Assistant Professor"
+#   uri         : "http://www.jedbrubaker.com"
+#   email       : "jed.brubaker@colorado.edu"
+#   avatar      : images/members/brubaker-bio.jpg
+#   facebook    : "jedbrubaker"
+#   twitter     : "whatknows"
+#   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
+#
+# - name        : "Katie Gach"
+#   position    : "Ph.D. Student"
+#   program     : "ATLAS Institute"
+#   # uri         :
+#   # email       : "something here"
+#   bio         : "I'm a digital ethnographer studying human experiences on social platforms. I currently work on memorialization and postmortem interactions. My past work looked at real name policies and kindness on discussion boards about charity campaigns. I earned an MA in Communication, Culture, and Technology at Georgetown, and a BA in Cultural Anthropology at Kansas State University. I like memes, mountains, and making ice cream."
+#   avatar      : images/members/gach-bio.jpg
+#   twitter     : "kzgach"
+#   # google_plus : "CorneliusFiddlebone"
+#
+# - name        : "Aaron Jiang"
+#   position    : "Ph.D. Candidate"
+#   program     : "Information Science"
+#   email       : "aaron.jiang@colorado.edu "
+#   bio         : "I am a Ph.D. Candidate in the Department of Information Science at CU Boulder. I have an M.S. in Information Science from CU Boulder, and a B.S. in Computer Science from the University of Minnesota. My research primarily focuses on online content moderation and how we can improve it, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and rhythm games."
+#   uri         : "https://aaronjiang.me"
+#   avatar      : images/members/aaron_jiang_bio.jpg
+#   twitter     : "aaroniidx"
+#   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
+#
+# - name        : "Anthony Pinter"
+#   position    : "Ph.D. Student"
+#   program     : "Information Science"
+#   email       : "anthony.pinter@colorado.edu"
+#   bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I received my B.S. and M.S. in Information Sciences and Technology from the Pennsylvania State University. My research focuses on the audience's role in identity construction and consumption in online environments. I love playing and coaching sports, like track!"
+#   uri         : "www.anthonypinter.com"
+#   avatar      : images/members/anthonypinter.jpg
+#   facebook    : "ATPinter"
+#   instagram   : "https://www.instagram.com/anthonypinter/"
+#
+# - name        : "Morgan Klaus Scheuerman"
+#   position    : "Ph.D. Student"
+#   program     : "Information Science"
+#   email       : "Morgan.Scheuerman@colorado.edu"
+#   bio         : "I explore how individuals with diverse gender identities interact with technology. I earned a B.A. in Communication & Media Studies with a minor in Gender Studies at Goucher College and a M.S. in Human-Centered Computing at University of Maryland, Baltimore County. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
+#   avatar      : images/members/morgan_bio.png
+#   uri         : "https://www.morgan-klaus.com"
+#   twitter     : "morganklauss"
+#
+# - name        : "Kandrea Wade"
+#   position    : "Ph.D. Student"
+#   program     : "Information Science"
+#   email       : "Kandrea.Wade@colorado.edu"
+#   bio         : "I am a PhD student in Information Science where I research algorithmic identity and the digital surveillance of marginalized groups in order to create ethical regulations, legal protections and education on algorithmic identity and digital literacy. I received my MA in Media, Culture and Communications from New York University and BA in Technical Theatre from The University of Texas at Arlington."
+#   avatar      : images/members/kandrea_wade_bio.jpg
