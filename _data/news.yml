@@ -3,70 +3,101 @@
 
 # TEMPLATE
 # If a line doesn't apply, leave it commented out.
-# - headline    : "Full Name"
-#   body        : "TBC"
-#   date        : "http://...."
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
 - headline    : Marissa Kelly is awarded honors for her senior thesis!
   body        : Ugrad RA Marissa Kelly has successfully defended her senior thesis "How Can We Design Social Media to Better Respect the Boundaries of Third-Culture Users?" and is graduating with honors! Congrats!
-  date        : "2019-04-20 12:00:00"
+  date        : 2019-04-20 12:00:00
 
-- headline    : "Jacob Paul Recognized by the CRA for Contributions to Research"
-  body        : "Jacob Paul was awarded an honorable mention for the prestigious [Computing Research Association's Outstanding Undergraduate Research award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/). Congrats Jacob!"
-  date        : "2019-12-15 12:00:00"
+- headline    : Anthony Pinter passes his preliminary exams.
+  body        : Anthony Pinter successfully completed his prelim exams -- Onto the dissertation!
+  date        : 2019-04-10 12:00:00
 
-# - name        : "Jed R. Brubaker"
-#   position    : "Lab Director"
-#   program     : "Assistant Professor"
-#   uri         : "http://www.jedbrubaker.com"
-#   email       : "jed.brubaker@colorado.edu"
-#   avatar      : images/members/brubaker-bio.jpg
-#   facebook    : "jedbrubaker"
-#   twitter     : "whatknows"
-#   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
-#
-# - name        : "Katie Gach"
-#   position    : "Ph.D. Student"
-#   program     : "ATLAS Institute"
-#   # uri         :
-#   # email       : "something here"
-#   bio         : "I'm a digital ethnographer studying human experiences on social platforms. I currently work on memorialization and postmortem interactions. My past work looked at real name policies and kindness on discussion boards about charity campaigns. I earned an MA in Communication, Culture, and Technology at Georgetown, and a BA in Cultural Anthropology at Kansas State University. I like memes, mountains, and making ice cream."
-#   avatar      : images/members/gach-bio.jpg
-#   twitter     : "kzgach"
-#   # google_plus : "CorneliusFiddlebone"
-#
-# - name        : "Aaron Jiang"
-#   position    : "Ph.D. Candidate"
-#   program     : "Information Science"
-#   email       : "aaron.jiang@colorado.edu "
-#   bio         : "I am a Ph.D. Candidate in the Department of Information Science at CU Boulder. I have an M.S. in Information Science from CU Boulder, and a B.S. in Computer Science from the University of Minnesota. My research primarily focuses on online content moderation and how we can improve it, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and rhythm games."
-#   uri         : "https://aaronjiang.me"
-#   avatar      : images/members/aaron_jiang_bio.jpg
-#   twitter     : "aaroniidx"
-#   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
-#
-# - name        : "Anthony Pinter"
-#   position    : "Ph.D. Student"
-#   program     : "Information Science"
-#   email       : "anthony.pinter@colorado.edu"
-#   bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I received my B.S. and M.S. in Information Sciences and Technology from the Pennsylvania State University. My research focuses on the audience's role in identity construction and consumption in online environments. I love playing and coaching sports, like track!"
-#   uri         : "www.anthonypinter.com"
-#   avatar      : images/members/anthonypinter.jpg
-#   facebook    : "ATPinter"
-#   instagram   : "https://www.instagram.com/anthonypinter/"
-#
-# - name        : "Morgan Klaus Scheuerman"
-#   position    : "Ph.D. Student"
-#   program     : "Information Science"
-#   email       : "Morgan.Scheuerman@colorado.edu"
-#   bio         : "I explore how individuals with diverse gender identities interact with technology. I earned a B.A. in Communication & Media Studies with a minor in Gender Studies at Goucher College and a M.S. in Human-Centered Computing at University of Maryland, Baltimore County. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
-#   avatar      : images/members/morgan_bio.png
-#   uri         : "https://www.morgan-klaus.com"
-#   twitter     : "morganklauss"
-#
-# - name        : "Kandrea Wade"
-#   position    : "Ph.D. Student"
-#   program     : "Information Science"
-#   email       : "Kandrea.Wade@colorado.edu"
-#   bio         : "I am a PhD student in Information Science where I research algorithmic identity and the digital surveillance of marginalized groups in order to create ethical regulations, legal protections and education on algorithmic identity and digital literacy. I received my MA in Media, Culture and Communications from New York University and BA in Technical Theatre from The University of Texas at Arlington."
-#   avatar      : images/members/kandrea_wade_bio.jpg
+- headline    : Jacob Paul Recognized by the CRA for Contributions to Research
+  body        : Jacob Paul was awarded an honorable mention for the prestigious [Computing Research Association's Outstanding Undergraduate Research award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/). Congrats Jacob!
+  date        : 2019-12-15 12:00:00
+
+- headline    : CU Boulder Today highlights research on gender and facial recognition
+  body        : Our research on facial recognition and gender has been [featured on CU Boulder Today](https://www.colorado.edu/today/2019/10/08/facial-recognition-software-has-gender-problem). Learn more about our work on [identity and algorithms](https://cmci.colorado.edu/idlab/project/identity-and-algorithms/) and read the [research](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf).
+  date        : 2019-10-10 12:00:00
+
+- headline    : Scheuerman, Paul, and Brubaker Receive CSCW Paper Awards
+  body        : Morgan Klaus Scheuerman, Jacob Paul, and Jed Brubaker received a Best Paper Award for their paper on [facial recognition and gender](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf). Brubaker also received an Honorable Mention Award for his paper about [networked grief online](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Brubaker2019-cscw-orienting.pdf), coauthored with colleagues from UC Irvine. Congrats!
+  date        : 2019-09-30 12:00:00
+
+- headline    : Pinter Receives Teaching Award
+  body        : Anthony Pinter (PhD student) was the recipient of the Best Should Teach Silver Award at the annual CU Boulder Best Should Teach Awards Ceremony. He received the award as part of his appointment as Lead TA for the College of Media, Communication, and Information during 2019-2020.
+  date        : 2019-09-18 12:00:00
+
+- headline    : IDLab Setting the Bar High with 6 Papers Accepted to CSCW 2019
+  body        : With topics ranging from the evaluation of commercial facial analysis
+  services that classify gender to the implications of upsetting content
+  on social media, IDLab is bringing innovative research to CSCW 2019.
+  Congrats to all the authors and all of their hard work!
+  date        : 2019-09-04 12:00:00
+
+- headline    : Scheuerman Speaks at CVPR
+  body        : Morgan Scheuerman (Ph.D. student) will be a panel speaker at the [Workshop on Fairness Accountability Transparency and Ethics in Computer Vision](https://sites.google.com/view/fatecv) at [CVPR 2019](http://cvpr2019.thecvf.com/) on June 17th. He will be presenting his work on gender classification in facial analysis technologies.
+  date        : 2019-06-10 12:00:00
+
+- headline    : IDLab at Facebook
+  body        : PhD students Katie Gach, Aaron Jiang, and Morgan Scheuerman will be joining Facebook as UX Research Interns for summer 2019. Katie will be working with the Profile Team, while Aaron and Morgan will be working on Community Integrity.
+  date        : 2019-04-15 12:00:00
+
+- headline    : Scheuerman Speaks About Facial Analysis Technology
+  body        : Morgan Scheuerman was featured in several [popular press](https://t.co/GJL1Wx8CEX) [articles](https://t.co/M30rHu4hlt) discussing the ethics of facial analysis technology. He also created a [speculative design](https://privacy.shorensteincenter.org/facialconfirmation) brief on facial analysis technology to Harvard's Privacy + Design project.
+  date        : 2019-04-15 12:00:00
+
+- headline    : Two Papers Accepted to CSCW 2018
+  body        : Congrats to Aaron Jiang on the acceptance of two first-authored publications: "The Perfect One": Understanding Communication Practices and Challenges with Animated GIFs, and Tending Unmarked Graves: Classification of Post-mortem Content on Social Media.
+  date        : 2018-08-10 12:00:00
+
+- headline    : We love undergrads.
+  body        : Undergraduate researchers are an important part of our lab. We wouldn't be the same without them. We were thrilled to have been awarded two UROP project grants to support these students and our research over the next year. Thanks UROP!
+  date        : 2018-04-23 12:00:00
+
+- headline    : We're at CHI 2018!
+  body        : Hello from Montreal! Brubaker and Hanner are in the Bad Actors workshop, and Pinter is questioning 'the man' in the Post-Capitalist HCI workshop. Come say hi!
+  date        : 2018-04-21 12:00:00
+
+  # - headline    : TBC
+  #   body        : TBC
+  #   date        : 2019-04-20 12:00:00
+
+  # - headline    : TBC
+  #   body        : TBC
+  #   date        : 2019-04-20 12:00:00
+
+  # - headline    : TBC
+  #   body        : TBC
+  #   date        : 2019-04-20 12:00:00
