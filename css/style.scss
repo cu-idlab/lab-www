@@ -871,7 +871,9 @@ body.screenshot {
 .modBlogPost h4 a:hover {
   color: $accent-color;
 }
-.modBlogPost .date {
+
+.modBlogPost .date,
+.content .date  {
   font-size: 0.78571rem;
   text-transform: uppercase;
   letter-spacing: 3px;
