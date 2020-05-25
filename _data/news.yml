@@ -59,45 +59,165 @@
   body        : Anthony Pinter (PhD student) was the recipient of the Best Should Teach Silver Award at the annual CU Boulder Best Should Teach Awards Ceremony. He received the award as part of his appointment as Lead TA for the College of Media, Communication, and Information during 2019-2020.
   date        : 2019-09-18 12:00:00
 
-- headline    : IDLab Setting the Bar High with 6 Papers Accepted to CSCW 2019
-  body        : With topics ranging from the evaluation of commercial facial analysis
-  services that classify gender to the implications of upsetting content
-  on social media, IDLab is bringing innovative research to CSCW 2019.
-  Congrats to all the authors and all of their hard work!
-  date        : 2019-09-04 12:00:00
+# - headline    : IDLab Setting the Bar High with 6 Papers Accepted to CSCW 2019
+#   body        : With topics ranging from the evaluation of commercial facial analysis
+#   services that classify gender to the implications of upsetting content
+#   on social media, IDLab is bringing innovative research to CSCW 2019.
+#   Congrats to all the authors and all of their hard work!
+#   date        : 2019-09-04 12:00:00
+#
+# - headline    : Scheuerman Speaks at CVPR
+#   body        : Morgan Scheuerman (Ph.D. student) will be a panel speaker at the [Workshop on Fairness Accountability Transparency and Ethics in Computer Vision](https://sites.google.com/view/fatecv) at [CVPR 2019](http://cvpr2019.thecvf.com/) on June 17th. He will be presenting his work on gender classification in facial analysis technologies.
+#   date        : 2019-06-10 12:00:00
+#
+# - headline    : IDLab at Facebook
+#   body        : PhD students Katie Gach, Aaron Jiang, and Morgan Scheuerman will be joining Facebook as UX Research Interns for summer 2019. Katie will be working with the Profile Team, while Aaron and Morgan will be working on Community Integrity.
+#   date        : 2019-04-15 12:00:00
+#
+# - headline    : Scheuerman Speaks About Facial Analysis Technology
+#   body        : Morgan Scheuerman was featured in several [popular press](https://t.co/GJL1Wx8CEX) [articles](https://t.co/M30rHu4hlt) discussing the ethics of facial analysis technology. He also created a [speculative design](https://privacy.shorensteincenter.org/facialconfirmation) brief on facial analysis technology to Harvard's Privacy + Design project.
+#   date        : 2019-04-15 12:00:00
+#
+# - headline    : Two Papers Accepted to CSCW 2018
+#   body        : Congrats to Aaron Jiang on the acceptance of two first-authored publications: "The Perfect One": Understanding Communication Practices and Challenges with Animated GIFs, and Tending Unmarked Graves: Classification of Post-mortem Content on Social Media.
+#   date        : 2018-08-10 12:00:00
+#
+# - headline    : We love undergrads.
+#   body        : Undergraduate researchers are an important part of our lab. We wouldn't be the same without them. We were thrilled to have been awarded two UROP project grants to support these students and our research over the next year. Thanks UROP!
+#   date        : 2018-04-23 12:00:00
+#
+# - headline    : We're at CHI 2018!
+#   body        : Hello from Montreal! Brubaker and Hanner are in the Bad Actors workshop, and Pinter is questioning 'the man' in the Post-Capitalist HCI workshop. Come say hi!
+#   date        : 2018-04-21 12:00:00
+#
+# - headline    : Brubaker and Jiang talked to CGTN about digital afterlives
+#   body        : As our lives go digital, we are studying what happens to all that data after we die. Our research on digital afterlives was [covered by CGTN](https://news.cgtn.com/news/7a556a4e7a454464776c6d636a4e6e62684a4856/share_p.html).
+#   date        : 2018-04-11 12:00:00
+#
+# - headline    : Two papers accepted to ICWSM 2018
+#   body        : Aaron Jiang and Prof. Jed Brubaker had two papers accepted to ICWSM 2018. One paper on post-mortem language and another on rules on Reddit (co-authored with Prof. Casey Fiesler and two undergraduate RAs). They will present the papers in late June in Stanford, California.
+#   date        : 2018-04-10 12:00:00
+#
+# - headline    : Pinter Awarded The Beverly Sears Graduate Student Grant
+#   body        : Pinter was awarded the Beverly Sears Graduate Student Grant in the amount of $1,000 to begin work on a project exploring transgender individuals’ identity disclosures across different social media accounts.
+#   date        : 2018-03-16 12:00:00
 
-- headline    : Scheuerman Speaks at CVPR
-  body        : Morgan Scheuerman (Ph.D. student) will be a panel speaker at the [Workshop on Fairness Accountability Transparency and Ethics in Computer Vision](https://sites.google.com/view/fatecv) at [CVPR 2019](http://cvpr2019.thecvf.com/) on June 17th. He will be presenting his work on gender classification in facial analysis technologies.
-  date        : 2019-06-10 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-- headline    : IDLab at Facebook
-  body        : PhD students Katie Gach, Aaron Jiang, and Morgan Scheuerman will be joining Facebook as UX Research Interns for summer 2019. Katie will be working with the Profile Team, while Aaron and Morgan will be working on Community Integrity.
-  date        : 2019-04-15 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-- headline    : Scheuerman Speaks About Facial Analysis Technology
-  body        : Morgan Scheuerman was featured in several [popular press](https://t.co/GJL1Wx8CEX) [articles](https://t.co/M30rHu4hlt) discussing the ethics of facial analysis technology. He also created a [speculative design](https://privacy.shorensteincenter.org/facialconfirmation) brief on facial analysis technology to Harvard's Privacy + Design project.
-  date        : 2019-04-15 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-- headline    : Two Papers Accepted to CSCW 2018
-  body        : Congrats to Aaron Jiang on the acceptance of two first-authored publications: "The Perfect One": Understanding Communication Practices and Challenges with Animated GIFs, and Tending Unmarked Graves: Classification of Post-mortem Content on Social Media.
-  date        : 2018-08-10 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-- headline    : We love undergrads.
-  body        : Undergraduate researchers are an important part of our lab. We wouldn't be the same without them. We were thrilled to have been awarded two UROP project grants to support these students and our research over the next year. Thanks UROP!
-  date        : 2018-04-23 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-- headline    : We're at CHI 2018!
-  body        : Hello from Montreal! Brubaker and Hanner are in the Bad Actors workshop, and Pinter is questioning 'the man' in the Post-Capitalist HCI workshop. Come say hi!
-  date        : 2018-04-21 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-  # - headline    : TBC
-  #   body        : TBC
-  #   date        : 2019-04-20 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-  # - headline    : TBC
-  #   body        : TBC
-  #   date        : 2019-04-20 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
 
-  # - headline    : TBC
-  #   body        : TBC
-  #   date        : 2019-04-20 12:00:00
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
