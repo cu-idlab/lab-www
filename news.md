@@ -6,15 +6,15 @@ author_profile: false
 
 # News
 
-{% for post in site.posts %}
+{% for post in site.data.news %}
   <!-- <div class='large-4 medium-4 columns'>
     <div class='mod modBlogPost no_bg simple'> -->
       <div class='content'>
         <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
         <h4>
-            {{post.title}}
+            {{post.headline}}
         </h4>
-        <p>{{post.excerpt}}</p>
+        <p>{{post.body}}</p>
       </div>
     <!-- </div>
   </div> -->
