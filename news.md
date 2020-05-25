@@ -5,6 +5,7 @@ author_profile: false
 ---
 
 # News
+
 {% for post in site.posts %}
   <!-- <div class='large-4 medium-4 columns'>
     <div class='mod modBlogPost no_bg simple'> -->
