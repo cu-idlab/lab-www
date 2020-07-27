@@ -23,7 +23,7 @@
   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
 
 - name        : "Katie Gach"
-  position    : "Ph.D. Student"
+  position    : "Ph.D. Candidate"
   program     : "ATLAS Institute"
   # uri         :
   # email       : "something here"
@@ -67,3 +67,11 @@
   email       : "Kandrea.Wade@colorado.edu"
   bio         : "I am a PhD student in Information Science where I research algorithmic identity and the digital surveillance of marginalized groups in order to create ethical regulations, legal protections and education on algorithmic identity and digital literacy. I received my MA in Media, Culture and Communications from New York University and BA in Technical Theatre from The University of Texas at Arlington."
   avatar      : images/members/kandrea_wade_bio.jpg
+
+- name        : "Malinda (Mally) Dietrich"
+  position    : "Ph.D. Student"
+  program     : "Communication"
+  email       : "malinda.dietrich@colorado.edu"
+  twitter     : "mallydietrich"
+  bio         : "As a PhD student in the Communication department, I strive to be an interdisciplinary scholar interested in understanding how technologies inscribe data and organize information through mainly ethnographic and archival methods. I earned my B.A. in Communication (concentration in Media) and my M.S. in Communication from North Carolina State University. I enjoy caffeine consumption, hiking (read: spending time with my dog), playing video games, making art, and watching hockey."
+  avatar      : images/members/mally_dietrich_bio.jpeg
