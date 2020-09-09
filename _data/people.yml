@@ -25,8 +25,8 @@
 - name        : "Jes Feuston"
   position    : "Postdoctoral Researcher"
   program     : "Information Science"
-  # uri         :
-  # email       : "something here"
+  uri         : "http://jesfeuston.com/"
+  email       : "jessica.feuston@colorado.edu "
   bio         : "I’m a postdoctoral associate and digital ethnographer in the Department of Information Science at CU Boulder. I completed my Ph.D. at Northwestern University, where I studied how people with mental illness participate online. Recently, my research also involves exploring tools to support qualitative researchers and research practices. I love my plants, embroidery, and my many animal and plant neighbors who graciously tolerate my presence in the yard."
   avatar      : images/members/feuston_bio.jpg
   # twitter     : "kzgach"
