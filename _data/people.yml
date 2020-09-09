@@ -22,6 +22,16 @@
   twitter     : "whatknows"
   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
 
+- name        : "Jes Feuston"
+  position    : "Postdoctoral Researcher"
+  program     : "Information Science"
+  # uri         :
+  # email       : "something here"
+  bio         : "I’m a postdoctoral associate and digital ethnographer in the Department of Information Science at CU Boulder. I completed my Ph.D. at Northwestern University, where I studied how people with mental illness participate online. Recently, my research also involves exploring tools to support qualitative researchers and research practices. I love my plants, embroidery, and my many animal and plant neighbors who graciously tolerate my presence in the yard."
+  avatar      : images/members/feuston_bio.jpg
+  # twitter     : "kzgach"
+  # google_plus : "CorneliusFiddlebone"
+
 - name        : "Katie Gach"
   position    : "Ph.D. Candidate"
   program     : "ATLAS Institute"
