@@ -224,6 +224,23 @@ section_id: about
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
+    <h3>Collaborators</h3>
+    <!-- <div class='spacing'></div> -->
+  </div>
+</div>
+<p>
+  <ul style="list-style: none; margin-left: 0rem;">
+    {% for member in site.data.affiliates %}
+      <li>
+        {{member.name}}
+      </li>
+    {% endfor %}
+  </ul>
+</p>
+
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
     <h3>Lab Alumni</h3>
     <!-- <div class='spacing'></div> -->
   </div>
