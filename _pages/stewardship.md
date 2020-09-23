@@ -2,6 +2,7 @@
 layout: project
 permalink: "/project/stewardship/"
 title:  Stewarding Online Identities for the Deceased
+category: project
 images:
   - /images/projects/stewardship.png
 image: /images/projects/stewardship-crop.png

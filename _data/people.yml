@@ -22,8 +22,18 @@
   twitter     : "whatknows"
   bio         : "I'm an Assistant Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a method I didn't like."
 
+- name        : "Jes Feuston"
+  position    : "Postdoctoral Researcher"
+  program     : "Information Science"
+  uri         : "http://jesfeuston.com/"
+  email       : "jessica.feuston@colorado.edu"
+  bio         : "I'm a postdoctoral associate and digital ethnographer in the Department of Information Science at CU Boulder. I completed my Ph.D. at Northwestern University, where I studied how people with mental illness participate online. Recently, my research also involves exploring tools to support qualitative researchers and research practices. I love my plants, embroidery, and my many animal and plant neighbors who graciously tolerate my presence in the yard."
+  avatar      : images/members/feuston_bio.jpg
+  # twitter     : "kzgach"
+  # google_plus : "CorneliusFiddlebone"
+
 - name        : "Katie Gach"
-  position    : "Ph.D. Student"
+  position    : "Ph.D. Candidate"
   program     : "ATLAS Institute"
   # uri         :
   # email       : "something here"
@@ -33,21 +43,20 @@
   # google_plus : "CorneliusFiddlebone"
 
 - name        : "Aaron Jiang"
-  position    : "Ph.D. Student"
+  position    : "Ph.D. Candidate"
   program     : "Information Science"
   email       : "aaron.jiang@colorado.edu "
-  bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I have a B.S. in Computer Science from the University of Minnesota. I research how people's communication and behavior are impacted by norms and rules in online communities and social media, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and Dota."
+  bio         : "I am a Ph.D. Candidate in the Department of Information Science at CU Boulder. I have an M.S. in Information Science from CU Boulder, and a B.S. in Computer Science from the University of Minnesota. My research primarily focuses on online content moderation and how we can improve it, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and rhythm games."
   uri         : "https://aaronjiang.me"
   avatar      : images/members/aaron_jiang_bio.jpg
   twitter     : "aaroniidx"
-  facebook    : "aaron.j.jiang"
   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
 
 - name        : "Anthony Pinter"
   position    : "Ph.D. Student"
   program     : "Information Science"
   email       : "anthony.pinter@colorado.edu"
-  bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I received my BS and MS in Information Sciences and Technology from the Pennsylvania State University. My research focuses on the audience's role in identity construction and consumption in online environments. I love playing and coaching sports, like track!"
+  bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I received my B.S. and M.S. in Information Sciences and Technology from the Pennsylvania State University. My research focuses on the audience's role in identity construction and consumption in online environments. I love playing and coaching sports, like track!"
   uri         : "www.anthonypinter.com"
   avatar      : images/members/anthonypinter.jpg
   facebook    : "ATPinter"
@@ -57,7 +66,7 @@
   position    : "Ph.D. Student"
   program     : "Information Science"
   email       : "Morgan.Scheuerman@colorado.edu"
-  bio         : "I explore the ways individuals with diverse gender identities interact with technology. I grew up in Maryland, earned a B.A. in Communication & Media Studies with a minor in Gender Studies at Goucher College and a M.S. in Human-Centered Computing at University of Maryland, Baltimore County. My Master thesis focused on how transgender individuals' experience safety and bias with digital technologies. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
+  bio         : "I explore how individuals with diverse gender identities interact with technology. I earned a B.A. in Communication & Media Studies with a minor in Gender Studies at Goucher College and a M.S. in Human-Centered Computing at University of Maryland, Baltimore County. In my spare time, I enjoy travel, hiking, photography, and consuming snobby hipster coffee beverages in mid-century modern cafes."
   avatar      : images/members/morgan_bio.png
   uri         : "https://www.morgan-klaus.com"
   twitter     : "morganklauss"
@@ -66,5 +75,21 @@
   position    : "Ph.D. Student"
   program     : "Information Science"
   email       : "Kandrea.Wade@colorado.edu"
-  bio         : "Kandrea is a 1st year PhD student in the Information Science department at CU Boulder focusing on algorithmic identity and the digital surveillance of marginalized groups. Along with developing her research at CU Boulder, Kandrea seeks to discover and assist in creating proper ethical regulations and education on algorithmic identity and digital literacy. With a background of over 15 years in entertainment and media, her interests have evolved from demographic programming for entertainment and media theory to corporate user ethics and legal protections for the digital citizen. Kandrea holds BA in Technical Theatre from The University of Texas at Arlington and an MA in Media, Culture and Communications from New York University."
+  bio         : "I am a PhD student in Information Science where I research algorithmic identity and the digital surveillance of marginalized groups in order to create ethical regulations, legal protections and education on algorithmic identity and digital literacy. I received my MA in Media, Culture and Communications from New York University and BA in Technical Theatre from The University of Texas at Arlington."
   avatar      : images/members/kandrea_wade_bio.jpg
+
+- name        : "Malinda (Mally) Dietrich"
+  position    : "Ph.D. Student"
+  program     : "Communication"
+  email       : "malinda.dietrich@colorado.edu"
+  twitter     : "mallydietrich"
+  bio         : "As a PhD student in the Communication department, I strive to be an interdisciplinary scholar interested in understanding how technologies inscribe data and organize information through mainly ethnographic and archival methods. I earned my B.A. in Communication (concentration in Media) and my M.S. in Communication from North Carolina State University. I enjoy caffeine consumption, hiking (read: spending time with my dog), playing video games, making art, and watching hockey."
+  avatar      : images/members/mally_dietrich_bio.jpeg
+
+- name        : "Katy Weathington"
+  position    : "Ph.D. Student"
+  program     : "Information Science"
+  email       : "katy.weathington@colorado.edu"
+  # twitter     : "mallydietrich"
+  bio         : "I critically examine data science and machine learning practices. With a background in data science and mathematics, I have come to CU after finishing a master's degree in computing at Marquette University where I studied predictive policing algorithms."
+  avatar      : images/members/katy_bio.png

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Join us at the ICWSM 17 workshop on Studying User Perceptions and Experiences with Algorithms
+date:   2017-05-15 10:20:05
+categories:
+  - workshop
+tags:
+  - research
+  - algorithms
+author: admin
+images:
+excerpt:
+  Brubaker is a co-organizer, bringing scholars together to develop projects that take a human-centered perspective to studying algorithms.
+---

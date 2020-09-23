@@ -4,17 +4,31 @@ layout: page
 author_profile: false
 ---
 
-# News
-{% for post in site.posts %}
-  <!-- <div class='large-4 medium-4 columns'>
-    <div class='mod modBlogPost no_bg simple'> -->
-      <div class='content'>
-        <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-        <h4>
-            {{post.title}}
-        </h4>
-        <p>{{post.excerpt}}</p>
-      </div>
-    <!-- </div>
-  </div> -->
-{% endfor %}
+<div class='full'>
+  <div class='row'>
+    <div class='medium-8 columns'>
+        <div class='row'>
+          <div class='medium-12 columns'>
+            <h2>News</h2>
+
+            {% for post in site.data.news %}
+              <!-- <div class='large-4 medium-4 columns'>
+                <div class='mod modBlogPost no_bg simple'> -->
+                  <div class='news-item'>
+                    <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+                    <h4>
+                        {{post.headline}}
+                    </h4>
+                    <p>{{post.body | markdownify}}</p>
+                  </div>
+                <!-- </div>
+              </div> -->
+            {% endfor %}
+
+          </div>
+        </div>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+</div>
+<div class='four spacing'></div>

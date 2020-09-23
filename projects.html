@@ -32,7 +32,7 @@ section_id: projects
       </div> -->
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in site.pages %}
-        {% if work.layout == "project" %}
+        {% if work.category == "project" %}
           <li class='{{work.class}}'>
             <a href='{{work.permalink | prepend: site.baseurl }}'>
               <img alt="{{work.title}}" src="{{work.image_crop | prepend: site.baseurl}}" />
@@ -43,6 +43,7 @@ section_id: projects
                 </div>
               </div>
             </a>
+            <h4>{{work.title}}</h4>
           </li>
         {% endif %}
         {% endfor %}

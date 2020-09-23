@@ -37,7 +37,6 @@ slides:
     <div class='large-12 columns'>
       <h3>
         Projects / <a href='{{ '/projects' | prepend: site.baseurl}}'>View more</a>
-
       </h3>
       <div class='spacing'></div>
       <div class='mod modGallery'>
@@ -75,15 +74,13 @@ slides:
   <div class='row'>
     <div class='large-12 columns'>
       <h3>
-        News
-        <!-- / -->
-        <!-- <a href=''>View more posts</a> -->
+        News / <a href='{{ '/news' | prepend: site.baseurl}}'>View more</a>
       </h3>
       <div class='spacing'></div>
     </div>
   </div>
   <div class='row'>
-      {% for post in site.posts limit:3 %}
+      <!-- {% for post in site.posts limit:3 %}
         <div class='large-4 medium-4 columns'>
           <div class='mod modBlogPost no_bg simple'>
             <div class='content'>
@@ -92,6 +89,19 @@ slides:
                   {{post.title}}
               </h4>
               <p>{{post.excerpt}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %} -->
+      {% for item in site.data.news limit:3 %}
+        <div class='large-4 medium-4 columns'>
+          <div class='mod modBlogPost no_bg simple'>
+            <div class='content'>
+              <p class='date'>{{item.date | date: "%B %d, %Y" }}</p>
+              <h4>
+                  {{item.headline}}
+              </h4>
+              <p>{{item.body | markdownify}}</p>
             </div>
           </div>
         </div>

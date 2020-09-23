@@ -871,11 +871,21 @@ body.screenshot {
 .modBlogPost h4 a:hover {
   color: $accent-color;
 }
+
 .modBlogPost .date {
   font-size: 0.78571rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: $light-gray;;
+  margin-bottom: 5px;
+}
+
+.news-item .date  {
+  font-size: 0.78571rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $light-gray;;
+  margin-top: 35px;
   margin-bottom: 5px;
 }
 .modBlogPost .tags {

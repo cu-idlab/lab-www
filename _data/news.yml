@@ -1,0 +1,132 @@
+# News
+# Add news here. It used to be in a different location -- but that was annoying.
+
+# TEMPLATE
+# If a line doesn't apply, leave it commented out.
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+# - headline    : TBC
+#   body        : TBC
+#   date        : 2019-04-20 12:00:00
+
+- headline    : Anthony Pinter receives 2020 UGGS Teaching Excellence Award
+  body        : United Government of Graduate Student (UGGS) selected Pinter based on his work in the classroom during the 2019-20 academic year. Congrats!
+  date        : 2020-06-18 12:00:00
+
+- headline    : Congrats to Katie Gach for passing her proposal.
+  body        : Her dissertation is tentatively titled "Honoring Negative Affective Experiences with Postmortem Data." Time for new business cards — she is officially a PhD candidate!
+  date        : 2020-05-29 11:30:00
+
+- headline    : Marissa Kelly is awarded honors for her senior thesis!
+  body        : Ugrad RA Marissa Kelly has successfully defended her senior thesis "How Can We Design Social Media to Better Respect the Boundaries of Third-Culture Users?" and is graduating with honors! Congrats!
+  date        : 2019-04-20 12:00:00
+
+- headline    : Anthony Pinter passes his preliminary exams.
+  body        : Anthony Pinter successfully completed his prelim exams -- Onto the dissertation!
+  date        : 2019-04-10 12:00:00
+
+- headline    : Jacob Paul Recognized by the CRA for Contributions to Research
+  body        : Jacob Paul was awarded an honorable mention for the prestigious [Computing Research Association's Outstanding Undergraduate Research award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/). Congrats Jacob!
+  date        : 2019-12-15 12:00:00
+
+- headline    : CU Boulder Today highlights research on gender and facial recognition
+  body        : Our research on facial recognition and gender has been [featured on CU Boulder Today](https://www.colorado.edu/today/2019/10/08/facial-recognition-software-has-gender-problem). Learn more about our work on [identity and algorithms](https://cmci.colorado.edu/idlab/project/identity-and-algorithms/) and read the [research](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf).
+  date        : 2019-10-10 12:00:00
+
+- headline    : Scheuerman, Paul, and Brubaker Receive CSCW Paper Awards
+  body        : Morgan Klaus Scheuerman, Jacob Paul, and Jed Brubaker received a Best Paper Award for their paper on [facial recognition and gender](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Scheuerman2019-cscw-gender.pdf). Brubaker also received an Honorable Mention Award for his paper about [networked grief online](https://cmci.colorado.edu/idlab/assets/bibliography/pdf/Brubaker2019-cscw-orienting.pdf), coauthored with colleagues from UC Irvine. Congrats!
+  date        : 2019-09-30 12:00:00
+
+- headline    : Pinter Receives Teaching Award
+  body        : Anthony Pinter (PhD student) was the recipient of the Best Should Teach Silver Award at the annual CU Boulder Best Should Teach Awards Ceremony. He received the award as part of his appointment as Lead TA for the College of Media, Communication, and Information during 2019-2020.
+  date        : 2019-09-18 12:00:00
+
+- headline    : IDLab Setting the Bar High with 6 Papers Accepted to CSCW 2019
+  body        : With topics ranging from the evaluation of commercial facial analysis services that classify gender to the implications of upsetting content on social media, IDLab is bringing innovative research to CSCW 2019. Congrats to all the authors and all of their hard work!
+  date        : 2019-09-04 12:00:00
+
+- headline    : Scheuerman Speaks at CVPR
+  body        : Morgan Scheuerman (Ph.D. student) will be a panel speaker at the [Workshop on Fairness Accountability Transparency and Ethics in Computer Vision](https://sites.google.com/view/fatecv) at [CVPR 2019](http://cvpr2019.thecvf.com/) on June 17th. He will be presenting his work on gender classification in facial analysis technologies.
+  date        : 2019-06-10 12:00:00
+
+- headline    : IDLab at Facebook
+  body        : PhD students Katie Gach, Aaron Jiang, and Morgan Scheuerman will be joining Facebook as UX Research Interns for summer 2019. Katie will be working with the Profile Team, while Aaron and Morgan will be working on Community Integrity.
+  date        : 2019-04-15 12:00:00
+
+- headline    : Scheuerman Speaks About Facial Analysis Technology
+  body        : Morgan Scheuerman was featured in several [popular press](https://t.co/GJL1Wx8CEX) [articles](https://t.co/M30rHu4hlt) discussing the ethics of facial analysis technology. He also created a [speculative design](https://privacy.shorensteincenter.org/facialconfirmation) brief on facial analysis technology to Harvard's Privacy + Design project.
+  date        : 2019-04-15 12:00:00
+
+- headline    : Two Papers Accepted to CSCW 2018
+  body        : 'Congrats to Aaron Jiang on the acceptance of two first-authored publications: "The Perfect One": Understanding Communication Practices and Challenges with Animated GIFs, and Tending Unmarked Graves: Classification of Post-mortem Content on Social Media.'
+  date        : 2018-08-10 12:00:00
+
+- headline    : We love undergrads.
+  body        : Undergraduate researchers are an important part of our lab. We wouldn't be the same without them. We were thrilled to have been awarded two UROP project grants to support these students and our research over the next year. Thanks UROP!
+  date        : 2018-04-23 12:00:00
+
+- headline    : We're at CHI 2018!
+  body        : Hello from Montreal! Brubaker and Hanner are in the Bad Actors workshop, and Pinter is questioning 'the man' in the Post-Capitalist HCI workshop. Come say hi!
+  date        : 2018-04-21 12:00:00
+
+- headline    : Brubaker and Jiang talked to CGTN about digital afterlives
+  body        : As our lives go digital, we are studying what happens to all that data after we die. Our research on digital afterlives was [covered by CGTN](https://news.cgtn.com/news/7a556a4e7a454464776c6d636a4e6e62684a4856/share_p.html).
+  date        : 2018-04-11 12:00:00
+
+- headline    : Two papers accepted to ICWSM 2018
+  body        : Aaron Jiang and Prof. Jed Brubaker had two papers accepted to ICWSM 2018. One paper on post-mortem language and another on rules on Reddit (co-authored with Prof. Casey Fiesler and two undergraduate RAs). They will present the papers in late June in Stanford, California.
+  date        : 2018-04-10 12:00:00
+
+- headline    : Pinter Awarded The Beverly Sears Graduate Student Grant
+  body        : Pinter was awarded the Beverly Sears Graduate Student Grant in the amount of $1,000 to begin work on a project exploring transgender individuals’ identity disclosures across different social media accounts.
+  date        : 2018-03-16 12:00:00
+
+- headline    : Life After Death on the Internet
+  body        : As our lives go digital, we are studying what happens to all that data after we die. Our research on digital afterlives was [featured in the Coloradan](https://www.colorado.edu/coloradan/2018/03/01/life-after-death-internet).
+  date        : 2018-03-01 12:00:00
+
+- headline    : How can we socialize algorithms and make them better listeners?
+  body        : Brubaker and Pinter are in Arlington, VA this week participating in the Workshop on Trustworthy Algorithmic Decision-Making.
+  date        : 2017-12-04 12:00:00
+
+- headline    : '"''Control your emotions, Potter:'' An Analysis of Grief Policing on Facebook in Response to Celebrity Death" has been accepted to CSCW 2018 Online First.'
+  body        : 'Congrats to Katie Gach on the acceptance of her first-authored publication: "Control your emotions, Potter:" An Analysis of Grief Policing on Facebook in Response to Celebrity Death. CSCW 2018 Online First.'
+  date        : 2017-11-29 12:00:00
+
+- headline    : Join us at the ICWSM 17 workshop on Studying User Perceptions and Experiences with Algorithms
+  body        : Brubaker is a co-organizer, bringing scholars together to develop projects that take a human-centered perspective to studying algorithms.
+  date        : 2017-05-15 10:20:05
+
+- headline    : Ethan Hanner receives Mozilla grant for the study of ethics and hacktivism
+  body        : Congrats to Ethan Hanner who's project Understanding Perceptions of Ethics in Hacktivism has received a Mozilla grant. Thanks Mozilla!
+  date        : 2017-05-03 10:20:05
+
+- headline    : Brubaker to keynote DORS3 in Aarhus, Denmark
+  body        : 'The International Death Online Research Symposium (DORS3) will be hosted at Aarhus University March 6-8. In a talk entitled "Post-mortem Interaction", Brubaker will be speaking on the future of death, data, and design.'
+  date        : 2017-03-02 10:20:05
+
+- headline    : '"Understanding Diverse Interpretations of Animated GIFs" accepted to CHI 2017 Late Breaking Work'
+  body        : 'Congrats to Aaron Jiang on the acceptance of his first-authored publication: Understanding Diverse Interpretations of Animated GIFs. CHI 2017 Late Breaking Work.'
+  date        : 2017-02-16 10:20:05
+
+- headline    : '"Post-userism" accepted to CHI 2017'
+  body        : Baumer and Brubaker's work on the limitations of the 'user' has been accepted to CHI 2017. We look forward to presenting this work in Denver.
+  date        : 2016-12-13 10:20:05

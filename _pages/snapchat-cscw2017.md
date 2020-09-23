@@ -2,6 +2,7 @@
 layout: project
 permalink: "/project/snapchat-cscw2017/"
 title:  'Snapchat, Ephemerality, and Loss'
+category: project
 images:
   - /images/projects/snapchat-hand.jpg
 image: /images/projects/snapchat-hand.jpg
