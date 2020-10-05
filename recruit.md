@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/recruit/"
-title:  'Graduate Positions for 2020'
+title:  'Graduate Positions for 2021'
 category: page
 images:
   - /images/recruit-begin.jpg
@@ -18,6 +18,6 @@ You will join a hyper-collaborative lab studying intersections between identity 
 Interested students can learn more about the lab [here](https://cmci.colorado.edu/idlab/).
 And more about joining our team [here](https://cmci.colorado.edu/idlab/join/).
 
-The Identity Lab is housed in the department of Information Science at CU Boulder, part of a larger interdisciplinary community at Boulder focused on Human Centered Computing. As such, I accept PhD students through five different programs (see previous link). Students interested in the Information Science PhD program can find more details [here](https://www.colorado.edu/infoscience/phd-2020).
+The Identity Lab is housed in the department of Information Science at CU Boulder, part of a larger interdisciplinary community at Boulder focused on Human Centered Computing. As such, I accept PhD students through five different programs (see previous link). Students interested in the Information Science PhD program can find more details [here](https://www.colorado.edu/infoscience/phd-2021).
 
 Feel free to request more information about applying from the various programs directly, but feel free to reach out to me directly as well. jed - dot - brubaker - at - colorado - dot - edu.
