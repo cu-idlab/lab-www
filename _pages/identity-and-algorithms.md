@@ -21,3 +21,6 @@ To mitigate the potential risks of these types of technological methods, we are 
 
 ### Publications
 {% bibliography --query @*[tags~=identity-and-algorithms] %}
+
+### Blog
+[How We've Taught Algorithms to See Identity](https://medium.com/@morganklausscheuerman/how-weve-taught-algorithms-to-see-identity-a34e2b731dcc)
