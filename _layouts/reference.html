@@ -19,6 +19,10 @@
   {% if entry.pages %}<span class="pages">{{entry.pages}}</span>{% endif %}
 {% endif %}
 
+{% if entry.note}
+<span class="award">{{entry.note}}</span>
+{% endif %}
+
 <div id="{{key}}-materials">
   <ul class="nav nav-pills">
 
@@ -38,6 +42,9 @@
 
     {% if entry.doi %}
       <li class="pill">DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
+    {% endif %}
+
+    {% if entry.note}
     {% endif %}
 
     <div id="{{key}}-reference" style="display:none;">
