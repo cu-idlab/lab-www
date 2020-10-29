@@ -19,6 +19,10 @@
   {% if entry.pages %}<span class="pages">{{entry.pages}}</span>{% endif %}
 {% endif %}
 
+{% if entry.note %}
+<span class="award">{{entry.note}}</span>
+{% endif %}
+
 <div id="{{key}}-materials">
   <ul class="nav nav-pills">
 
