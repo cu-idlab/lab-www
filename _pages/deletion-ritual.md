@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/projects/deletion-ritual/"
+permalink: "/project/deletion-ritual/"
 title:  'Facebook Deletion Rituals'
 category: project
 image: /images/projects/lc-lilac.jpg
