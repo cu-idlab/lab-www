@@ -1,14 +1,12 @@
 ---
 layout: project
-permalink: "/project/deletion-ritual/"
+permalink: "/deletion-ritual/"
 title:  'Facebook Deletion Ritual Study'
-category: project
-image: /images/projects/lc-lilac.jpg
-image_crop: /images/projects/lc-lilac.jpg
+category: page
+image: /image/lc-lilac.jpg
 images:
-  - /images/projects/lc-lilac.jpg
+  - /images/lc-lilac.jpg
 excerpt:
-  TBC
 homepage: false
 ---
 
