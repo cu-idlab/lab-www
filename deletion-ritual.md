@@ -41,7 +41,7 @@ have a reflection interview to process the ritual experience
 ### What Data Is Being Collected?
 The sessions will be recorded and then transcribed so that Katie can better remember what you have said. Katie will also be taking notes of your perspective, actions, and experiences throughout each part. Every effort will be made to keep your personal information confidential: all written records will be scrubbed of identifiable information like names, locations, or specific dates/events. All data will be kept in password-protected, encrypted files in locked offices. We will not require you to provide us with your full or real name or other personally identifying information.
 
-## Voluntary Participation and Withdrawal
+### Voluntary Participation and Withdrawal
 Taking part in this study is voluntary. You may choose not to take part or may leave the study at any time. Your decision regarding this study will not affect your current or future relations with the University of Colorado Boulder.
 
 *If you would prefer for the ritual to take place in person, we can discuss how to do so safely according to CDC precautions.*
