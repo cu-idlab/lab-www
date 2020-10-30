@@ -4,7 +4,7 @@ permalink: "/project/deletion-ritual/"
 title:  'Facebook Deletion Rituals'
 category: project
 image: /images/projects/lc-lilac.jpg
-image_crop: /images/projects/lc-lilac.jpg
+image_crop: /images/projects/lc-lilac-crop.jpg
 images:
   - /images/projects/lc-lilac.jpg
 excerpt:
