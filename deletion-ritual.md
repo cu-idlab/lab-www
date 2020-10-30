@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/project/deletion-ritual/"
-title:  'Facebook Deletion Ritual Study'
+title:  'Facebook Deletion Rituals'
 category: project
 image: /images/projects/lc-lilac.jpg
 image_crop: /images/projects/lc-lilac.jpg
