@@ -12,7 +12,13 @@
 #   facebook    : "TBC"
 #   twitter     : "TBC"
 
-- name        : "Blake Hallinan"
+- name        : "Aaron Jiang, Ph.D."
+  degree      : "Ph.D."
+  program     : "Information Science"
+  avatar      : images/members/aaron_jiang_bio.jpg
+  twitter     : "aaroniidx"
+
+- name        : "Blake Hallinan, Ph.D."
   degree      : "Ph.D."
   program     : "Communication"
   avatar      : images/members/blake-hallinan.jpg
