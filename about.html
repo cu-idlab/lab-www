@@ -208,85 +208,89 @@ section_id: about
   <div class='large-12 columns'>
     <h3>Undergraduate Students</h3>
     <!-- <div class='spacing'></div> -->
+    <p>
+      We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
+      <ul style="list-style: none; margin-left: 0rem;">
+        {% for member in site.data.ugrads %}
+          <li>
+            {{member.name}}
+          </li>
+        {% endfor %}
+      </ul>
+    </p>
   </div>
 </div>
-<p>
-  We are supported by many amazing undergraduate researchers. Many projects would not have been possible without them: <br/>
-  <ul style="list-style: none; margin-left: 0rem;">
-    {% for member in site.data.ugrads %}
-      <li>
-        {{member.name}}
-      </li>
-    {% endfor %}
-  </ul>
-</p>
+
 
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
     <h3>Collaborators</h3>
     <!-- <div class='spacing'></div> -->
+    <p>
+      <ul style="list-style: none; margin-left: 0rem;">
+        {% for member in site.data.affiliates %}
+          <li>
+            {{member.name}}
+          </li>
+        {% endfor %}
+      </ul>
+    </p>
   </div>
 </div>
-<p>
-  <ul style="list-style: none; margin-left: 0rem;">
-    {% for member in site.data.affiliates %}
-      <li>
-        {{member.name}}
-      </li>
-    {% endfor %}
-  </ul>
-</p>
+
 
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
     <h3>Lab Alumni</h3>
     <!-- <div class='spacing'></div> -->
+    <h4>Graduate Members</h4>
+      <p>
+        <ul style="list-style: none; margin-left: 0rem;">
+          {% for member in site.data.alum %}
+            <li>
+              {{member.name}} ({{member.program}})
+            </li>
+          {% endfor %}
+        </ul>
+      </p>
+      <h4>Undergraduate Members</h4>
+      <p>
+        <ul style="list-style: none; margin-left: 0rem;">
+          {% for member in site.data.alum-ugrads %}
+            <li>
+              {{member.name}}
+            </li>
+          {% endfor %}
+        </ul>
+      </p>
   </div>
 </div>
-<h4>Graduate Members</h4>
-<p>
-  <ul style="list-style: none; margin-left: 0rem;">
-    {% for member in site.data.alum %}
-      <li>
-        {{member.name}} ({{member.program}})
-      </li>
-    {% endfor %}
-  </ul>
-</p>
-<h4>Undergraduate Members</h4>
-<p>
-  <ul style="list-style: none; margin-left: 0rem;">
-    {% for member in site.data.alum-ugrads %}
-      <li>
-        {{member.name}}
-      </li>
-    {% endfor %}
-  </ul>
-</p>
+
 
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
     <h3>Research Support</h3>
     <div class='spacing'></div>
+    <div class='row'>
+      {% for funder in site.data.funders %}
+        <div class='small-6 medium-4 large-2 columns'>
+          <!-- <div class='mod style-2'> -->
+            <div class='funder'>
+              <img class="avatar" alt="{{funder.name}}" src="{{site.baseurl}}/{{funder.logo}}" />
+              <p class="name text-center">{{funder.name}}</p>
+            </div>
+          <!-- </div> -->
+        </div>
+      {% endfor %}
+      <div class="small-6 medium-4 large-2 columns end"></div>
+    </div>
   </div>
 </div>
 
-<div class='row'>
-  {% for funder in site.data.funders %}
-    <div class='small-6 medium-4 large-2 columns'>
-      <!-- <div class='mod style-2'> -->
-        <div class='funder'>
-          <img class="avatar" alt="{{funder.name}}" src="{{site.baseurl}}/{{funder.logo}}" />
-          <p class="name text-center">{{funder.name}}</p>
-        </div>
-      <!-- </div> -->
-    </div>
-  {% endfor %}
-  <div class="small-6 medium-4 large-2 columns end"></div>
-</div>
+
 
 
 <!-- FUTURE SUPPORT SECTION
