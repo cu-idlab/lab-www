@@ -42,15 +42,15 @@
   twitter     : "kzgach"
   # google_plus : "CorneliusFiddlebone"
 
-- name        : "Aaron Jiang"
-  position    : "Ph.D. Candidate"
-  program     : "Information Science"
-  email       : "aaron.jiang@colorado.edu "
-  bio         : "I am a Ph.D. Candidate in the Department of Information Science at CU Boulder. I have an M.S. in Information Science from CU Boulder, and a B.S. in Computer Science from the University of Minnesota. My research primarily focuses on online content moderation and how we can improve it, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and rhythm games."
-  uri         : "https://aaronjiang.me"
-  avatar      : images/members/aaron_jiang_bio.jpg
-  twitter     : "aaroniidx"
-  steam       : "http://steamcommunity.com/profiles/76561198051935658/"
+# - name        : "Aaron Jiang"
+#   position    : "Ph.D. Candidate"
+#   program     : "Information Science"
+#   email       : "aaron.jiang@colorado.edu "
+#   bio         : "I am a Ph.D. Candidate in the Department of Information Science at CU Boulder. I have an M.S. in Information Science from CU Boulder, and a B.S. in Computer Science from the University of Minnesota. My research primarily focuses on online content moderation and how we can improve it, using a combination of qualitative, quantitative and computational methods. I love data, coffee, and rhythm games."
+#   uri         : "https://aaronjiang.me"
+#   avatar      : images/members/aaron_jiang_bio.jpg
+#   twitter     : "aaroniidx"
+#   steam       : "http://steamcommunity.com/profiles/76561198051935658/"
 
 - name        : "Anthony Pinter"
   position    : "Ph.D. Student"
