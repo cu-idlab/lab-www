@@ -29,8 +29,15 @@
   email       : "jessica.feuston@colorado.edu"
   bio         : "I'm a postdoctoral associate and digital ethnographer in the Department of Information Science at CU Boulder. I completed my Ph.D. at Northwestern University, where I studied how people with mental illness participate online. Recently, my research also involves exploring tools to support qualitative researchers and research practices. I love my plants, embroidery, and my many animal and plant neighbors who graciously tolerate my presence in the yard."
   avatar      : images/members/feuston_bio.jpg
-  # twitter     : "kzgach"
-  # google_plus : "CorneliusFiddlebone"
+
+- name        : "Michael Ann DeVito"
+  position    : "Postdoctoral Researcher"
+  program     : "Information Science"
+  uri         : "http://michaelanndevito.com"
+  email       : "mide6488@colorado.edu"
+  bio         : "I’m a postdoctoral Computing Innovation Fellow and qualitative HCI researcher with a Ph.D. from Northwestern University. I study how users and communities understand and adapt to the challenges of everyday, casual human/AI collaboration. This includes work on folk understandings of algorithms, as well as work on how queer and trans communities adapt to social platforms. Outside the lab, I am mostly about cats, space, playing bass, and being in the snow."
+  avatar      : images/members/devito_bio.jpg
+  twitter     : "drmichaelann"
 
 - name        : "Katie Gach"
   position    : "Ph.D. Candidate"
@@ -56,7 +63,7 @@
   position    : "Ph.D. Student"
   program     : "Information Science"
   email       : "anthony.pinter@colorado.edu"
-  bio         : "I am a PhD student in the Department of Information Science at CU Boulder. I received my B.S. and M.S. in Information Sciences and Technology from the Pennsylvania State University. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. Outside of work, I train for and race in XC MTB races."
+  bio         : "I am a 4th year PhD student in Information Science. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. In addition to my research, I've also garnered recognition for my teaching and service work at CU Boulder and elsewhere. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
   uri         : "http://www.anthonypinter.com"
   avatar      : images/members/anthonypinter.jpg
   facebook    : "ATPinter"
