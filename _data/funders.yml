@@ -18,3 +18,7 @@
 - name        : "Mozilla Foundation"
   uri         : "https://www.mozilla.org/en-US/foundation/"
   logo        : images/funders/mozilla_crop.png
+
+- name        : "Gill Foundation"
+  uri         : "https://gillfoundation.org"
+  logo        : images/funders/GillFoundation_logo.png
