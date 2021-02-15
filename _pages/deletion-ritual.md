@@ -9,7 +9,7 @@ images:
   - /images/projects/lc-lilac.jpg
 excerpt:
   TBC
-homepage: true
+homepage: false
 ---
 
 {% include note.html content="Interested in participating? Email Katie Gach ([catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu)) for more information!" %}
