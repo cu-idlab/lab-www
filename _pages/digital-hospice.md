@@ -20,6 +20,8 @@ Photo albums, personal communication, and mortgage statements have all moved onl
 
 By some estimates, the average internet user has over 190 accounts and produces over 850GB of data per year. Yet designers have little guidance on how to create systems that consider their users’ inevitable deaths. Likewise, users have little guidance surrounding technology when it comes to end-of- life planning.
 
+Our research team will be working with terminally ill patients and their families as they develop end-of-life plans. Based on this work, we will develop best practices and tools for people engaged in end-of-life planning, and create guidelines and frameworks for technologists to enable technology to support those plans.
+
 ### Terminal Patients + Families
 We aim to:
 * Serve patients and their families as they engage in end-of life planning.
@@ -41,8 +43,9 @@ multiple parties, forms of delegation, and long-timeframes that systems should a
 given human mortality; and
 4. connect research and education through curricular content that broadens students understanding of what counts as “human” in human-centered computing. -->
 
-## Stay up to date!
-Are you interested in getting your digital affairs in order? We're just getting started, so drop your email address below for project updates. We won't use your information for anything else and you can unsubscribe at any time.
+
+### Stay up to date!
+Are you interested learning more? Are you wanting to get your digital affairs in order? We're just getting started, so drop your email address below for project updates. We won't use your information for anything else and you can unsubscribe at any time.
 {% include dh-signup.html %}
 
 
