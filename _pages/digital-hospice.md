@@ -42,7 +42,7 @@ given human mortality; and
 4. connect research and education through curricular content that broadens students understanding of what counts as “human” in human-centered computing. -->
 
 ## Stay up to date!
-We’re just getting started, so drop your email address below for project updates. We won’t use your information for anything else and you can unsubscribe at any time.
+Are you interested in getting your digital affairs in order? We're just getting started, so drop your email address below for project updates. We won't use your information for anything else and you can unsubscribe at any time.
 {% include dh-signup.html %}
 
 
