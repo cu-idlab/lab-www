@@ -22,7 +22,12 @@ Photo albums, personal communication, and mortgage statements have all moved onl
 By some estimates, the average internet user has over 190 accounts and produces over 850GB of data per year. Yet designers have little guidance on how to create systems that consider their users’ inevitable deaths. Likewise, users have little guidance surrounding technology when it comes to end-of- life planning.
 
 # Our Goals
+
+
+<span class="[success alert secondary] [round radius] label">
 ### Terminal Patients + Families
+</span>
+
 * Serve patients and their families as they engage in end-of life planning.
 * Develop best practices and tools for end-of-life planning.
 * Create design frameworks for tech and mortality.
