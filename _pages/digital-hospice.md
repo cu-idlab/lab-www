@@ -14,8 +14,7 @@ homepage: true
 
 
 
-### “Getting your affairs in order” has never included a technology plan.
-#### Over the next 5 years, we aim to change that.
+### “Getting your affairs in order” has never included a technology plan. Over the next 5 years, we aim to change that.
 
 Photo albums, personal communication, and mortgage statements have all moved online, leaving online systems and platforms with an ongoing role in maintaining what historically were physical objects cared for by their owners.
 
@@ -43,6 +42,7 @@ given human mortality; and
 4. connect research and education through curricular content that broadens students understanding of what counts as “human” in human-centered computing. -->
 
 ## Stay up to date!
+We’re just getting started, so drop your email address below for project updates. We won’t use your information for anything else and you can unsubscribe at any time.
 {% include dh-signup.html %}
 
 
