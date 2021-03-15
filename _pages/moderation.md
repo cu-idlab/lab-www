@@ -9,7 +9,7 @@ images:
   - /images/projects/online-moderation.png
 excerpt:
   TBC
-homepage: true
+homepage: false
 ---
 
 Effective regulation is one of the most important factors that make online communities successful. While communities are certainly governed by platform policies such as user agreements and content policies, the majority of the moderation work is accomplished by volunteer moderators who enforce rules created by their own communities. In this project, we deeply investigate the moderation ecosystem of online communities&mdash;What are the existing rules? How are these rules created and enforced? How do the moderation teams work behind the scene? And how does the moderation ecosystem expand across multiple communities and platforms?
