@@ -30,4 +30,3 @@ given human mortality; and
 
 
 <!-- ### Publications -->
-<!-- {% bibliography --query @*[tags~=death-sns] %} -->

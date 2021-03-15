@@ -24,4 +24,3 @@ Currently we are focusing on:
 
 
 <!-- ### Publications -->
-<!-- {% bibliography --query @*[tags~=death-sns] %} -->
