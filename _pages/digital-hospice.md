@@ -22,13 +22,13 @@ By some estimates, the average internet user has over 190 accounts and produces 
 
 Our research team will be working with terminally ill patients and their families as they develop end-of-life plans. Based on this work, we will develop best practices and tools for people engaged in end-of-life planning, and create guidelines and frameworks for technologists to enable technology to support those plans.
 
-### {% include icon.html code="fas fa-users" %} Terminal Patients + Families
+{% include h.html h="3" code="fas fa-users" text="Terminal Patients + Families"%}
 We aim to:
 * Serve patients and their families as they engage in end-of life planning.
 * Develop best practices and tools for end-of-life planning.
 * Create design frameworks for tech and mortality.
 
-### Digital End-of-Life Clinic
+{% include h.html h="3" code="fas fa-info-circle" text="Digital End-of-Life Clinic"%} 
 We will:
 * Support for the public with digital end-of-life issues.
 *   Run public workshops (in collaboration with Boulder Library archivists).
