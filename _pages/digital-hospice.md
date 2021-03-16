@@ -47,7 +47,7 @@ given human mortality; and
 ### Stay up to date!
 Are you interested learning more? Are you wanting to get your digital affairs in order? We're just getting started, so sign up for project updates. We won't use your information for anything else and you can unsubscribe at any time.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdyPhX1Tjfo9fEqNL05c5ORSmJrqmAreMipqFMVzxlSL8nigQ/viewform?usp=sf_link" target="_blank" class="button secondary">Sign up!</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdyPhX1Tjfo9fEqNL05c5ORSmJrqmAreMipqFMVzxlSL8nigQ/viewform?usp=sf_link" target="_blank" class="button secondary"><i class="fi-mail"></i> Sign up!</a>
 
 
 <!-- ### Publications -->
