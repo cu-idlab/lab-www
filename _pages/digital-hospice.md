@@ -22,7 +22,7 @@ By some estimates, the average internet user has over 190 accounts and produces 
 
 Our research team will be working with terminally ill patients and their families as they develop end-of-life plans. Based on this work, we will develop best practices and tools for people engaged in end-of-life planning, and create guidelines and frameworks for technologists to enable technology to support those plans.
 
-### Terminal Patients + Families
+### {% include icon.html code="fas fa-users" %} Terminal Patients + Families
 We aim to:
 * Serve patients and their families as they engage in end-of life planning.
 * Develop best practices and tools for end-of-life planning.
@@ -47,7 +47,7 @@ given human mortality; and
 ### Stay up to date!
 Are you interested learning more? Are you wanting to get your digital affairs in order? We're just getting started, so sign up for project updates. We won't use your information for anything else and you can unsubscribe at any time.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdyPhX1Tjfo9fEqNL05c5ORSmJrqmAreMipqFMVzxlSL8nigQ/viewform?usp=sf_link" target="_blank" class="button secondary"><i class="fi-mail"></i> Sign up!</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdyPhX1Tjfo9fEqNL05c5ORSmJrqmAreMipqFMVzxlSL8nigQ/viewform?usp=sf_link" target="_blank" class="button secondary"><i class="far fa-envelope"></i> Sign up!</a>
 
 
 <!-- ### Publications -->
