@@ -5,8 +5,8 @@ before_install:
 install:
 - pip install pandas
 before_script:
-  - bundle install --deployment
-  - chmod +x ./script/cibuild
+- bundle install --retry 3
+- chmod +x ./script/cibuild
 script:         "./script/cibuild"
 after_success:  bundle exec travis-custom-deploy sftp _site/idlab/
 env:
