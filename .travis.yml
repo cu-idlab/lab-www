@@ -1,12 +1,11 @@
 language:       python
-python:
-- 3.9
 before_install:
 - rvm get stable --auto-dotfiles
 - rvm install 2.5.0
 install:
 - pip install pandas
 before_script:
+  - bundle install --deployment
   - chmod +x ./script/cibuild
 script:         "./script/cibuild"
 after_success:  bundle exec travis-custom-deploy sftp _site/idlab/
