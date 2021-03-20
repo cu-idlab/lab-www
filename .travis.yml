@@ -4,8 +4,7 @@ cache:
 - bundler
 - directories:  /home/travis/.rvm/
 before_install:
-- rvm get stable --auto-dotfiles
-- rvm install 2.5.0
+- rvm default
 install:
 - pip install pandas
 before_script:
