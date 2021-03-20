@@ -1,17 +1,21 @@
-language:       python
+language:
+- python
 cache:
 - pip
 - bundler
 - directories:  /home/travis/.rvm/
 before_install:
-- rvm default
+- rvm get stable --auto-dotfiles
+- rvm install 2.5.0
 install:
 - pip install pandas
 before_script:
 - bundle install --retry 3
 - chmod +x ./script/cibuild
-script:         "./script/cibuild"
-after_success:  bundle exec travis-custom-deploy sftp _site/idlab/
+script:
+- "./script/cibuild"
+after_success:
+- bundle exec travis-custom-deploy sftp _site/idlab/
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
