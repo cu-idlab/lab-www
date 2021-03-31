@@ -24,11 +24,13 @@ $.getJSON('dhLit_data.json', function(data) {
 </script>
 <script>
     function createTableFromJSON(data) {
-      
+
+        dataLength = Object.keys(data).length;
+
         // Container variable
         var col = [];
         // Loop through data and add to container
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < dataLength; i++) {
             for (var key in data[i]) {
                 if (col.indexOf(key) === -1) {
                     col.push(key);
@@ -49,7 +51,7 @@ $.getJSON('dhLit_data.json', function(data) {
         }
 
         // ADD JSON DATA TO THE TABLE AS ROWS.
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < dataLength; i++) {
 
             tr = table.insertRow(-1);
 
