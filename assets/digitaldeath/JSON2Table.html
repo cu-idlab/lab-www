@@ -5,14 +5,29 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>
-$.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json', function(data) {
+
+// Code for local development
+var jsonData;
+$.getJSON('dhLit_data.json', function(data) {
     // JSON result in `data` variable
+    jsonData = data;
 });
-        // EXTRACT VALUE FOR HTML HEADER. 
-</script>  
-<script>     
-    function CreateTableFromJSON(data) {
+
+// Code for production
+// $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json', function(data) {
+//     // JSON result in `data` variable
+//     jsonData = data;
+// });
+
+
+// EXTRACT VALUE FOR HTML HEADER.
+</script>
+<script>
+    function createTableFromJSON(data) {
+      
+        // Container variable
         var col = [];
+        // Loop through data and add to container
         for (var i = 0; i < data.length; i++) {
             for (var key in data[i]) {
                 if (col.indexOf(key) === -1) {
@@ -25,7 +40,6 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
         var table = document.createElement("table");
 
         // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
         var tr = table.insertRow(-1);                   // TABLE ROW.
 
         for (var i = 0; i < col.length; i++) {
@@ -52,7 +66,7 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
     };
 </script>
 <body>
-    <input type="button" onclick="CreateTableFromJSON()" value="Create Table From JSON" />
+    <input type="button" onclick="createTableFromJSON(jsonData)" value="Create Table From JSON" />
     <p id="showData"></p>
 </body>
 </html>
