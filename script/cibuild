@@ -5,6 +5,7 @@ set -e # halt script on error
 # Python Scripts
 cd assets/digitaldeath
 python ./csvtojsonscript.py
+python ./yearsScript.py
 cd ../../
 
 # Jekyll Build
