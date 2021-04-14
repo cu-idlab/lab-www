@@ -32,6 +32,7 @@ font-weight: bold;
 </head>
 <svg width="1000" height="500"></svg>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="https://d3js.org/d3.v6.js"></script>
 
@@ -78,7 +79,6 @@ const svg     = d3.select("svg"),
 
 
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>
 
 // Code for local development
@@ -115,6 +115,7 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
 
         // CREATE DYNAMIC TABLE.
         var table = document.createElement("table");
+				table.setAttribute("id", "dataTable");
 
         // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
         var tr = table.insertRow(-1);                   // TABLE ROW.
@@ -140,289 +141,14 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
         var divContainer = document.getElementById("showData");
         divContainer.innerHTML = "";
         divContainer.appendChild(table);
-				$('.showData').dataTable();
+				$('dataTable').dataTable();
     };
 </script>
 <body>
     <input type="button" onclick="createTableFromJSON(jsonData)" value="Create Table From JSON" />
-    <!-- <p id="showData"></p> -->
-</body>
+    <p id="showData"></p>
 
-</div>
-	<div class ="container mb-3 mt-3">
-		<table class="table table-striped table-bordered showData" style="width: 100%" id="showData">
 
-  <thead>
-    <tr>
-      <th>Year
-      </th>
-      <th class="th-sm">Author
-      </th>
-      <th class="th-sm">Title
-      </th>
-      <th class="th-sm">Proceedings Title
-      </th>
-      <th class="th-sm">Item Type
-      </th>
-      <th class="th-sm">URL
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2017</td>
-      <td>Katie Z. Gach, Casey Feisler, Jed R. Brubaker</td>
-      <td>Control your emotions, Potter: An Analysis of Grief Policing on Facebook in Response to Celebrity Death</td>
-      <td>Proceedings of the ACM on Human-Computer Interaction</td>
-      <td>Journal Article</td>
-      <td><form action="https://dl.acm.org/doi/10.1145/3134682">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>Michael Massimi, Ronald M. Baecker</td>
-      <td>A Death in the Family: Opportunities for Designing Technologies for the Bereaved</td>
-      <td>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1753326.1753600">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Muhammad Aurangzeb Ahmad</td>
-      <td>After Death: Big Data and the Promise of Resurrection by Proxy</td>
-      <td>Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2851581.2892591">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>Wendy Moncur</td>
-      <td>An Emergent Framework for Digital Memorials</td>
-      <td>Proceedings of the 2014 Conference on Designing Interactive Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2598510.2598516">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>Michael Massimi, Ronald M. Baecker</td>
-      <td>Dealing with Death in Design: Developing Systems for the Bereaved</td>
-      <td>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1978942.1979092">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>Michael Massimi, Svetlana Yarosh, Madeline E. Smith, Joseph Jofish Kaye</td>
-      <td>Designing Technology for Major Life Events</td>
-      <td>CHI '14 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2559206.2559235">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2017</td>
-      <td>Rebecca Gulotta, Aisling Kelliher, Jodi Forlizzi</td>
-      <td>Digital Systems and the Experience of Legacy</td>
-      <td>Proceedings of the 2017 Conference on Designing Interactive Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/3064663.3064731">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2009</td>
-      <td>Michaele Massimi, Andrea Charise</td>
-      <td>Dying, Death, and Mortality: Towards Thanatosensitivity in HCI</td>
-      <td>CHI '09 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1520340.1520349">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Rebecca Gullota, David B. Gerritsen, Aisling Kelliher, Jodi Forlizzi</td>
-      <td>Engaging with Death Online: An Analysis of Systems That Support Legacy-Making, Bereavement, and Remembrance</td>
-      <td>Proceedings of the 2016 ACM Conference on Designing Interactive Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2901790.2901802">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2020</td>
-      <td>Katie Z. Gach, Jed R. Brubaker</td>
-      <td>Experiences of Trust in Postmortem Profile Management</td>
-      <td>ACM Transactions on Social Computing</td>
-      <td>Journal Article</td>
-      <td><form action="https://dl.acm.org/doi/10.1145/3365525">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>Michael Massimi, Jill P. Dimond, Christopher A. Le Dantec</td>
-      <td>Finding a New Normal: The Role of Technology in Life Disruptions</td>
-      <td>Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2145204.2145314">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2020</td>
-      <td>Jayne Wallace, Will Odom, Kyle Montague, Nantia Koulidou, Corina Sas, Kellie Morrissey, Patrick Olivier</td>
-      <td>HCI at End of Life & Beyond</td>
-      <td>Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/3334480.3375143">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>Michael Massimi, Will Odom, David Kirk, Richard Banks</td>
-      <td>HCI at the End of Life: Understanding Death, Dying, and the Digital</td>
-      <td>CHI '10 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1753846.1754178">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>Emily Getty, Jessica Cobb, Meryl Gabeler, Christine Nelson, Ellis Weng, Jeffrey Hancock</td>
-      <td>I Said Your Name in an Empty Room: Grieving and Continuing Bonds on Facebook</td>
-      <td>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1978942.1979091">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td>Brian C. Keegan, Jed R. Brubaker</td>
-      <td>'Is' to 'Was': Coordination and Commemoration in Posthumous Activity on Wikipedia Biographies</td>
-      <td>Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work; Social Computing</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2675133.2675238">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Jed R. Brubaker, Vanessa Callison-Burch</td>
-      <td>Legacy Contact: Designing and Implementing Post-Mortem Stewardship at Facebook</td>
-      <td>Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2858036.2858254">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Victor Kaptelinin</td>
-      <td>Making the Case for an Existential Perspective in HCI Research on Mortality and Death</td>
-      <td>Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2851581.2892585">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>Michael Massimi, Wendy Moncur, William Odom, Richard Banks, David Kirk</td>
-      <td>Memento Mori: Technology Design for the End of Life</td>
-      <td>CHI '12 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2212776.2212714">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Sue Jamison-Powell, Pam Briggs, Shaun Lawson, Conor Linehan, Karen Windle, Harreit Gross</td>
-      <td>"PS. I Love You": Understanding the Impact of Posthumous Digital Messages</td>
-      <td>Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2858036.2858504">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2020</td>
-      <td>Jayne Wallace, Kyle Montague, Trevor Duncan, Luis P. Carvalho, Nantia Koulidou, Jamie Mahoney, Kellie Morrissey, Claire Craig, Linnea Iris Groot, Shaun Lawson, Patrick Olivier, Julie Trueman, Helen Fisher</td>
-      <td>ReFind: Design, Lived Experience and Ongoingness in Bereavement</td>
-      <td>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/3313831.3376531">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>Michael E. Locasto, Michael Massimi, Peter J. Depasquale</td>
-      <td>Security and Privacy Considerations in Digital Death</td>
-      <td>Proceedings of the 2011 New Security Paradigms Workshop</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2073276.2073278">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>Jed R. Brubaker, Lynn S. Dombrowski, Anita M. Gilbert, Nafiri Kusumakaulika, Gillian R. Hayes</td>
-      <td>Stewarding a Legacy: Responsibilities and Relationships in the Management of Post-Mortem Data</td>
-      <td>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2556288.2557059">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>Michael Massimi</td>
-      <td>Thanatosensitively Designed Technologies for Bereavement Support</td>
-      <td>CHI '10 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1753846.1753893">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td>Jed R. Brubaker</td>
-      <td>The Afterlife of Digital Identity</td>
-      <td>CHI '14 Extended Abstracts on Human Factors in Computing Systems</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2559206.2559964">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>Jed R. Brubaker</td>
-      <td>The Afterlife of Identity</td>
-      <td>Proceedings of the 2013 Conference on Computer Supported Cooperative Work Companion</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/2441955.2441967">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>Jed R. Brubaker, Gillian R. Hayes</td>
-      <td>"We Will Never Forget You [Online]": An Empirical Investigation of Post-Mortem Myspace Comments</td>
-      <td>Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work</td>
-      <td>Conference Paper</td>
-      <td><form action="https://doi.org/10.1145/1958824.1958843">
-    <input type="submit" value="Read" /></form></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th>Year
-      </th>
-      <th>Author
-      </th>
-      <th>Title
-      </th>
-      <th>Proceedings Title
-      </th>
-      <th>Item Type
-      </th>
-      <th>URL
-      </th>
-    </tr>
-  </tfoot>
-</table>
-
-	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -431,6 +157,5 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
 
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-    <script>
-    	$('.showData').dataTable();
-    </script>
+</body>
+</html>
