@@ -94,7 +94,7 @@ function createYearChart(years) {
 $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json', function(data) {
 //     // JSON result in `data` variable
      jsonData = data;
- });
+});
 
 
 // EXTRACT VALUE FOR HTML HEADER.
@@ -143,7 +143,7 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
         var divContainer = document.getElementById("showData");
         divContainer.innerHTML = "";
         divContainer.appendChild(table);
-				$('dataTable').dataTable();
+				$('#dataTable').dataTable();
     };
 </script>
 <body>
