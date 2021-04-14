@@ -120,12 +120,13 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json',
 				table.setAttribute("id", "dataTable");
 
         // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-        var tr = table.insertRow(-1);                   // TABLE ROW.
+        // TABLE ROW.
+				var header = table.createTHead();
+				var tr = header.insertRow(0);
 
         for (var i = 0; i < col.length; i++) {
-            var th = document.createElement("th");      // TABLE HEADER.
-            th.innerHTML = col[i];
-            tr.appendChild(th);
+            cell = tr.insertCell(0);      // TABLE HEADER.
+            cell.innerHTML = col[i];
         }
 
         // ADD JSON DATA TO THE TABLE AS ROWS.
