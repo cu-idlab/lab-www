@@ -45,34 +45,16 @@ new.to_csv("cleanedUp.csv",encoding='utf-8')
 import csv
 import json
  
-def make_json(csvFilePath, jsonFilePath):
-     
-    # create a dictionary
-    data = {}
-     
-    # Open a csv reader called DictReader
-    with open(csvFilePath, encoding='utf-8') as csvf:
-        csvReader = csv.DictReader(csvf)
-         
-        # Convert each row into a dictionary 
-        for rows in csvReader:
-             
-            # I chose the title column because the keys will always be unique, unless we have repeat entries
-            # be the primary key
-            key = rows['']
-            data[key] = rows
- 
-    # Open a json writer, and use the json.dumps() function to dump data
-    with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
-        jsonf.write(json.dumps(data, indent=4))
-         
-# Driver Code
- 
-# Decide the two file paths according to your 
-# computer system
-csvFilePath = r'cleanedUp.csv'
-jsonFilePath = r'dhLit_data.json'
- 
-# Call the make_json function
-make_json("cleanedUp.csv", "dhLit_data.json")
+c = pd.read_csv("cleanedUp.csv")
+strings = []
+for i in c["Publication Year"]:
+    if(type(i)==int):
+        i = str(i)
+    strings.append(i)
+c["Publication Year"] = strings
+c = c.drop("Unnamed: 0",axis=1)
+listOfDFRows = c.to_numpy().tolist()
+dataDict = {"data": listOfDFRows}
+with open("dhLit_data.json", 'w', encoding='utf-8') as jsonf:
+        jsonf.write(json.dumps(dataDict, indent=4))
 # The file titled `dhLit_data.json` is used to construct the Digital Hospice Reading List table on the Identity Lab website.
