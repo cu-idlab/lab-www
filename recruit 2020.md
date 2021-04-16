@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: "/recruit/"
+permalink: "/recruit-2020/"
 title:  'Graduate Positions for 2020'
 category: page
 images:

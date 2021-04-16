@@ -34,11 +34,11 @@ years
 - in possession of a copy of the Facebook account holder’s death certificate
 
 ### What Would We Do?
-If you agree to be in the study, you will participate in 3 separate interactions conducted remotely on a platform of your choice (Zoom, FaceTime, Google Meet, etc.). Together, you and Katie will
+If you agree to be in the study, you will participate in 3 separate interactions conducted remotely on a platform of your choice (Zoom, FaceTime, Google Meet, etc.). Together, you and Katie will:
 
-plan a meaningful ritual to complete the deletion (or memorialization) of your loved one’s Facebook account
-enact the deletion ritual, with others you may wish to invite*
-have a reflection interview to process the ritual experience
+- plan a meaningful ritual to complete the deletion (or memorialization) of your loved one’s Facebook account
+- enact the deletion ritual, with others you may wish to invite
+- have a reflection interview to process the ritual experience
 
 ### What Data Is Being Collected?
 The sessions will be recorded and then transcribed so that Katie can better remember what you have said. Katie will also be taking notes of your perspective, actions, and experiences throughout each part. Every effort will be made to keep your personal information confidential: all written records will be scrubbed of identifiable information like names, locations, or specific dates/events. All data will be kept in password-protected, encrypted files in locked offices. We will not require you to provide us with your full or real name or other personally identifying information.
