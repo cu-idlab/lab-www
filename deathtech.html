@@ -1,0 +1,59 @@
+---
+layout: default
+title: About
+section_id: about
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h1>Death Tech</h1>
+    </div>
+
+    <script>
+    // This code used for development.
+    local = "";
+    // local = "https://cmci.colorado.edu/idlab/assets/digitaldeath/""
+
+
+    $(document).ready(function() {
+        $('#litTable').DataTable( {
+            "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
+        } );
+    } );
+    </script>
+
+
+		<table id="litTable" class="display" style="width:100%">
+    		        <thead>
+    								<tr>
+    									<th>Year
+    									</th>
+    									<th class="th-sm">Author
+    									</th>
+    									<th class="th-sm">Title
+    									</th>
+    									<th class="th-sm">Proceedings Title
+    									</th>
+    									<th class="th-sm">Item Type
+    									</th>
+    									<th class="th-sm">URL
+    									</th>
+    								</tr>
+    		        </thead>
+    		    </table>
+  </div>
+</div>
+
+
+
+
+<!-- FUTURE SUPPORT SECTION
+We are affiliated with the following organizations...
+- MAL
+
+We are incredibly grateful for support from the following organizations and funding programs:
+- Facebook
+- Mozilla
+-->
+<div class='three spacing'></div>
