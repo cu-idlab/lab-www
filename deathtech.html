@@ -1,8 +1,23 @@
 ---
-layout: littable
+layout: default
 title: Death Tech
 section_id: deathtech
 ---
+
+<!-- Lit specific additions -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+  $('#litTable').DataTable( {
+  "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
+  } );
+  } );
+</script>
+
 
 <div class='full'>
   <div class='row'>
@@ -10,13 +25,9 @@ section_id: deathtech
       <h1>Death Tech</h1>
     </div>
 
-    <script>
-      $(document).ready(function() {
-      $('#litTable').DataTable( {
-      "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
-      } );
-      } );
-    </script>
+
+
+
 
 		<table id="litTable" class="display" style="width:100%">
 		  <thead>
