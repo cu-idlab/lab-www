@@ -12,41 +12,33 @@ section_id: deathtech
 
 <script>
   $(document).ready(function() {
-  $('#litTable').DataTable( {
-  "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
-  } );
-  } );
+    $('#litTable').DataTable({
+      "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
+    });
+  });
 </script>
 
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
-      <h1>Death Tech</h1>
-    </div>
-
-
-
-
-
-		<table id="litTable" class="display" style="width:100%">
-		  <thead>
-		    <tr>
-		      <th>Year
-		      </th>
-		      <th class="th-sm">Author
-		      </th>
-		      <th class="th-sm">Title
-		      </th>
-		      <th class="th-sm">Proceedings Title
-		      </th>
-		      <th class="th-sm">Item Type
-		      </th>
-		      <th class="th-sm">URL
-		      </th>
-		    </tr>
-		  </thead>
-		</table>
+    <table id="litTable" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Year
+          </th>
+          <th class="th-sm">Author
+          </th>
+          <th class="th-sm">Title
+          </th>
+          <th class="th-sm">Proceedings Title
+          </th>
+          <th class="th-sm">Item Type
+          </th>
+          <th class="th-sm">URL
+          </th>
+        </tr>
+      </thead>
+    </table>
   </div>
 </div>
 
