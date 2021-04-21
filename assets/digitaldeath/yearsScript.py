@@ -13,4 +13,4 @@ for y in range(2008,2021):
 import json
 jsonStr = json.dumps(dictList)
 with open('years.json', 'w') as json_file:
-    json.dump(jsonStr, json_file)
+    json_file.write(json.dumps(dictList))
