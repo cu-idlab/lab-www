@@ -53,8 +53,8 @@ for i in c["Publication Year"]:
     strings.append(i)
 c["Publication Year"] = strings
 c = c.drop("Unnamed: 0",axis=1)
-listOfDFRows = c.to_numpy().tolist()
-dataDict = {"data": listOfDFRows}
+d = c.to_dict('records')
+dataDict = {"data": d}
 with open("dhLit_data.json", 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(dataDict, indent=4))
 # The file titled `dhLit_data.json` is used to construct the Digital Hospice Reading List table on the Identity Lab website.
