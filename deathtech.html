@@ -14,8 +14,31 @@ section_id: deathtech
   $(document).ready(function() {
         $('#litTable').DataTable({
           "ajax": 'https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json'
-        });
+          columns: [
+            {
+                data: 'Publication Year'
+            },
+            {
+                data: 'Author'
+            },
+            {
+                data: 'Title'
+            },
+            {
+                data: 'Publication Title'
+            },
+            {
+                data: 'Link',
+                render: function ( data ) {
+                        return '<a href="'+data+'"><span class="fas fa-link"></span></a>';
+                      }
+            },
+            {
+                data: 'Type'
+            }
+          ]
       });
+  });
 </script>
 
 <!-- Lets get the URL to look like this:
