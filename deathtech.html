@@ -62,8 +62,8 @@ var svg     = d3.select("svg"),
 
 var data = years;
 
-  x.domain(data.map(d => d.year));
-  y.domain([0, d3.max(data, d => d.count)]);
+  x.domain(years.map(d => d.year));
+  y.domain([0, d3.max(years, d => d.count)]);
 
   g.append("g")
       .attr("class", "axis axis-x")
