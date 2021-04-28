@@ -51,16 +51,16 @@ $.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/years.json', func
 
 // years = [{"year": 2008, "count": "0"}, {"year": 2009, "count": "1"}, {"year": 2010, "count": "3"}, {"year": 2011, "count": "4"}, {"year": 2012, "count": "2"}, {"year": 2013, "count": "1"}, {"year": 2014, "count": "4"}, {"year": 2015, "count": "1"}, {"year": 2016, "count": "5"}, {"year": 2017, "count": "2"}, {"year": 2018, "count": "0"}, {"year": 2019, "count": "0"}, {"year": 2020, "count": "3"}]
 
-svg     = d3.select("svg"),
-margin  = {top: 20, right: 20, bottom: 20, left: 20}, // these need to be above 50 or so to show axis labels
-width   = +svg.attr("width")  - margin.left - margin.right,
-height  = +svg.attr("height") - margin.top  - margin.bottom,
-x       = d3.scaleBand().rangeRound([0, width]).padding(0.2),
-y       = d3.scaleLinear().rangeRound([height, 0]),
-g       = svg.append("g")
-             .attr("transform", `translate(${margin.left},${margin.top})`);
+var svg     = d3.select("svg"),
+    margin  = {top: 20, right: 20, bottom: 20, left: 20}, // these need to be above 50 or so to show axis labels
+    width   = +svg.attr("width")  - margin.left - margin.right,
+    height  = +svg.attr("height") - margin.top  - margin.bottom,
+    x       = d3.scaleBand().rangeRound([0, width]).padding(0.2),
+    y       = d3.scaleLinear().rangeRound([height, 0]),
+    g       = svg.append("g")
+                 .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  data = years;
+var data = years;
 
   x.domain(data.map(d => d.year));
   y.domain([0, d3.max(data, d => d.count)]);
