@@ -24,3 +24,9 @@ To mitigate the potential risks of these types of technological methods, we are 
 
 ### Blog
 [How We've Taught Algorithms to See Identity](https://medium.com/@morganklausscheuerman/how-weve-taught-algorithms-to-see-identity-a34e2b731dcc)
+[Break-ups Suck. They Could Suck Less.](https://medium.com/acm-cscw/breakups-suck-they-could-suck-less-6122aee9465f)
+
+### Press
+[Even after blocking an ex on Facebook, the platform promotes painful reminders](https://theconversation.com/even-after-blocking-an-ex-on-facebook-the-platform-promotes-painful-reminders-132240)
+[How social media makes breakups that much worse](https://www.colorado.edu/today/2020/02/13/how-social-media-makes-breakups-much-worse)
+[The Problem With Putting Social Media in Charge of Our Memories](https://onezero.medium.com/welcome-back-to-your-past-d67fc8e6caa9)
