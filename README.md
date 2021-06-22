@@ -1,10 +1,10 @@
 # Identity Lab
 
-[![Build Status](https://travis-ci.org/cu-idlab/lab-www.svg?branch=prod)](https://travis-ci.org/cu-idlab/lab-www)
+[![Build Status](https://travis-ci.com/cu-idlab/lab-www.svg?branch=prod)](https://travis-ci.com/cu-idlab/lab-www)
 
 ## Introduction
 
-This is the Identity Lab website GitHub repository. 
+This is the Identity Lab website GitHub repository.
 
 The IDLab website is built on the static site generator [Jekyll](https://jekyllrb.com/), with a custom template. New commits to this repository are automatically deployed to the CMCI web server using [Travis](https://travis-ci.org). The icon above indicates the current Travis build status, and you can see detailed build information by clicking on the icon.
 
@@ -66,9 +66,8 @@ In rare occasions, you may need to update the webpage layouts to make things wor
 
 Most of the time you won't need to care about this, but in case the need arises...
 
-The best debugging practice is to try to build the website on your local machine, and only commit it to the repo if everything works fine. This shouldn't be a problem if you are only updating news or pubs, but could be if you are making more complex changes. 
+The best debugging practice is to try to build the website on your local machine, and only commit it to the repo if everything works fine. This shouldn't be a problem if you are only updating news or pubs, but could be if you are making more complex changes.
 
-To build the site on your own machine, you first need to install Ruby. It is good practice to build in the same environment as production. Jekyll is built on top of Ruby. Our Travis build environment runs Ruby 2.5.0 (which is the lowest possible version for Jekyll to run), so ideally you will want that on your own machine too. To manage Ruby environments, [rbenv](https://github.com/rbenv/rbenv) is a good choice. You might be tempted to have it run on a more recent Ruby version, but experience has told the first-gen webmaster that it's likely a terrible idea and things are probably going to break. 
+To build the site on your own machine, you first need to install Ruby. It is good practice to build in the same environment as production. Jekyll is built on top of Ruby. Our Travis build environment runs Ruby 2.5.0 (which is the lowest possible version for Jekyll to run), so ideally you will want that on your own machine too. To manage Ruby environments, [rbenv](https://github.com/rbenv/rbenv) is a good choice. You might be tempted to have it run on a more recent Ruby version, but experience has told the first-gen webmaster that it's likely a terrible idea and things are probably going to break.
 
 Once you have Ruby setup, follow the instructions [here](https://jekyllrb.com/docs/installation/) to build and serve the website on your local machine.
-
