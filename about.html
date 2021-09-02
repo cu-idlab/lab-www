@@ -250,7 +250,8 @@ section_id: about
         <ul style="list-style: none; margin-left: 0rem;">
           {% for member in site.data.alum %}
             <li>
-              {{member.name}} ({{member.program}})
+              <!-- {{member.name}} ({{member.program}}) -->
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}}
             </li>
           {% endfor %}
         </ul>
