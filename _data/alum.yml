@@ -12,21 +12,24 @@
 #   facebook    : "TBC"
 #   twitter     : "TBC"
 
-- name        : "Katie Gach, Ph.D. (2021)"
+- name        : "Katie Gach"
   degree      : "Ph.D. in "
   program     : "Technology, Media, & Society (ATLAS),"
+  year        : "2021"
   avatar      : images/members/gach-bio.jpg
   twitter     : "kzgach"
 
-- name        : "Aaron Jiang, Ph.D. (2020)"
+- name        : "Aaron Jiang"
   degree      : "Ph.D. in "
   program     : "Information Science,"
+  year        : "2020"
   avatar      : images/members/aaron_jiang_bio.jpg
   twitter     : "aaroniidx"
 
-- name        : "Blake Hallinan, Ph.D. (2019)"
+- name        : "Blake Hallinan"
   degree      : "Ph.D. in "
   program     : "Communication,"
+  year        : "2019"
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
 
