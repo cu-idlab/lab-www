@@ -88,3 +88,12 @@
   uri        : "dylanthomasdoyle.com"
   avatar     : images/members/dylandoyle.jpg
   twitter    : "dylantdoyle"
+
+- name       : "Casey Paul"
+  position   : "BAM Student"
+  program    : "Information Science"
+  email      : "casey.paul@colorado.edu"
+  bio        : "I’m a senior at the University of Colorado Boulder studying Information Science with a minor in Creative Technology and Design. I am also earning my master’s degree in Information Science concurrently with my bachelors degree through a Bachelor’s Accelerated Masters program. My research has consisted of understanding the needs and preferences of data and online platforms for deceased users, and how the bereaved needs can be met. Outside of this work I enjoy sports photography, reading, skiing, and doing puzzles."
+  #uri        : "dylanthomasdoyle.com"
+  avatar     : images/members/caseypaul.jpg
+  #twitter    : "dylantdoyle"
