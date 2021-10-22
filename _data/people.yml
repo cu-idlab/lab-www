@@ -78,7 +78,9 @@
   program     : "Information Science"
   email       : "katy.weathington@colorado.edu"
   bio         : "Katy Weathington is a second year PhD student at University of Colorado Boulder's Department of Information Science. Her research centers on how data about marginalized people, primarily those with queer identites, gets made and implemented. She is co-advised by Brian Keegan"
-  avatar      : images/members/katy_bio.png
+  uri         : "http://katyweathington.com/"
+  twitter     : "https://twitter.com/katyweathington"
+  avatar      : images/members/katy_bio.jpg
 
 - name       : "Dylan Thomas Doyle"
   position   : "Ph.D. Student"
