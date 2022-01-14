@@ -3,9 +3,9 @@ layout: project
 permalink: "/researcher-wellbeing-workshop/"
 title:  'CHI 2022 Workshop on Researcher Wellbeing'
 category: page
-# images:
-#   - /images/recruit-begin.jpg
-# image: /images/recruit-begin.jpg
+images:
+  - /images/chi2022-workshop.jpeg
+image: /images/chi2022-workshop.jpeg
 
 excerpt:
 homepage: false
