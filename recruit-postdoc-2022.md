@@ -21,7 +21,7 @@ To better serve these people, The Identity Lab is currently seeking applications
 The ideal candidate would have experience and interest in participatory design, action research, and HCI research for older populations, populations at the end of life, and the social networks that support them.
 
 We are looking for someone with the following profile:
-* A completed PhD or doctoral degree with a research background in human-computer interaction, social computing, information science, technology and society, or a related field.
+* A completed Ph.D. or doctoral degree with a research background in human-computer interaction, social computing, information science, technology and society, or a related field.
 * Strong research focus aimed at addressing the needs of (1) older populations, (2) individuals living with dementia and their care partners and caregivers, (3) people at the end-of-life (at various ages), and (4) the bereaved. Prior research experience in these areas is not required but strongly preferred.
 * Experience with research and design methods relevant for the planned research projects, including participatory design, action research, community-based research, as well as qualitative data collection and analysis methods. Experience with prototyping, user testing, and field studies would also be beneficial.
 
@@ -39,6 +39,6 @@ The advanced planning project is focused on developing strategies and design imp
 
 The caregiver support project is a multi-institutional NIH-funded project that includes people from John Hopkins, UC Anschutz, Weill-Cornell Medical Center, Harvard Medical School/Open Notes, and CU Boulder. The postdoc would be a member of a larger interdisciplinary team looking to better serve caregivers and care partners. They would serve as an HCI and participatory design expert, bringing HCI methods to support larger team goals. As a result, there will be opportunities to publish in both SIGCHI and more medically-focused venues. Additionally, this project can support opportunities for the post-doc to develop and pursue related lines of inquiry that would contribute to the broader objectives of the grant.
 
-Due to funding restrictions, candidates must be U.S. citizens or permennant residents. The start date for the position is July 2022, unless otherwise agreed.
+Due to funding restrictions, candidates must be U.S. citizens or permanent residents. The start date for the position is July 2022, but can be flexible for the right candidate.
 
-Please contact Prof. Jed Brubaker (jed.brubaker@colorado.edu) with any additional questions or to apply. Applications should include a CV, a cover letter related to candidate interests in this project, and contact information for three references.
+You are encouraged to contact Prof. Jed Brubaker (jed.brubaker@colorado.edu) with questions. You can learn more about the position and apply at [CU Boulder Jobs](https://jobs.colorado.edu/jobs/JobDetail/?jobId=37162). Applications should include a CV, a cover letter describing your interests in these projects and career path, and contact information for references.
