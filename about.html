@@ -245,6 +245,17 @@ section_id: about
   <div class='large-12 columns'>
     <h3>Lab Alumni</h3>
     <!-- <div class='spacing'></div> -->
+    <h4>Postdoctoral Members</h4>
+      <p>
+        <ul style="list-style: none; margin-left: 0rem;">
+          {% for member in site.data.alum-postdocs %}
+            <li>
+              <!-- {{member.name}} ({{member.program}}) -->
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}}
+            </li>
+          {% endfor %}
+        </ul>
+      </p>
     <h4>Graduate Members</h4>
       <p>
         <ul style="list-style: none; margin-left: 0rem;">
