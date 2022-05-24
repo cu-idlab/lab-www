@@ -32,13 +32,14 @@
   twitter     : "drmichaelann"
 
 - name        : "Anthony Pinter"
-  position    : "Ph.D. Candidate"
-  program     : "Information Science"
+  position    : "Teaching Assistant Professor"
+  program     : "ATLAS Institute"
   email       : "anthony.pinter@colorado.edu"
-  bio         : "I am a PhD Candidate in Information Science. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. In addition to my research, I've also garnered recognition for my teaching and service work at CU Boulder and elsewhere. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
+  # bio         : "I am a PhD Candidate in Information Science. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. In addition to my research, I've also garnered recognition for my teaching and service work at CU Boulder and elsewhere. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
+  bio         : "I am a Teaching Assistant Professor in the ATLAS Institute. I completed my Ph.D. in Information Science at CU Boulder in 2022. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
   uri         : "http://www.anthonypinter.com"
   avatar      : images/members/anthonypinter.jpg
-  facebook    : "ATPinter"
+  # facebook    : "ATPinter"
   instagram   : "https://www.instagram.com/anthonypinter/"
 
 - name        : "Morgan Klaus Scheuerman"
