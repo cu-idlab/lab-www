@@ -18,6 +18,7 @@
   year        : "2021"
   avatar      : images/members/gach-bio.jpg
   twitter     : "kzgach"
+  position    : "Researcher at Meta"
 
 - name        : "Aaron Jiang"
   degree      : "Ph.D. in "
@@ -25,6 +26,7 @@
   year        : "2020"
   avatar      : images/members/aaron_jiang_bio.jpg
   twitter     : "aaroniidx"
+  position    : "Researcher at Meta"
 
 - name        : "Blake Hallinan"
   degree      : "Ph.D. in "
@@ -32,6 +34,7 @@
   year        : "2019"
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
+  position    : "Lecturer at Hebrew University of Jerusalem"
 
 - name        : "Ethan Hanner"
   program     : "Computer Science"

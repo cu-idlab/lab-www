@@ -40,6 +40,7 @@ section_id: about
   </div>
 </div>
 
+<!-- PEOPLE TILES -->
 {% for member in site.data.people %}
   {% cycle "<div class='row'>", "", "", "" %}
     <div class='small-6 medium-3 large-3 columns'>
@@ -251,7 +252,7 @@ section_id: about
           {% for member in site.data.alum-postdocs %}
             <li>
               <!-- {{member.name}} ({{member.program}}) -->
-              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}}
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.position %}({{member.position}}){% endif %}
             </li>
           {% endfor %}
         </ul>
@@ -262,7 +263,7 @@ section_id: about
           {% for member in site.data.alum %}
             <li>
               <!-- {{member.name}} ({{member.program}}) -->
-              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}}
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.position %}({{member.position}}){% endif %}
             </li>
           {% endfor %}
         </ul>
