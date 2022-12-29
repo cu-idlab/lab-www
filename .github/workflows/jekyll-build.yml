@@ -1,0 +1,20 @@
+- name: Build & Deploy with Jekyll
+  uses: victoriadrake/jekyll-cd@v1.0
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master
