@@ -26,3 +26,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
+
+      - name: curl
+        uses: wei/curl@master
+        with:
+          args: https://cmci.colorado.edu/idlab/repo/lab-www/build.php
