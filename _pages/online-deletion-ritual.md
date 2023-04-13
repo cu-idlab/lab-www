@@ -12,7 +12,6 @@ excerpt:
 homepage: true
 ---
 
-{% include note.html content="Interested in participating? Email Katie Gach ([catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu)) for more information!" %}
 
 **Is your loved one’s Facebook profile still active, even though they’re gone?**
 **Does that bother you, but you’re not sure why?**
