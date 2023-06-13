@@ -89,24 +89,16 @@
   program    : "Information Science"
   email      : "casey.paul@colorado.edu"
   bio        : "I am a senior at the University of Colorado Boulder studying Information Science with a minor in Creative Technology and Design. I am also earning my master's degree in Information Science concurrently with my bachelors degree through a Bachelor’s Accelerated Masters program. My research has consisted of understanding the needs and preferences of data and online platforms for deceased users, and how the bereaved needs can be met. Outside of this work I enjoy sports photography, reading, skiing, and doing puzzles."
-#   #uri        : "dylanthomasdoyle.com"
   avatar     : images/members/caseypaul.jpg
-#   #twitter    : "dylantdoyle"
 
 - name       : "Adrian Petterson"
   position   : "PhD Student"
   program    : "Information Science (Toronto)"
-#   # email      : "casey.paul@colorado.edu"
   bio        : "I am a Ph.D student in Information Science at the University of Toronto researching networks of informal care for people seeking abortions and leveraging design for social justice. I have a Master's in UX Design and I am an organizing member of the Toronto Design Justice Network Node. Outside of research, I like music jams, trail running and petting cats."
-#   #uri        : "dylanthomasdoyle.com"
   avatar     : images/members/adrian.jpg
-#   #twitter    : "dylantdoyle"
 
   - name       : "Colleen Campbell"
     position   : "Lecturer"
     program    : "Communication"
-#     # email      : "casey.paul@colorado.edu"
     bio        : "I am a lecturer in the Department of Communication at CU Boulder and I am an enthusiastic organizer for end-of-life, post-mortem, and bereavement scholars at the National Communication Association (NCA). Outside of the academy: A fitness devotee, a user experience (UX) and learning experience (LX) dabbler, a virtual reality (VR) gamer."
-#     #uri        : "dylanthomasdoyle.com"
     avatar     : images/members/colleen.jpg
-#     #twitter    : "dylantdoyle"
