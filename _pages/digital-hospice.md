@@ -24,7 +24,7 @@ Our research team will be working with terminally ill patients and their familie
 
 {% include h.html h="3" code="fa fa-users" text="Terminal Patients + Families"%}
 We aim to:
-* Serve patients and their families as they engage in  end-of life planning.
+* Serve patients and their families as they engage in end-of life planning.
 * Develop best practices and tools for end-of-life planning.
 * Create design frameworks for tech and mortality.
 
