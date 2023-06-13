@@ -35,7 +35,6 @@
   position    : "Teaching Assistant Professor"
   program     : "ATLAS Institute"
   email       : "anthony.pinter@colorado.edu"
-  # bio         : "I am a PhD Candidate in Information Science. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. In addition to my research, I've also garnered recognition for my teaching and service work at CU Boulder and elsewhere. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
   bio         : "I am a Teaching Assistant Professor in the ATLAS Institute. I completed my Ph.D. in Information Science at CU Boulder in 2022. My research focuses on how identity in constructed through our relationships with others in the wake of romantic breakups. Outside of my work in those realms, I enjoy spending my time outside, where I ride bikes and skis whenever possible, for as long as possible."
   uri         : "http://www.anthonypinter.com"
   avatar      : images/members/anthonypinter.jpg
@@ -80,7 +79,7 @@
   program    : "Information Science"
   email      : "Dylan.doyle@colorado.edu"
   bio        : "I am a Ph.D student in Information Science researching the intersection between death, grief and technology design and investigating how online platforms and communities might better embed values of empathy to sustain holistic systems of support for their users. I am an ordained Unitarian Universalist minister and former hospital chaplain. In my spare time I host The Radical AI Podcast, play guitar, and run marathons."
-  uri        : "dylanthomasdoyle.com"
+  uri        : "http://dylanthomasdoyle.com"
   avatar     : images/members/dylandoyle.jpg
   twitter    : "dylantdoyle"
 
@@ -97,8 +96,8 @@
   bio        : "I am a Ph.D student in Information Science at the University of Toronto researching networks of informal care for people seeking abortions and leveraging design for social justice. I have a Master's in UX Design and I am an organizing member of the Toronto Design Justice Network Node. Outside of research, I like music jams, trail running and petting cats."
   avatar     : images/members/adrian.jpg
 
-  - name       : "Colleen Campbell"
-    position   : "Lecturer"
-    program    : "Communication"
-    bio        : "I am a lecturer in the Department of Communication at CU Boulder and I am an enthusiastic organizer for end-of-life, post-mortem, and bereavement scholars at the National Communication Association (NCA). Outside of the academy: A fitness devotee, a user experience (UX) and learning experience (LX) dabbler, a virtual reality (VR) gamer."
-    avatar     : images/members/colleen.jpg
+- name       : "Colleen Campbell"
+  position   : "Lecturer"
+  program    : "Communication"
+  bio        : "I am a lecturer in the Department of Communication at CU Boulder and I am an enthusiastic organizer for end-of-life, post-mortem, and bereavement scholars at the National Communication Association (NCA). Outside of the academy: A fitness devotee, a user experience (UX) and learning experience (LX) dabbler, a virtual reality (VR) gamer."
+  avatar     : images/members/colleen.jpg
