@@ -22,5 +22,10 @@ Currently we are focusing on:
 * Using network analysis methods to characterize and visualize how LGBTQ pages are integrated within/linked to other content (another form of marginalization).
 
 
+### Researchers
+[Katy Weathington](https://katyweathington.com/), [Jed Brubaker](http://www.jedbrubaker.com)
 
-<!-- ### Publications -->
+
+### Publications
+
+{% bibliography --query @*[tags~=wikidata] %}
