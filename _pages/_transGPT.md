@@ -1,7 +1,7 @@
-  ---
+---
 layout: project
-permalink: "/project/queer-dating-apps/"
-title:  'Queer Identities on Dating Apps'
+permalink: "/project/transGPT/"
+title:  'Generative AI and Transness'
 category: project
 image: /images/projects/transGPT.png
 image_crop: /images/projects/transGPT.png

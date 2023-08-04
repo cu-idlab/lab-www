@@ -1,4 +1,4 @@
-  ---
+---
 layout: project
 permalink: "/project/queer-dating-apps/"
 title:  'Queer Identities on Dating Apps'
