@@ -18,7 +18,7 @@ Underrepresentation for the LGBTQ community on Wiki platforms like Wikipedia and
 
 Currently we are focusing on:
 * Quantifing the disparities around LGBTQ representation.
-* Analyzing editorial policies around articles for entries about people that may discriminate against LGBTQ people (e.g., the “notability” requirement for Wikipedia pages on people and how notability is operationalized).
+* Analyzing editorial policies around articles for entries about people that may discriminate against LGBTQ people (e.g., the "notability" requirement for Wikipedia pages on people and how notability is operationalized).
 * Using network analysis methods to characterize and visualize how LGBTQ pages are integrated within/linked to other content (another form of marginalization).
 
 
