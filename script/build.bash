@@ -3,21 +3,17 @@ echo " --- Move to the right directory. ---"
 # Make sure you're home
 cd ~
 
-# Clone the repository to a temporary folder and switch to the "build" branch:
-echo " --- Clone repo ---"
-git clone --depth 1 --branch build https://github.com/cu-idlab/lab-www.git ~/tmp/lab-www
-
-# Save the current commit hash to a file
-cd ~/tmp/lab-www
-last_commit_hash=$(git rev-parse HEAD)
-echo "$last_commit_hash" > ~/build_git_hash.txt
+# # Save the current commit hash to a file
+# cd ~/tmp/lab-www
+# last_commit_hash=$(git rev-parse HEAD)
+# echo "$last_commit_hash" > ~/build_git_hash.txt
 
 ## Check to see if the website has changed before continuing
 # Read the last commit hash from the file
 stored_commit_hash=$(cat ~/build_git_hash.txt)
 
-# Get the latest commit hash from the repository
-current_commit_hash=$(git rev-parse HEAD)
+# Get the latest commit hash from the remote repository
+current_commit_hash=$(git ls-remote https://github.com/cu-idlab/lab-www.git refs/heads/prod | awk '{print $1}')
 
 # Compare the commit hashes
 if [ "$stored_commit_hash" != "$current_commit_hash" ]; then
@@ -29,17 +25,21 @@ else
     exit
 fi
 
-# Update the stored commit hash
-echo "$current_commit_hash" > ~/build_git_hash.txt
-
 # Make a backup
 echo " --- Make a backup. ---"
 mkdir -p ~/backups/
 tar -czf ~/backups/idlab-$(date +%Y-%m-%d-%H-%M-%S).tar.gz /data/web/html/cmci.colorado.edu/idlab/
 
+# Clone the repository to a temporary folder and switch to the "build" branch:
+echo " --- Clone repo ---"
+git clone --depth 1 --branch build https://github.com/cu-idlab/lab-www.git ~/tmp/lab-www
+
 # Copy the files from the repository to the destination folder and exclude the .git directory:
 echo " --- Publish website ---"
 rsync -av --exclude='.git' ~/tmp/lab-www/ /data/web/html/cmci.colorado.edu/idlab/
+
+# Update the stored commit hash
+echo "$current_commit_hash" > ~/build_git_hash.txt
 
 # Remove the temporary folder
 rm -rf ~/tmp/lab-www
