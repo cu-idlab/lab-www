@@ -9,7 +9,7 @@ images:
   - /images/projects/idecos.jpg
 excerpt:
   TBC
-homepage: true
+homepage: false
 ---
 
 It's rare for someone to only have an account on one social media website; people create accounts across all sorts of social media sites, ranging from the more commonly used, like Facebook or Twitter, to more niche sites that cater to specific interests. What's more, people often create multiple accounts within a single site, even when the site itself explicitly prohibits this type of behavior. Across all of these sites and accounts, people create identities that their audiences subsequently see, interpret, and react to.
