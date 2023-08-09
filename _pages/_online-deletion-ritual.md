@@ -9,7 +9,8 @@ images:
   - /images/projects/lc-lilac.jpg
 excerpt:
   TBC
-homepage: true
+homepage: false
+
 ---
 
 
