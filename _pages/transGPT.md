@@ -15,5 +15,4 @@ Generative AI models are trained to identify patterns in existing data in order 
 
 
 ### Researchers
-[Morgan Klaus Scheuerman](https://www.morgan-klaus.com), [Dipto Das](https://www.diptodas.net/), [Katy Weathington](https://katyweathington.com/), [Adrian Petterson](https://www.adrianpetterson.ca/), [Michael Ann DeVito](https://michaelanndevito.com/)
-, [Jed Brubaker](http://www.jedbrubaker.com)
+[Morgan Klaus Scheuerman](https://www.morgan-klaus.com), [Dipto Das](https://www.diptodas.net/), [Katy Weathington](https://katyweathington.com/), [Adrian Petterson](https://www.adrianpetterson.ca/), [Michael Ann DeVito](https://michaelanndevito.com/), [Jed Brubaker](http://www.jedbrubaker.com)
