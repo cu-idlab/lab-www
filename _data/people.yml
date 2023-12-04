@@ -22,15 +22,6 @@
   twitter     : "whatknows"
   bio         : "I'm an Associate Professor in the Department of Information Science at CU Boulder. I joined the faculty at CU after finishing a Ph.D. in the department of Informatics at UC Irvine. I love cat pics and gummy candies, and have never met a research method I didn't like."
 
-- name        : "Michael Ann DeVito"
-  position    : "Postdoctoral Researcher"
-  program     : "Information Science"
-  uri         : "http://michaelanndevito.com"
-  email       : "mide6488@colorado.edu"
-  bio         : "I'm a postdoctoral Computing Innovation Fellow and qualitative HCI researcher with a Ph.D. from Northwestern University. I study how users and communities understand and adapt to the challenges of everyday, casual human/AI collaboration. This includes work on folk understandings of algorithms, as well as work on how queer and trans communities adapt to social platforms. Outside the lab, I am mostly about cats, space, playing bass, and being in the snow."
-  avatar      : images/members/devito_bio.jpg
-  twitter     : "drmichaelann"
-
 - name        : "Anthony Pinter"
   position    : "Teaching Assistant Professor"
   program     : "ATLAS Institute"
@@ -50,15 +41,8 @@
   uri         : "https://www.morgan-klaus.com"
   twitter     : "morganklauss"
 
-- name        : "Kandrea Wade"
-  position    : "Ph.D. Student"
-  program     : "Information Science"
-  email       : "Kandrea.Wade@colorado.edu"
-  bio         : "I am a PhD student in Information Science where I research algorithmic identity and the digital surveillance of marginalized groups in order to create ethical regulations, legal protections and education on algorithmic identity and digital literacy. I received my MA in Media, Culture and Communications from New York University and BA in Technical Theatre from The University of Texas at Arlington."
-  avatar      : images/members/kandrea_wade_bio.jpg
-
 - name        : "Malinda (Mally) Dietrich"
-  position    : "Ph.D. Canidate"
+  position    : "Ph.D. Candidate"
   program     : "Communication"
   email       : "malinda.dietrich@colorado.edu"
   twitter     : "mallydietrich"

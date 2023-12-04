@@ -12,6 +12,13 @@
 #   facebook    : "TBC"
 #   twitter     : "TBC"
 
+- name        : "Kandrea Wade"
+  position    : "Ph.D. Student"
+  degree      : "M.S. in"
+  program     : "Information Science"
+  year        : "2023"
+  avatar      : images/members/kandrea_wade_bio.jpg
+
 - name        : "Katie Gach"
   degree      : "Ph.D. in "
   program     : "Technology, Media, & Society (ATLAS),"
