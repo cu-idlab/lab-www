@@ -6,6 +6,10 @@ author_profile: false
 
 # Publications
 
+
+### 2024
+{% bibliography --query @*[year=2024] %}
+
 ### 2023
 {% bibliography --query @*[year=2023] %}
 
