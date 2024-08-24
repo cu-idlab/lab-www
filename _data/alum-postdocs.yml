@@ -21,6 +21,7 @@
   avatar      : images/members/morgan_bio.png
   uri         : "https://www.morgan-klaus.com"
   twitter     : "morganklauss"
+  position    : "Research Scientist at Sony AI"
 
 - name        : "Michael Ann DeVito"
   position    : "Postdoctoral Researcher"
@@ -30,6 +31,8 @@
   bio         : "I'm a postdoctoral Computing Innovation Fellow and qualitative HCI researcher with a Ph.D. from Northwestern University. I study how users and communities understand and adapt to the challenges of everyday, casual human/AI collaboration. This includes work on folk understandings of algorithms, as well as work on how queer and trans communities adapt to social platforms. Outside the lab, I am mostly about cats, space, playing bass, and being in the snow."
   avatar      : images/members/devito_bio.jpg
   twitter     : "drmichaelann"
+  position    : "Assistant Professor at Northeastern University"
+
 
 - name        : "Jes Feuston"
   position    : "Postdoctoral Researcher"
