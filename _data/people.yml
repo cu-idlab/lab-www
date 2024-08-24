@@ -32,15 +32,6 @@
   # facebook    : "ATPinter"
   instagram   : "https://www.instagram.com/anthonypinter/"
 
-- name        : "Morgan Klaus Scheuerman"
-  position    : "Post-doctoral Scholar"
-  program     : "Information Science"
-  email       : "Morgan.Scheuerman@colorado.edu"
-  bio         : "Morgan Klaus Scheuerman is a postdoctoral associate in Information Science. He recently completed his PhD at Boulder as a Microsoft Research Fellow, focusing on human identity in technological systems, particularly in computer vision. His award-winning work has been published in top social computing journals and conferences like Big Data + Society, CSCW, CHI, and FAccT. He has industry experience with Facebook, Google, Microsoft Research, and Twitch. Morgan has organized workshops at NeurIPS, CHI, and CSCW, and holds a BA in Communication and an MS in Human-Centered Computing from Goucher College and the University of Maryland Baltimore County, respectively."
-  avatar      : images/members/morgan_bio.png
-  uri         : "https://www.morgan-klaus.com"
-  twitter     : "morganklauss"
-
 - name        : "Malinda (Mally) Dietrich"
   position    : "Ph.D. Candidate"
   program     : "Communication"
@@ -50,7 +41,7 @@
   avatar      : images/members/mally_dietrich_bio.jpeg
 
 - name        : "Katy Weathington"
-  position    : "Ph.D. Student"
+  position    : "Ph.D. Candidate"
   program     : "Information Science"
   email       : "katy.weathington@colorado.edu"
   bio         : "Katy Weathington is a fourth year PhD student at University of Colorado Boulder's Department of Information Science. Her research examines how queer identities are made into and utilized as data."
@@ -59,20 +50,13 @@
   avatar      : images/members/katy_bio.jpg
 
 - name       : "Dylan Thomas Doyle"
-  position   : "Ph.D. Student"
+  position   : "Ph.D. Candidate"
   program    : "Information Science"
   email      : "Dylan.doyle@colorado.edu"
   bio        : "I am a Ph.D student in Information Science researching the intersection between death, grief and technology design and investigating how online platforms and communities might better embed values of empathy to sustain holistic systems of support for their users. I am an ordained Unitarian Universalist minister and former hospital chaplain. In my spare time I host The Radical AI Podcast, play guitar, and run marathons."
   uri        : "http://dylanthomasdoyle.com"
   avatar     : images/members/dylandoyle.jpg
   twitter    : "dylantdoyle"
-
-- name       : "Casey Paul"
-  position   : "BAM Student"
-  program    : "Information Science"
-  email      : "casey.paul@colorado.edu"
-  bio        : "I am a senior at the University of Colorado Boulder studying Information Science with a minor in Creative Technology and Design. I am also earning my master's degree in Information Science concurrently with my bachelors degree through a Bachelor's Accelerated Masters program. My research has consisted of understanding the needs and preferences of data and online platforms for deceased users, and how the bereaved needs can be met. Outside of this work I enjoy sports photography, reading, skiing, and doing puzzles."
-  avatar     : images/members/caseypaul.jpg
 
 - name       : "Adrian Petterson"
   position   : "Ph.D. Student"
