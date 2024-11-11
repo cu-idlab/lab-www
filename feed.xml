@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identity Lab @ CU Boulder</title>
+    <description>We study how identity is designed, represented, and experienced through technology. The Identity Lab is led by Jed Brubaker, Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information.
+</description>
+    <link>https://cmci.colorado.eduhttps://cmci.colorado.edu/</link>
+    <atom:link href="/idlab/idlab/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 11 Nov 2024 22:06:28 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2024 22:06:28 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+  </channel>
+</rss>
