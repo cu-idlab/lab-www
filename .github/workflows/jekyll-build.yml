@@ -5,22 +5,43 @@ on:
     branches:
       - prod
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
-      - name: git-checkout
+      - name: Checkout
         uses: actions/checkout@v4
           # Use GitHub Actions' cache to shorten build times and decrease load on servers
       # - uses: actions/cache@v2
-      - name: Build with cache
-        uses: actions/cache@v2
+      - name: Setup Ruby
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems- 
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      # - name: Build with cache
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: vendor/bundle
+      #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-gems- 
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
       # - uses: helaili/jekyll-action@v2
       #   with:
       #     token: ${{ secrets.GITHUB_TOKEN }}
@@ -36,7 +57,7 @@ jobs:
       #     MESSAGE: "Build: ({sha}) {msg}" # The commit message
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        with:
+          with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: build
           publish_dir: ./_site # the action will deploy the <repository root>/_site contents to the (default) gh-pages branch, root directory
