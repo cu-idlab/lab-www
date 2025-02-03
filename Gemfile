@@ -15,3 +15,4 @@ gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem "unicode_utils"
 gem "ffi", "<1.17.0"
+gem 'uri', '1.0.2'
