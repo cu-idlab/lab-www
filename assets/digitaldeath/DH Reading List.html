@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charaset="utf-8">
+	<title>DH Reading List</title>
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+
+</head>
+<body>
+
+<div>
+  <style>
+  .bar {
+fill: #11c8fa;
+}
+
+.bar:hover {
+fill: slateblue;
+}
+
+.axis-x path {
+display: none;
+}
+
+.axis text {
+font-weight: bold;
+}
+</style>
+</head>
+<svg width="1000" height="500"></svg>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<script>
+$.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/years.json', function(data) {
+     createYearChart(data);
+ });
+
+
+
+function createYearChart(years) {
+
+	const years = years
+	const svg     = d3.select("svg"),
+	      margin  = {top: 20, right: 20, bottom: 30, left: 50},
+	      width   = +svg.attr("width")  - margin.left - margin.right,
+	      height  = +svg.attr("height") - margin.top  - margin.bottom,
+	      x       = d3.scaleBand().rangeRound([0, width]).padding(0.2),
+	      y       = d3.scaleLinear().rangeRound([height, 0]),
+	      g       = svg.append("g")
+	                   .attr("transform", `translate(${margin.left},${margin.top})`);
+
+	  data = years;
+
+	  x.domain(data.map(d => d.year));
+	  y.domain([0, d3.max(data, d => d.count)]);
+
+	  g.append("g")
+	      .attr("class", "axis axis-x")
+	      .attr("transform", `translate(0,${height})`)
+	      .call(d3.axisBottom(x));
+
+	  g.append("g")
+	      .attr("class", "axis axis-y")
+	      .call(d3.axisLeft(y).ticks(5).tickSize(8));
+
+	  g.selectAll(".bar")
+	    .data(data)
+	    .enter().append("rect")
+	      .attr("class", "bar")
+	      .attr("x", d => x(d.year))
+	      .attr("y", d => y(d.count))
+	      .attr("width", x.bandwidth())
+	      .attr("height", d => height - y(d.count));
+
+}
+
+</script>
+<script>
+
+// Code for local development
+// var jsonData;
+// $.getJSON('dhLit_data.json', function(data) {
+    // JSON result in `data` variable
+    // jsonData = data;
+//});
+
+// Code for production
+$.getJSON('https://cmci.colorado.edu/idlab/assets/digitaldeath/dhLit_data.json', function(data) {
+//     // JSON result in `data` variable
+     jsonData = data;
+});
+
+
+// EXTRACT VALUE FOR HTML HEADER.
+</script>
+<script>
+    function createTableFromJSON(data) {
+
+        dataLength = Object.keys(data).length;
+
+        // Container variable
+        var col = [];
+        // Loop through data and add to container
+        for (var i = 0; i < dataLength; i++) {
+            for (var key in data[i]) {
+                if (col.indexOf(key) === -1) {
+                    col.push(key);
+                }
+            }
+        }
+
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+				table.setAttribute("id", "dataTable");
+
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+        // TABLE ROW.
+				var header = table.createTHead();
+				var th = header.insertRow(0);
+
+        for (var i = 0; i < col.length; i++) {
+            cell = th.insertCell(0);      // TABLE HEADER.
+            cell.innerHTML = col[i];
+        }
+
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < dataLength; i++) {
+
+            tr = table.insertRow();
+
+            for (var j = 0; j < col.length; j++) {
+                var tabCell = tr.insertCell();
+                tabCell.innerHTML = data[i][col[j]];
+            }
+        }
+
+        // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+        var divContainer = document.getElementById("showData");
+        divContainer.innerHTML = "";
+        divContainer.appendChild(table);
+				// $('#dataTable').dataTable();
+    };
+</script>
+<body>
+    <input type="button" onclick="createTableFromJSON(jsonData)" value="Create Table From JSON" />
+    <div id="showData"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+</body>
+</html>
