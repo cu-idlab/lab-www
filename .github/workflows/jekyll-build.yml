@@ -33,12 +33,16 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Ensure the build branch exists
+          # Ensure the build branch exists, or create it
           git fetch origin build || git checkout --orphan build
 
-          # Remove old files, copy new build
+          # Switch to the build branch
           git checkout build
-          rm -rf *
+
+          # Remove all tracked files except .git folder
+          git rm -rf . > /dev/null 2>&1
+
+          # Copy new build files
           cp -r _site/* .
 
           # Commit and push changes
