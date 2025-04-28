@@ -39,9 +39,13 @@ jobs:
           # Clean everything
           git clean -fdx
 
-          # Switch branches
+          # Fetch and switch
           git fetch origin
-          git checkout build
+          git checkout build || git checkout -b build origin/build
+
+          # Set Git user (NEEDED after switching branches)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Clean again (safe now)
           git rm -rf . > /dev/null 2>&1 || true
