@@ -33,13 +33,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Fetch latest remote branches
           git fetch origin
 
-          # Clean all untracked and ignored files (vendor/, build artifacts, etc.)
+          # Clean files BEFORE switching branches
           git clean -fdx
 
-          # Checkout the build branch, or create it if it doesn't exist
           if git show-ref --verify --quiet refs/heads/build; then
             git checkout build
           elif git show-ref --verify --quiet refs/remotes/origin/build; then
@@ -48,13 +46,13 @@ jobs:
             git checkout --orphan build
           fi
 
-          # Clean all files from the branch
           git rm -rf . > /dev/null 2>&1 || true
 
-          # Copy built site into root, including hidden files
+          # Build again after switching branches
+          bundle exec jekyll build
+
           cp -r _site/. .
 
-          # Add, commit, and force push
           git add .
           git commit -m "Build site from latest commit in main" || echo "No changes to commit"
           git push origin build --force
