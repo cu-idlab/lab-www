@@ -30,29 +30,29 @@ jobs:
 
       - name: Deploy to build branch
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin
-
-          # Clean files BEFORE switching branches
-          git clean -fdx
-
-          if git show-ref --verify --quiet refs/heads/build; then
-            git checkout build
-          elif git show-ref --verify --quiet refs/remotes/origin/build; then
-            git checkout -b build origin/build
-          else
-            git checkout --orphan build
-          fi
-
-          git rm -rf . > /dev/null 2>&1 || true
-
-          # Build again after switching branches
+          # Build first
           bundle exec jekyll build
 
+          # Move _site/ temporarily
+          mv _site ../site-temp
+
+          # Clean everything
+          git clean -fdx
+
+          # Switch branches
+          git fetch origin
+          git checkout build
+
+          # Clean again (safe now)
+          git rm -rf . > /dev/null 2>&1 || true
+
+          # Move _site/ back
+          mv ../site-temp _site
+
+          # Copy built files
           cp -r _site/. .
 
+          # Add, commit, push
           git add .
           git commit -m "Build site from latest commit in main" || echo "No changes to commit"
           git push origin build --force
