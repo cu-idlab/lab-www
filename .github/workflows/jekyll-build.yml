@@ -36,6 +36,9 @@ jobs:
           # Fetch latest remote branches
           git fetch origin
 
+          # Clean all untracked and ignored files (vendor/, build artifacts, etc.)
+          git clean -fdx
+
           # Checkout the build branch, or create it if it doesn't exist
           if git show-ref --verify --quiet refs/heads/build; then
             git checkout build
@@ -45,9 +48,8 @@ jobs:
             git checkout --orphan build
           fi
 
-          # Clean out existing files (tracked and untracked) except .git
+          # Clean all files from the branch
           git rm -rf . > /dev/null 2>&1 || true
-          git clean -fd > /dev/null 2>&1 || true
 
           # Copy built site into root, including hidden files
           cp -r _site/. .
