@@ -33,21 +33,28 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Ensure the build branch exists, or create it
-          git fetch origin build || git checkout --orphan build
+          # Fetch latest remote branches
+          git fetch origin
 
-          # Switch to the build branch
-          git checkout build
+          # Checkout the build branch, or create it if it doesn't exist
+          if git show-ref --verify --quiet refs/heads/build; then
+            git checkout build
+          elif git show-ref --verify --quiet refs/remotes/origin/build; then
+            git checkout -b build origin/build
+          else
+            git checkout --orphan build
+          fi
 
-          # Remove all tracked files except .git folder
-          git rm -rf . > /dev/null 2>&1
+          # Clean out existing files (tracked and untracked) except .git
+          git rm -rf . > /dev/null 2>&1 || true
+          git clean -fd > /dev/null 2>&1 || true
 
-          # Copy new build files
-          cp -r _site/* .
+          # Copy built site into root, including hidden files
+          cp -r _site/. .
 
-          # Commit and push changes
+          # Add, commit, and force push
           git add .
-          git commit -m "Build site from latest commit in main"
+          git commit -m "Build site from latest commit in main" || echo "No changes to commit"
           git push origin build --force
 
 
