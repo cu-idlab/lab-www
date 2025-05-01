@@ -31,7 +31,7 @@ jobs:
       - name: Deploy to build branch
         run: |
           # Build first
-          bundle exec jekyll build
+          bundle exec jekyll build --trace
 
           # Move _site/ temporarily
           mv _site ../site-temp
