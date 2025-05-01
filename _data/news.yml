@@ -7,16 +7,45 @@
 #   body        : TBC
 #   date        : 2019-04-20 12:00:00
 
-# - headline    : TBC
-#   body        : TBC
-#   date        : 2019-04-20 12:00:00
+
+- headline    : Dylan Thomas Doyle named Outstanding PhD Graduate
+  body        : Congratulations to Dylan for receiving the Outstanding PhD Graduate Award from the CU Boulder Department of Information Science.
+  date        : 2025-05-01 12:00:00
+
+- headline    : Exploring grief bots at TEDxCU Boulder
+  body        : Dylan Doyle gave a TEDx talk on ethical design of AI "grief bots" to support conversations with deceased loved ones. Stay tuned for when the recording is published!
+  date        : 2025-04-05 12:00:00
+
+- headline    : Digital Legacy Clinic launch featured on KUNC
+  body        : KUNC broadcast and article spotlights our Digital Legacy Clinic, raising public awareness.
+  date        : 2025-01-07 12:00:00
+
+- headline    : Introducing the Digital Legacy Clinic
+  body        : We've aunched a free service offering end-of-life data planning and technical support, translating research into community practice. [Learn more here.](https://www.digitallegacyclinic.com)
+  date        : 2024-11-15 12:00:00
+
+- headline    : New work on mortality data, grief letters, breakups, and audits of NLP
+  body        : We've published a series of papers at CSCW this year! [Read them here.](https://cmci.colorado.edu/idlab/publications/)
+  date        : 2024-11-14 12:00:00
+
+- headline    : Our research earns a SIGCHI Best Paper award at CHI 2024
+  body        : "Products of Positionality" reveals how tech workers' backgrounds shape algorithmic identity models, sparking debates on bias in computer vision. [Read the paper here.](https://cmci.colorado.edu/idlab/publications/)
+  date        : 2024-05-16 12:00:00
+
+- headline    : Morgan Scheuerman named Outstanding PhD Graduate
+  body        : Postdoc associate Morgan Klaus Scheuerman received the Outstanding PhD Graduate Award from the CU Boulder Information Science Department, recognizing his exceptional research contributions.
+  date        : 2023-05-15 12:00:00
+
+- headline    : DeVito joins Northeastern as Assistant Professor
+  body        : Michael Ann DeVito Northeastern University as an Assistant Professor of Computer Science & Communication Studies.
+  date        : 2023-04-27 12:00:00
 
 - headline    : Brubaker talks about Safety at HCIC 2023 
   body        : "During a week focused on trust and safety at HCIC, Brubaker gives a talk asking 'Is safety overrated?' (Spolier: No, but we should do a better job defining what safety means.)"
   date        : 2023-06-12 12:00:00
 
 - headline    : Dylan Doyle named CU Engage Community Based Research Fellow
-  body        : Dylan Thomas Doyle has been selected as a CU Engage Community Based Research Fellow for the 2023-2024 year. This Fellowship will support Dylan’s dissertation research being conducted in partnership with the CU Anschutz Cancer Center.
+  body        : Dylan Thomas Doyle has been selected as a CU Engage Community Based Research Fellow for the 2023-2024 year. This Fellowship will support Dylan's dissertation research being conducted in partnership with the CU Anschutz Cancer Center.
   date        : 2023-05-25 12:00:00
 
 - headline    : Scheuerman and Paul received department awards.
@@ -64,11 +93,11 @@
   date        : 2021-03-01 12:00:00
 
 - headline    : Anthony Pinter passes his proposal
-  body        : His dissertation is tentatively titled "You got yourself a whole new life, and all I’ve got is half this old one&#58; Breaking up and moving on in the social media age."
+  body        : His dissertation is tentatively titled "You got yourself a whole new life, and all I've got is half this old one&#58; Breaking up and moving on in the social media age."
   date        : 2021-02-12 12:00.00
 
 - headline    : IDLab receives Gill Foundation Grant to study LGBTQ representation on Wikipedia
-  body        : With the foundation’s support, we will be studying barriers to queer representation, identifying ways to address issues at the level of infrastructure, data, and policy.
+  body        : With the foundation's support, we will be studying barriers to queer representation, identifying ways to address issues at the level of infrastructure, data, and policy.
   date        : 2021-02-10 12:00.00
 
 - headline    : Morgan Klaus Scheuerman passes his preliminary exams
@@ -156,7 +185,7 @@
   date        : 2018-04-10 12:00:00
 
 - headline    : Pinter Awarded The Beverly Sears Graduate Student Grant
-  body        : Pinter was awarded the Beverly Sears Graduate Student Grant in the amount of $1,000 to begin work on a project exploring transgender individuals’ identity disclosures across different social media accounts.
+  body        : Pinter was awarded the Beverly Sears Graduate Student Grant in the amount of $1,000 to begin work on a project exploring transgender individuals' identity disclosures across different social media accounts.
   date        : 2018-03-16 12:00:00
 
 - headline    : Life After Death on the Internet
