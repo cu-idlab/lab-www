@@ -32,14 +32,6 @@
   # facebook    : "ATPinter"
   instagram   : "https://www.instagram.com/anthonypinter/"
 
-- name        : "Malinda (Mally) Dietrich"
-  position    : "Ph.D. Candidate"
-  program     : "Communication"
-  email       : "malinda.dietrich@colorado.edu"
-  twitter     : "mallydietrich"
-  bio         : "As a PhD student in the Communication department, I strive to be an interdisciplinary scholar interested in understanding how technologies inscribe data and organize information through mainly ethnographic and archival methods. I earned my B.A. in Communication (concentration in Media) and my M.S. in Communication from North Carolina State University. I enjoy caffeine consumption, hiking (read: spending time with my dog), playing video games, making art, and watching hockey."
-  avatar      : images/members/mally_dietrich_bio.jpeg
-
 - name        : "Katy Weathington"
   position    : "Ph.D. Candidate"
   program     : "Information Science"
@@ -75,15 +67,3 @@
   uri        : "https://jackmanning.me/"
   avatar     : images/members/jackmanning.JPG
   instagram  : "https://www.instagram.com/jack_manning_11/"
-
-- name       : "Adrian Petterson"
-  position   : "Ph.D. Student"
-  program    : "Information Science (Toronto)"
-  bio        : "I am a Ph.D student in Information Science at the University of Toronto researching networks of informal care for people seeking abortions and leveraging design for social justice. I have a Master's in UX Design and I am an organizing member of the Toronto Design Justice Network Node. Outside of research, I like music jams, trail running and petting cats."
-  avatar     : images/members/adrian.jpg
-
-- name       : "Colleen Campbell"
-  position   : "Lecturer"
-  program    : "Communication"
-  bio        : "I am a lecturer in the Department of Communication at CU Boulder and I am an enthusiastic organizer for end-of-life, post-mortem, and bereavement scholars at the National Communication Association (NCA). Outside of the academy: A fitness devotee, a user experience (UX) and learning experience (LX) dabbler, a virtual reality (VR) gamer."
-  avatar     : images/members/colleen.jpg
