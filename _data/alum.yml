@@ -12,6 +12,22 @@
 #   facebook    : "TBC"
 #   twitter     : "TBC"
 
+- name        : "Malinda (Mally) Dietrich"
+  position    : "Ph.D. Candidate"
+  degree      : "Ph.D. in "
+  program     : "Communication"
+  year        : "2025"
+  email       : "malinda.dietrich@colorado.edu"
+  twitter     : "mallydietrich"
+  bio         : "As a PhD student in the Communication department, I strive to be an interdisciplinary scholar interested in understanding how technologies inscribe data and organize information through mainly ethnographic and archival methods. I earned my B.A. in Communication (concentration in Media) and my M.S. in Communication from North Carolina State University. I enjoy caffeine consumption, hiking (read: spending time with my dog), playing video games, making art, and watching hockey."
+  avatar      : images/members/mally_dietrich_bio.jpeg
+
+- name       : "Colleen Campbell"
+  degree     : "M.A. in"
+  program    : "Communication"
+  year       : "2021"
+  position   : "Program Manager at Death Scholars, Inc."
+
 - name       : "Casey Paul"
   position   : "BAM Student"
   degree     : "M.S. in"
