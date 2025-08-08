@@ -1,128 +1,63 @@
-name: Build Jekyll Site
+name: Deploy Jekyll site to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - prod  # Change this if your main branch is named differently
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Ruby and Jekyll
+        with:
+          # If using the 'assets' or 'wiki' git strategy, uncomment the line below
+          # submodules: true
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Adjust based on your Jekyll version
-          bundler-cache: true
+          ruby-version: '3.1'
+          bundler-cache: true # This will cache your gems for faster builds
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        # Use relative path with the `_site` directory
+        with:
+          path: './_site'
 
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
-
-      - name: Deploy to build branch
-        run: |
-          # Build first
-          bundle exec jekyll build --trace
-
-          # Move _site/ temporarily
-          mv _site ../site-temp
-
-          # Clean everything
-          git clean -fdx
-
-          # Fetch and switch
-          git fetch origin
-          git checkout build || git checkout -b build origin/build
-
-          # Set Git user (NEEDED after switching branches)
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Clean again (safe now)
-          git rm -rf . > /dev/null 2>&1 || true
-
-          # Move _site/ back
-          mv ../site-temp _site
-
-          # Copy built files
-          cp -r _site/. .
-
-          # Add, commit, push
-          git add .
-          git commit -m "Build site from latest commit in main" || echo "No changes to commit"
-          git push origin build --force
-
-
-
-# name: Build and deploy Jekyll assets to branch
-
-# on:
-#   push:
-#     branches:
-#       - prod
-
-#   # Allows you to run this workflow manually from the Actions tab
-#   workflow_dispatch:
-
-# # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     name: Build and Push
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v4
-#           # Use GitHub Actions' cache to shorten build times and decrease load on servers
-#       # - uses: actions/cache@v2
-#       - name: Setup Ruby
-#         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-#         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
-#         with:
-#           ruby-version: '3.1' # Not needed with a .ruby-version file
-#           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-#           cache-version: 0 # Increment this number if you need to re-download cached gems
-#       # - name: Build with cache
-#       #   uses: actions/cache@v2
-#       #   with:
-#       #     path: vendor/bundle
-#       #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-#       #     restore-keys: |
-#       #       ${{ runner.os }}-gems- 
-#       - name: Build with Jekyll
-#         # Outputs to the './_site' directory by default
-#         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-#         env:
-#           JEKYLL_ENV: production
-#       # - uses: helaili/jekyll-action@v2
-#       #   with:
-#       #     token: ${{ secrets.GITHUB_TOKEN }}
-#       #     target_branch: 'build'
-#       # from here: https://gist.github.com/umanghome/30527c68cd605dfef8702a832ff14fd5
-#       # - name: Push to build
-#       #   uses: s0/git-publish-subdir-action@develop
-#       #   env:
-#       #     REPO: self
-#       #     BRANCH: build # The branch name where you want to push the assets
-#       #     FOLDER: build # The directory where your assets are generated
-#       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-#       #     MESSAGE: "Build: ({sha}) {msg}" # The commit message
-#       - name: Deploy
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           publish_branch: build
-#           publish_dir: ./_site # the action will deploy the <repository root>/_site contents to the (default) gh-pages branch, root directory
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
