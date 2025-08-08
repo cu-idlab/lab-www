@@ -28,7 +28,7 @@ defaults:
       category: "page"
 
 # Plugins
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sass-converter]
 
 # Scholar
 scholar:
