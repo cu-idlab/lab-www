@@ -4124,3 +4124,8 @@ div.funder p.name {
   padding: 0;
   max-width: 500px;
 }
+
+/* Suppress passive event listener warnings */
+* {
+  touch-action: manipulation;
+}
