@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Thing From the Future's Past</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon and app icon -->
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="public/icons/favicon-01.svg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      type="image/svg+xml"
+      href="public/icons/appicon-01.svg"
+    />
+
+    <!-- eb garamond as typeface, using bold and regular -->
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- local font fallback -->
+    <link rel="stylesheet" href="public/css/fonts.css" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!--       <nav>
+        <ul class="menu">
+          <li onclick="showoverlay()">← Instructions</li>
+        </ul>
+      </nav> -->
+    </header>
+    <section>
+      <h1 id="title">Thing from the Future's Past</h1>
+<!--       <h2 id="subtitle">AI + the Afterlife</h2> -->
+    </section>
+    <main>
+      <section class="thecards">
+        <!-- All the backgrounds have the class cardback -->
+        <!-- All the actual cards have the class prompt -->
+
+        <article class="cardback" onclick="showarc()" id="arccover">
+          <img
+            src="public/images/background-glitch.png"
+            alt="Timeline card background"
+            width="200"
+          />
+        </article>
+
+        <article class="prompt" id="arccard" onclick="fliparc()">
+
+          <h2>Timeline</h2>
+          
+          <h1 id="arc">
+            <!-- Arc will come here -->
+          </h1>
+          
+
+          <h3 id="arcsubtext">
+            <em>How far from today</em>
+          </h3>
+        </article>
+
+        <article class="cardback" onclick="showterrain()" id="terraincover">
+          <img
+            src="public/images/background-glitch.png"
+            alt="Context card background"
+            width="200"
+          />
+        </article>
+
+        <article class="prompt" id="terraincard" onclick="flipterrain()">
+          <h2>Context</h2>
+          <h1 id="terrain">
+            <!-- Terrain will come here -->
+          </h1>
+          <h3>
+            <em>The focus area of the design</em>
+          </h3>
+        </article>
+
+        <article class="cardback" onclick="showobject()" id="objectcover">
+          <img
+            src="public/images/background-glitch.png"
+            alt="Invention card background"
+            width="200"
+          />
+        </article>
+
+        <article class="prompt" id="objectcard" onclick="flipobject()">
+          <h2>Invention</h2>
+          <h1 id="object">
+            <!-- Object will come here -->
+          </h1>
+          <h3>
+            <em>What type of thing to design</em>
+          </h3>
+        </article>
+
+        <article class="cardback" onclick="showmodality()" id="modalitycover">
+          <img
+            src="public/images/background-glitch.png"
+            alt="AI Modality card background"
+            width="200"
+          />
+        </article>
+
+        <article class="prompt" id="modalitycard" onclick="flipmodality()">
+          <h2>AI Modality</h2>
+          <h1 id="modality">
+            <!-- Modality will come here -->
+          </h1>
+          <h3>
+            <em>The AI output the thing makes use of</em>
+          </h3>
+        </article>
+
+        <article class="cardback" onclick="showmood()" id="moodcover">
+          <img
+            src="public/images/background-glitch.png"
+            alt="Outcome card background"
+            width="200"
+          />
+        </article>
+
+        <article class="prompt" id="moodcard" onclick="flipmood()">
+          <h2>Outcome</h2>
+          <h1 id="mood">
+            <!-- Mood will come here -->
+          </h1>
+          <h3>
+            <em>The impact the design will have</em>
+          </h3>
+        </article>
+      </section>
+      <section>
+        <h5>
+          A remix of a game by Stuart Candy and Jeff Watson <br />
+          2015
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/2.0/"
+            target="_blank"
+            >CC-BY-NC-SA</a
+          >
+          |
+          <a
+            href="http://situationlab.org/project/the-thing-from-the-future/"
+            target="_blank"
+            >situationlab.org</a
+          >
+          | <a href="https://twitter.com/sitlab" target="_blank">@sitlab</a>
+          <br />
+          Forked from code written by
+          <a href="http://www.paritoshursekar.com/" target="_blank"
+            >Paritosh Ursekar</a
+          >
+        </h5>
+      </section>
+    </main>
+
+    <div id="overlay">
+      <div class="closeoverlay" style="position: fixed; top: 20px; left: 20px">
+        <img
+          src="public/icons/closeoverlay.svg"
+          alt="close overlay"
+          onclick="hideoverlay()"
+          style="cursor: pointer"
+        />
+      </div>
+      <!-- include the Glitch button to show what the webpage is about and to make it easier for folks to view source and remix -->
+      <div
+        class="glitchButton"
+        style="position: fixed; top: 20px; right: 20px"
+      ></div>
+      <div class="overlaycontent">
+        <h1>The Thing from the Future (Digital Edition)</h1>
+        <p>
+          The Thing from the Future is an award winning imagination game that
+          challenges players to describe objects from a range of alternative
+          futures. <br />
+          Originally created by
+          <a href="http://situationlab.org/" target="_blank">Situation Labs</a>,
+          this is an unauthorised digital recreation of the game’s
+          <a
+            href="http://situationlab.org/futurething-print-and-play-edition/"
+            target="_blank"
+            >Print-And-Play Edition</a
+          >. Enjoy playing! Do share your favourite ideas on social media using
+          the <strong>#FutureThing</strong> hashtag.
+        </p>
+        <br />
+        <h3>How to Play</h3>
+        <p>
+          The object of the game is to come up with the most entertaining and
+          thought-provoking descriptions of hypothetical objects from different
+          near-, medium-, and long-term futures. This game is best played with a
+          group of 2-6 players. Each round, click to turn each of the 4 cards to
+          generate a creative prompt. Players then write a short description
+          (and sketch, if they wish!) of an object that fits the constraints of
+          the prompt. Once ready, read out and share your descriptions. You are
+          now free to collaborate on fleshing out the most interesting ideas as
+          a group.
+        </p>
+        <br />
+        <h3>Key Card</h3>
+        <ol>
+          <li>
+            <h3>Ⓐ Arc</h3>
+            ARC outlines the type of future world that the “thing” comes from,
+            and how far away it is from today. There are four types of Arc, each
+            an umbrella for countless possible scenarios:
+            <ul>
+              <li>
+                <strong>Growth</strong>: A future in which ‘progress’ has
+                continued
+              </li>
+              <li>
+                <strong>Collapse</strong>: A future in which society as we know
+                it has come apart
+              </li>
+              <li>
+                <strong>Discipline</strong>: A future in which order is
+                deliberately coordinated or imposed
+              </li>
+              <li>
+                <strong>Transform</strong>: A future in which a profound
+                historical evolution has occurred
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>Ⓣ Terrain</h3>
+            TERRAIN is the thematic context or location where this object could
+            be found in that future.
+          </li>
+          <li>
+            <h3>Ⓞ Object</h3>
+            OBJECT is the focus for your imagination: a specific cultural
+            artifact that reveals something about how this future is different
+            from today.
+          </li>
+          <li>
+            <h3>Ⓜ Mood</h3>
+            MOOD suggests how it might feel to experience this thing from the
+            future.
+          </li>
+        </ol>
+        <br />
+        <hr />
+        <br />
+        <p>
+          This project was lovingly hand-coded by
+          <a href="http://www.paritoshursekar.com/" target="_blank"
+            >Paritosh Ursekar </a
+          >- a Sydney, Australia based user experience and interface designer.
+          It is released under a
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/2.0/"
+            target="_blank"
+            >Creative Commons Attribution-NonCommercial-Sharealike 2.0
+            license</a
+          >, just like the
+          <a
+            href="http://situationlab.org/futurething-print-and-play-edition/"
+            target="_blank"
+            >original game</a
+          >. <br />
+        </p>
+        <p>
+          You can see more of my work at
+          <a href="http://www.paritoshursekar.com/" target="_blank"
+            >www.paritoshursekar.com</a
+          >. If you wish to speak with me: reach out on
+          <a href="https://twitter.com/plastictosh" target="_blank">Twitter</a>,
+          <a
+            href="https://www.linkedin.com/in/paritosh-ursekar-60167b95/"
+            target="_blank"
+            >LinkedIn</a
+          >, or via
+          <a href="mailto:paritosh@bycodesign.com.au" target="_blank">email</a>.
+          :)
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
