@@ -3,7 +3,7 @@ title: Identity Lab @ CU Boulder
 email: jed.brubaker@colorado.edu
 description: > # this means to ignore newlines until "baseurl:"
   We study how identity is designed, represented, and experienced through technology.
-  The Identity Lab is led by Jed Brubaker, Assistant Professor of Information Science in CU Boulder's college of Media, Communication, and Information.
+  The Identity Lab is led by Jed Brubaker, Associate Professor of Information Science in CU Boulder's college of Media, Communication, and Information.
 baseurl: "" # Remove subpath for GitHub Pages
 url: "https://www.cuidentitylab.com" # Your custom domain
 # twitter_username: jekyllrb
