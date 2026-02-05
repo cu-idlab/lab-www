@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/project/queer-hci/"
-title:  'LGBTQ+ People in Human-Computer Interaction'
+title:  'Queer HCI'
 category: project
 image: /images/projects/queer-hci.png
 image_crop: /images/projects/queer-hci.png
