@@ -15,3 +15,6 @@ Technology has increasingly considered end-of-life support in its design. Howeve
 
 ### Researchers
 [Dylan Thomas Doyle](https://dylanthomasdoyle.com/), [Jed Brubaker](http://www.jedbrubaker.com), [Casey Paul](https://www.caseypaul.net/)
+
+### Publications
+{% bibliography --query @*[tags~=mortality-support] %}

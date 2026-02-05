@@ -15,3 +15,6 @@ Mortality data encompasses more than the platforms and systems that manage perso
 
 ### Researchers
 [Dylan Thomas Doyle](https://dylanthomasdoyle.com/), [Stephen Voida](https://stephen.voida.com/), [Brian Keegan](https://www.brianckeegan.com/), [Jed Brubaker](http://www.jedbrubaker.com)
+
+### Publications
+{% bibliography --query @*[tags~=bereavement] %}
