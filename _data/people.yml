@@ -26,38 +26,38 @@
   position    : "Teaching Assistant Professor"
   program     : "ATLAS Institute"
   email       : "anthony.pinter@colorado.edu"
-  bio         : "I am a Teaching Assistant Professor in the ATLAS Institute. I completed my Ph.D. in Information Science at CU Boulder in 2022. I spend much of my time with my feet clipped into things (like bikes and skis) or yelling at high schoolers (as a track coach)."
-  uri         : "http://www.anthonypinter.com"
+  bio         : "I'm an Assistant Teaching Professor in the ATLAS Institute. I completed my Ph.D. in Information Science at CU Boulder in 2022. When not on campus, I spend much of my time with my feet clipped into things (like bikes and skis)."
+  uri         : "https://www.anthonypinter.com"
   avatar      : images/members/anthonypinter.jpg
   # facebook    : "ATPinter"
-  instagram   : "https://www.instagram.com/anthonypinter/"
-
-- name        : "Katy Weathington"
-  position    : "Ph.D. Candidate"
-  program     : "Information Science"
-  email       : "katy.weathington@colorado.edu"
-  bio         : "Katy Weathington is a fourth year PhD student at University of Colorado Boulder's Department of Information Science. Her research examines how queer identities are made into and utilized as data."
-  uri         : "http://katyweathington.com/"
-  twitter     : "https://twitter.com/katyweathington"
-  avatar      : images/members/katy_bio.jpg
+  #instagram   : "https://www.instagram.com/anthonypinter/"
 
 - name       : "Dylan Thomas Doyle"
   position   : "Ph.D. Candidate"
   program    : "Information Science"
   email      : "Dylan.doyle@colorado.edu"
-  bio        : "I am a Ph.D student in Information Science researching the intersection between death, grief and technology design and investigating how online platforms and communities might better embed values of empathy to sustain holistic systems of support for their users. I am an ordained Unitarian Universalist minister and former hospital chaplain. In my spare time I host The Radical AI Podcast, play guitar, and run marathons."
+  bio        : "I'm a Post-Doctoral Researcher in the ID Lab. As an HCI researcher, my work focuses on the intersection of values-based design and organizational systems, particularly within emotionally intense scenarios such as end-of-life support. I'm also the Director of the AI for All Tomorrows non-profit and podcast. I received my PhD from the University of Colorado Boulder, Masters of Divinity from Columbia University, and BA from Sarah Lawrence College. Prior to a career in technology research, I served as a Unitarian Universalist minister and hospital chaplain."
   uri        : "http://dylanthomasdoyle.com"
-  avatar     : images/members/dylandoyle.jpg
+  avatar     : images/members/dylandoyle.jpeg
   twitter    : "dylantdoyle"
 
 - name       : "Camille Butera"
   position   : "Ph.D. Student"
   program    : "Information Science"
   email      : "camille.butera@colorado.edu"
-  bio        : "I am a first year PhD student in Information Science. Previously I completed a BA in Sociology at Smith College, an MSc in the Social Science of the Internet at the Oxford Internet Institute. My research focuses on the ways in which the design and infrastructure of technology shapes the way we conceptualize ourselves and our ties to other. Outside of the lab, I'm currently trying to learn as many kinds of fiber arts as I feasibly can."
+  bio        : "I am a PhD student in Information Science. Previously I completed a BA in Sociology at Smith College, an MSc in the Social Science of the Internet at the Oxford Internet Institute. My research focuses on the ways in which the design and infrastructure of technology shapes the way we conceptualize ourselves and our ties to other. Outside of the lab, I'm currently trying to learn as many kinds of fiber arts as I feasibly can."
   uri        : "http://www.camillebutera.com"
   avatar     : images/members/camille-1.jpeg
   twitter    : "https://x.com/hedgefruit"
+
+- name       : "Joseph Trybala"
+  position   : "Ph.D. Student"
+  program    : "Information Science"
+  email      : "joseph.trybala@colorado.edu"
+  bio        : "I am a first year PhD student in Information Science. I have an MS in Data Science from Drexel University, where I started my research journey, and a BS in Computer Science from Stockton University in NJ. My research was in uncomfy spaces in online communities, I hope to now fall down the rabbit hole into one of my varied interests. Outside of lab you will find me sweating my way up a trail, tinkering, or playing some sort of video game (OSRS, Factorio, Warframe)."
+  #uri        : "https://jackmanning.me/"
+  avatar     : images/members/josephtrybala.jpg
+  #instagram  : "https://www.instagram.com/jack_manning_11/"
 
 - name       : "Jack Manning"
   position   : "M.S. Student"
@@ -67,3 +67,16 @@
   uri        : "https://jackmanning.me/"
   avatar     : images/members/jackmanning.JPG
   instagram  : "https://www.instagram.com/jack_manning_11/"
+
+- name       : "Daniel Sullivan"
+  position   : "BAM Student"
+  program    : "Information Science"
+  email      : "dasu4111@colorado.edu"
+  bio        : "I am in my final semester of a master's degree in Information Science at CU Boulder in the Identity Lab. My research explores the implications and design dimensions of AI personas created from data of deceased loved ones. After graduation, I hope to pursue a career in service management or IT for nonprofits. Beyond my academic work, I enjoy experimenting with unconventional music projects, playing board games, and creative writing."
+  #uri       : "https://jackmanning.me/"
+  avatar     : images/members/daniel-sullivan.png
+  #instagram  : "https://www.instagram.com/jack_manning_11/"
+
+ 
+
+

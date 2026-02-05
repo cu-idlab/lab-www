@@ -1,5 +1,5 @@
 # Lab Members
-# Include all the lab members here!
+# Include all the lab members (graduate students) here!
 
 # TEMPLATE
 # If a line doesn't apply, leave it commented out.
@@ -11,6 +11,18 @@
 #   avatar      : "/assets/images/members/brubaker.jpg"
 #   facebook    : "TBC"
 #   twitter     : "TBC"
+
+- name        : "Katy Weathington"
+  position    : "Ph.D. Candidate"
+  program     : "Information Science"
+  degree      : "Ph.D. in "
+  program     : "Information Science"
+  year        : "2025"
+  email       : "katy.weathington@colorado.edu"
+  bio         : "Katy Weathington is a fourth year PhD student at University of Colorado Boulder's Department of Information Science. Her research examines how queer identities are made into and utilized as data."
+  uri         : "http://katyweathington.com/"
+  twitter     : "https://twitter.com/katyweathington"
+  avatar      : images/members/katy_bio.jpg
 
 - name        : "Malinda (Mally) Dietrich"
   position    : "Ph.D. Candidate"
