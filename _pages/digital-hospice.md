@@ -50,4 +50,5 @@ Are you interested learning more? Are you wanting to get your digital affairs in
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyPhX1Tjfo9fEqNL05c5ORSmJrqmAreMipqFMVzxlSL8nigQ/viewform?usp=sf_link" target="_blank" class="button secondary"><i class="fa fa-envelope"></i> Sign up!</a>
 
 
-<!-- ### Publications -->
+### Publications
+{% bibliography --query @*[tags~=digital-hospice] %}

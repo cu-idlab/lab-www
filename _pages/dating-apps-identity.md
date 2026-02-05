@@ -17,3 +17,6 @@ To better understand the ability of queer users to present and record themselves
 
 ### Researchers
 [Katy Weathington](https://katyweathington.com/), [Morgan Klaus Scheuerman](https://www.morgan-klaus.com), [Jed Brubaker](http://www.jedbrubaker.com), [Adrian Petterson](https://www.adrianpetterson.ca/)
+
+### Publications
+{% bibliography --query @*[tags~=dating-apps-identity] %}
