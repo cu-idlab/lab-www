@@ -12,6 +12,13 @@
 #   facebook    : "TBC"
 #   twitter     : "TBC"
 
+- name       : "Daniel Sullivan"
+  position   : "BAM Student"
+  degree     : "M.S. in "
+  program    : "Information Science"
+  year       : "2025"
+  avatar     : images/members/daniel-sullivan.png
+
 - name        : "Katy Weathington"
   position    : "Ph.D. Candidate"
   program     : "Information Science"
