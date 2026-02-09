@@ -45,7 +45,6 @@
   degree     : "M.A. in"
   program    : "Communication"
   year       : "2021"
-  position   : "Program Manager at Death Scholars, Inc."
 
 - name       : "Casey Paul"
   position   : "BAM Student"
@@ -62,7 +61,7 @@
   program     : "Information Science"
   year        : "2023"
   avatar      : images/members/kandrea_wade_bio.jpg
-  position    : "UX Researcher at Material"
+  position    : "Head of UX Research at Material"
 
 - name        : "Katie Gach"
   degree      : "Ph.D. in "
@@ -86,7 +85,7 @@
   year        : "2019"
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
-  position    : "Lecturer at Hebrew University of Jerusalem"
+  position    : "Assistant Professor at Aarhus University"
 
 - name        : "Ethan Hanner"
   program     : "Computer Science"
