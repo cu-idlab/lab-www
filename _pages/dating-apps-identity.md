@@ -16,7 +16,7 @@ Dating apps are often an unenjoyable experience. For many cisgender, heterosexua
 To better understand the ability of queer users to present and record themselves within the data of dating apps, as well as the tensions that may result, we are critically examining the range of allowed identities within dating apps and investigating the experiences of non-cisgender people who may use these apps. We aim to provide recommendations for improving dating app experiences for LGBTQ users, as well as contribute broader insight into the "queering" of dating apps. 
 
 ### Researchers
-[Katy Weathington](https://katyweathington.com/), [Morgan Klaus Scheuerman](https://www.morgan-klaus.com), [Jed Brubaker](http://www.jedbrubaker.com), [Adrian Petterson](https://www.adrianpetterson.ca/)
+[Katy Weathington](https://katyweathington.com/), [Morgan Klaus Scheuerman](https://www.morgan-klaus.com), [Adrian Petterson](https://www.adrianpetterson.ca/), [Jed Brubaker](http://www.jedbrubaker.com)
 
 ### Publications
 {% bibliography --query @*[tags~=dating-apps-identity] %}
