@@ -8,6 +8,22 @@
 #   date        : 2019-04-20 12:00:00
 
 
+- headline    : New research to appear at DIS 2026 explores how people engage with AI representations of the dead
+  body        : Our latest work examines how people interact with "generative ghosts" — AI systems that simulate deceased loved ones — finding that emotional authenticity matters more than factual accuracy. The paper will appear at ACM DIS 2026.
+  date        : 2026-03-27 12:00:00
+
+- headline    : New work at CSCW 2026 on end-of-life values in electronic health records
+  body        : Doyle and Brubaker reveal how EHR systems fail to consistently support the documentation and transfer of patients' end-of-life values across care settings. The paper will appear at ACM CSCW 2026.
+  date        : 2026-03-27 12:00:00
+
+- headline    : Brubaker gives invited talk at UT Austin on "Clinic as Method"
+  body        : Brubaker presented the Digital Legacy Clinic as a model for combining research, teaching, and direct public support in a colloquium at UT Austin's iSchool.
+  date        : 2026-03-11 12:00:00
+
+- headline    : We talked generative ghosts at SXSW 2026
+  body        : Dylan Doyle and Brubaker joined Iason Gabriel and Meredith Ringel Morris from Google DeepMind for a panel at SXSW on the social, ethical, and emotional consequences of generative ghosts.
+  date        : 2026-03-10 12:00:00
+
 - headline    : Thangaraj and collaborators receive Best Paper Award at CHI 2026
   body        : Congratulations to the team — Ramprabu Thangaraj, Jed Brubaker, Emma Dixon, and Alisha Pradhan — whose paper earned a Best Paper Award at CHI 2026. This work focused on older adults and post-mortem data is a collaboration with NJIT.
   date        : 2026-03-09 12:00:00
@@ -48,6 +64,14 @@
   body        : Brubaker received the Payden Award, the top faculty award in the college, which recognizes excellence in teaching, research, and creative work. [Learn more.](https://www.colorado.edu/cmdi/faculty-staff/cmci-grants/payden-faculty-excellence-award)
   date        : 2024-05-01 12:00:00
 
+- headline    : CU Boulder Today spotlights Doyle's research on online suicide bereavement
+  body        : Our work on how people seek support online after losing someone to suicide was featured in CU Boulder Today. [Read it here.](https://www.colorado.edu/today/2024/09/24/after-suicide-more-loved-ones-are-seeking-support-online-does-it-help-or-harm)
+  date        : 2024-09-24 12:00:00
+
+- headline    : Our AI afterlife research featured in the Denver Post
+  body        : Our work on generative ghosts and the future of AI-driven interactions with the deceased was featured in the Denver Post. [Read it here.](https://www.denverpost.com/2024/10/18/ai-chatbot-generative-ghosts-dead-google-cu-boulder/)
+  date        : 2024-10-18 12:00:00
+
 - headline    : Google Academic Research Award supports work on Generative Ghosts
   body        : We received a Google Academic Research Award for "Generative Ghosts," a project empirically evaluating design spaces for death and generative AI agents. [Learn more.](https://research.google/programs-and-events/google-academic-research-awards/google-academic-research-award-program-recipients/?filtertab=2024)
   date        : 2024-10-01 12:00:00
@@ -84,8 +108,20 @@
   body        : We've published a series of papers at CSCW this year! [Read them here.](https://cmci.colorado.edu/idlab/publications/)
   date        : 2024-11-14 12:00:00
 
+- headline    : New research on narrative and healing in online suicide bereavement published at ICWSM 2024
+  body        : Doyle, Brubaker, Voida, and Keegan identify a linguistic signature for narrative bereavement posts, offering a path for platforms to better support grieving users. [Read it here.](https://ojs.aaai.org/index.php/ICWSM/article/view/31319)
+  date        : 2024-06-01 12:00:00
+
 - headline    : Our research earns a SIGCHI Best Paper award at CHI 2024
   body        : '"Products of Positionality" reveals how tech worker backgrounds shape algorithmic identity models, sparking debates on bias in computer vision. [Read the paper here.](https://cmci.colorado.edu/idlab/publications/)'
+  date        : 2024-05-16 12:00:00
+
+- headline    : New work on relationship-based end-of-life data planning
+  body        : Doyle and Brubaker conducted co-design sessions to help people plan for their personal data after death, offering recommendations to improve end-of-life data planning tools. The paper appeared at CHI 2024. [Read it here.](https://dl.acm.org/doi/10.1145/3613904.3642250)
+  date        : 2024-05-16 12:00:00
+
+- headline    : Auditing NLP tools for identity-based biases
+  body        : Brubaker collaborated on work revealing how Bengali sentiment analysis tools encode identity-based biases rooted in colonial language hierarchies. The paper appeared at CHI 2024. [Read it here.](https://dl.acm.org/doi/10.1145/3613904.3642669)
   date        : 2024-05-16 12:00:00
 
 - headline    : Morgan Scheuerman named Outstanding PhD Graduate
