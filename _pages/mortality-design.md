@@ -17,3 +17,6 @@ To move towards designing intentional and more effective mortality information s
 
 ### Researchers
 [Dylan Thomas Doyle](https://dylanthomasdoyle.com/), [Casey Fiesler](https://caseyfiesler.com/), [Jed Brubaker](http://www.jedbrubaker.com)
+
+### Publications
+{% bibliography --query @*[tags~=mortality-design] %}
