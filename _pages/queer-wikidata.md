@@ -8,7 +8,7 @@ image_crop: /images/projects/wikidata.png
 images:
   - /images/projects/wikidata.png
 excerpt:
-  TBC
+  LGBTQ+ equality depends on LGBTQ+ representation—yet queer people remain under- and mis-represented in the information systems we navigate every day. We study LGBTQ representation on Wiki platforms like Wikipedia and Wikidata, quantifying disparities, examining editorial policies such as "notability," and using network analysis to reveal how queer content is marginalized.
 homepage: true
 ---
 

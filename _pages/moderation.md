@@ -8,7 +8,7 @@ image_crop: /images/projects/online-moderation.png
 images:
   - /images/projects/online-moderation.png
 excerpt:
-  TBC
+  Who actually makes the rules in an online community—and how are they enforced? We investigate the moderation ecosystem of online communities, from a mixed-methods study of 100,000 subreddits and their rules to the largely invisible work of the volunteer moderators who keep communities running.
 homepage: false
 ---
 

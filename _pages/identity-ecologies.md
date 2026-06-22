@@ -8,7 +8,7 @@ image_crop: /images/projects/idecos.jpg
 images:
   - /images/projects/idecos.jpg
 excerpt:
-  TBC
+  How do people manage who they are across many platforms and audiences at once? We investigate identity ecologies—how people craft different identities for different online spaces—and how identities and audiences cross platform boundaries as people shift, join, and leave platforms over time.
 homepage: false
 ---
 

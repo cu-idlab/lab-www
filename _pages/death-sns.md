@@ -8,7 +8,7 @@ image_crop: /images/projects/fb-grave-crop.jpg
 images:
   - /images/projects/fb-grave.jpg
 excerpt:
-  TBC
+  What becomes of a social network profile when the person it represents has died? We examine how death reshapes online identity through three themes—embodiment, representation, and temporality—and what it means to design for digital representations that survive their owners.
 homepage: true
 ---
 

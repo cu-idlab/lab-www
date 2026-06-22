@@ -8,7 +8,7 @@ image_crop: /images/projects/queer_dating_apps.png
 images:
   - /images/projects/queer_dating_apps.png
 excerpt:
-  TBC
+  What happens when the rigid data categories of a dating app can't hold who you are? We are critically examining the range of identities dating apps allow and the experiences of trans and non-binary users, aiming to improve these apps for LGBTQ people and contribute broader insight into the "queering" of dating apps.
 homepage: true
 ---
 Dating apps are often an unenjoyable experience. For many cisgender, heterosexual people, the main source of frustration are other users. However, for LGBTQ users, especially trans and non-binary people, dating apps are a pain even before interacting with any other users. In a setting where gender and sexuality are at the forefront of interactions, stifling data categories can restrict queer users from fully and accurately representing themselves. 

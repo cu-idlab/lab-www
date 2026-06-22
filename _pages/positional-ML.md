@@ -8,7 +8,7 @@ image_crop: /images/projects/positional_ML.png
 images:
   - /images/projects/positional_ML.png
 excerpt:
-  TBC
+  Artifacts have politics—so whose worldviews end up embedded in machine learning? We use the lens of positionality to understand how the identities of the people who build models and datasets shape their outcomes, and how positionality can be harnessed for more diverse, ethical, and representative design.
 homepage: true
 ---
 

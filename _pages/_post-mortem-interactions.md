@@ -8,7 +8,7 @@ image_crop: /images/projects/dead-data-crop.jpg
 images:
   - /images/projects/dead-data.jpg
 excerpt:
-  TBC
+  We are speaking with people about how they interpret the future use of "dead data." Through prototype-based interviews, we are working to understand how postmortem data will be used and how it should shape future technologies.
 homepage: false
 ---
 

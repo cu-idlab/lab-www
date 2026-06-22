@@ -8,7 +8,7 @@ image_crop: /images/projects/queer-hci.png
 images:
   - /images/projects/queer-hci.png
 excerpt:
-  TBC
+  From restrictive identity categories to moderation that disproportionately targets queer content, LGBTQ+ people face unique challenges with technology. We examine how technology can better serve queer communities—documenting the state of LGBTQ+ research in HCI, investigating queer users' experiences across platforms, and developing design recommendations that center queer needs.
 homepage: true
 ---
 

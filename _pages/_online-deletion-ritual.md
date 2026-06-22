@@ -8,7 +8,7 @@ image_crop: /images/projects/lc-lilac-crop.jpg
 images:
   - /images/projects/lc-lilac.jpg
 excerpt:
-  TBC
+  We are working with bereaved people to design and enact meaningful rituals for deleting or memorializing a deceased loved one's Facebook account. Through this work we are exploring how ritual can improve the experience of postmortem account deletion.
 homepage: false
 
 ---

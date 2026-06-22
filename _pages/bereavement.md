@@ -8,7 +8,7 @@ image_crop: /images/projects/bereavement.png
 images:
   - /images/projects/bereavement.png
 excerpt:
-  TBC
+  We are examining how online platforms facilitate community support for people bereaved by suicide, the challenges platforms encounter, and what those challenges mean for the design of supportive technologies.
 homepage: true
 ---
 Mortality data encompasses more than the platforms and systems that manage personal data and online accounts;Social media has emerged as a space where grieving people can express grief, share their mourning with others, and seek mental health support or resources within a community setting. People bereaved by the suicide of a loved one turn to social media communities to supplement their offline support and find community. This project examines how online platforms facilitate community support for people bereaved by suicide, the challenges that platforms encounter, and the implications of those challenges for technology design.

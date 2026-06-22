@@ -8,7 +8,7 @@ image_crop: /images/projects/safety.gif
 images:
   - /images/projects/safety.gif
 excerpt:
-  None
+  The same technologies that help marginalized users explore their identities and build community can also expose them to harassment, harmful content, and even outing by the system itself. We work to better understand safety and harm in digital spaces—especially for multiply marginalized users—and how to mitigate those harms.
 homepage: true
 ---
 

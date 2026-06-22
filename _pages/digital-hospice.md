@@ -8,7 +8,7 @@ image_crop: /images/projects/digitalhospice.png
 images:
   - /images/projects/digitalhospice.png
 excerpt:
-  TBC
+  "Getting your affairs in order" has never included a technology plan—but the average internet user now has hundreds of accounts and produces hundreds of gigabytes of data each year. We are working with terminally ill patients and their families to develop best practices, tools, and design frameworks that help technology support end-of-life planning.
 homepage: true
 ---
 

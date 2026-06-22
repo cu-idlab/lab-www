@@ -8,7 +8,7 @@ image_crop: /images/projects/mortality-design.png
 images:
   - /images/projects/mortality-design.png
 excerpt:
-  TBC
+  What happens when the systems that manage mortality data—medical, governmental, and private-sector—aren't designed with care? We map mortality information systems and their stakeholders, examining the intersection of policy and technology design where improvement is technically possible and socially desirable but blocked by law and policy.
 homepage: true
 ---
 Mortality data encompasses more than the platforms and systems that manage personal data and online accounts; it also includes medical, governmental, and private-sector data. Mortality data are used to improve health outcomes, inform public policy, and determine insurance rates, among other uses. Without intentional and well-informed design of the large-scale systems that manage mortality data, everyday people can be harmed. For example, challenges with the coordination of mortality information systems across organizations exacerbated the barriers to quick interventions in responding to the COVID-19 pandemic.

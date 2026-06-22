@@ -8,7 +8,7 @@ image_crop: /images/projects/mortality-classification.png
 images:
   - /images/projects/mortality-classification.png
 excerpt:
-  TBC
+  Social computing research tends to assume its users are alive—but a growing number of profiles represent people who have died. We develop computational methods to detect mortality at scale from social media content, helping designers manage post-mortem content, support the bereaved, and improve the quality of data science.
 homepage: false
 ---
 

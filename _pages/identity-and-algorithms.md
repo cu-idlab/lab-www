@@ -8,7 +8,7 @@ image_crop: /images/projects/identity-and-algorithms.png
 images:
   - /images/projects/identity-and-algorithms.png
 excerpt:
-  TBC
+  What happens when complex, fluid human identities get folded into the rigid categories of automated systems? We research how to build algorithms—like those behind computer vision—that are sensitive to the nuanced identities of the people they classify, informing design that is empowering and safe for all users.
 homepage: true
 ---
 

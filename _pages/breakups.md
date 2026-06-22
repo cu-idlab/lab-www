@@ -8,7 +8,7 @@ image_crop: /images/projects/breakups.png
 images:
   - /images/projects/breakups.png
 excerpt:
-  TBC
+  What happens to the photos, posts, and connections left behind when a relationship ends? We explore how people navigate their online identities after breakups—the challenges of managing relationship data, the way algorithms resurface difficult memories, and how platforms can better support people through relationship dissolution.
 homepage: true
 ---
 
