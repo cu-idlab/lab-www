@@ -9,7 +9,7 @@ images:
   - /images/projects/wikidata.png
 excerpt:
   LGBTQ+ equality depends on LGBTQ+ representation—yet queer people remain under- and mis-represented in the information systems we navigate every day. We study LGBTQ representation on Wiki platforms like Wikipedia and Wikidata, quantifying disparities, examining editorial policies such as "notability," and using network analysis to reveal how queer content is marginalized.
-homepage: true
+homepage: false
 ---
 
 LGBT equality depends on LGBT representation. Despite the advances in civil rights and media representation for the LGBT community, we remain under- and mis-represented in the myriad information systems through which we navigate our daily lives. It is easy to forget that trans identities were not possible on Facebook profiles 10 years ago; that LGBT people historically had to develop their own dating apps and online communities just to have an online home; and that even today, queer stories are obscured and omitted from history on Wikipedia.
