@@ -38,6 +38,10 @@ scholar:
   sort_by: year, author
   order: descending
 
+  # Group headings (used by --group_by year on publications.md) render as <h3>
+  # to match the page's existing styling. Only affects grouped bibliographies.
+  bibliography_group_tag: h3
+
   source: assets/bibliography
   repository: assets/bibliography/pdf
   bibliography: lab
