@@ -4,7 +4,7 @@ permalink: "/project/account-closure/"
 title:  'Account Closure'
 category: project
 image: /images/projects/account-closure.jpg
-image_crop: /images/projects/account-closure.jpg
+image_crop: /images/projects/account-closure-crop.jpg
 images:
   - /images/projects/account-closure.jpg
 excerpt:

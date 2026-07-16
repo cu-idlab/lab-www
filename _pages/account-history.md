@@ -4,7 +4,7 @@ permalink: "/project/account-history/"
 title:  'Account History'
 category: project
 image: /images/projects/account-histories.jpg
-image_crop: /images/projects/account-histories.jpg
+image_crop: /images/projects/account-histories-crop.jpg
 images:
   - /images/projects/account-histories.jpg
 excerpt:

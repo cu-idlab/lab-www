@@ -4,7 +4,7 @@ permalink: "/project/account-switching/"
 title:  'Account Switching'
 category: project
 image: /images/projects/account-switching.jpg
-image_crop: /images/projects/account-switching.jpg
+image_crop: /images/projects/account-switching-crop.jpg
 images:
   - /images/projects/account-switching.jpg
 excerpt:
