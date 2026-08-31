@@ -33,7 +33,7 @@
   #instagram   : "https://www.instagram.com/anthonypinter/"
 
 - name       : "Dylan Thomas Doyle"
-  position   : "Post-Doctoral Researcher"
+  position   : "Research Scientist"
   program    : "Information Science"
   email      : "Dylan.doyle@colorado.edu"
   bio        : "I'm a Post-Doctoral Researcher in the ID Lab. As an HCI researcher, my work focuses on the intersection of values-based design and organizational systems, particularly within emotionally intense scenarios such as end-of-life support. I'm also the Director of the AI for All Tomorrows non-profit and podcast. I received my PhD from the University of Colorado Boulder, Masters of Divinity from Columbia University, and BA from Sarah Lawrence College. Prior to a career in technology research, I served as a Unitarian Universalist minister and hospital chaplain."
@@ -60,10 +60,10 @@
   #instagram  : "https://www.instagram.com/jack_manning_11/"
 
 - name       : "Jack Manning"
-  position   : "M.S. Student"
+  position   : "Ph.D. Student"
   program    : "Information Science"
   email      : "jack.manning@colorado.edu"
-  bio        : "I am a Master's Student in Information Science and a member of the IDLab. I completed my undergraduate degree in Creative Technology and Design at the ATLAS Institute at CU Boulder last May. My work focuses on creative implementations of technology and how it can better solve people's problems. While I love to blend my personal interests and my professional work I enjoy cooking, playing games with friends, and making silly things."
+  bio        : "I am a Ph.D. Student in Information Science and a member of the IDLab. I completed my undergraduate degree in Creative Technology and Design at the ATLAS Institute at CU Boulder. My work focuses on creative implementations of technology and how it can better solve people's problems. While I love to blend my personal interests and my professional work I enjoy cooking, playing games with friends, and making silly things."
   uri        : "https://jackmanning.me/"
   avatar     : images/members/jackmanning.JPG
   instagram  : "https://www.instagram.com/jack_manning_11/"
