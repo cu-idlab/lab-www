@@ -8,9 +8,17 @@
 #   date        : 2019-04-20 12:00:00
 
 
+- headline    : AI ghosts were everywhere this summer
+  body        : Our DIS 2026 study drew twenty-one stories across five weeks, from Science News and Smithsonian to Denver7 and the Daily Camera. [Science News.](https://www.sciencenews.org/article/ai-ghosts-grief-facts-wrong-chatbot) [Smithsonian.](https://www.smithsonianmag.com/smart-news/would-you-chat-with-an-ai-ghost-of-a-deceased-loved-one-new-research-suggests-that-the-tech-can-provide-comfort-and-closure-180989176/) [Daily Camera.](https://www.dailycamera.com/2026/07/13/cu-boulder-ai-ghosts/)
+  date        : 2026-07-29 12:00:00
+
 - headline    : CU Boulder Today features our generative ghosts research
   body        : Our work studying how people interact with AI "ghosts" of the dead got an in-depth look — from the study room to the ethical questions these systems raise. [Read the story.](https://www.colorado.edu/today/2026/06/29/if-you-could-chat-ai-ghost-what-would-you-want-them-say-new-study-explores)
   date        : 2026-06-29 12:00:00
+
+- headline    : Best Paper Honorable Mention at DIS 2026
+  body        : Jack Manning presented "Designing Conversations with the Dead" in Singapore, where the paper earned a Best Paper Honorable Mention. [Read the paper.](https://dl.acm.org/doi/10.1145/3800645.3813090)
+  date        : 2026-06-17 12:00:00
 
 - headline    : For generative ghosts, feeling authentic matters more than facts
   body        : Our latest work examines how people interact with "generative ghosts" — AI systems that simulate deceased loved ones — finding that emotional authenticity matters more than factual accuracy. The paper will appear at ACM DIS 2026.
