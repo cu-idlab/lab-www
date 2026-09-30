@@ -12,6 +12,10 @@
   body        : Our paper with Tamara Borovica, Katrin Gerber, Caitlin McGrane, and Larissa Hjorth (RMIT) is out in Thanatos. Drawing on a speculative design workshop with interdisciplinary experts, we explore how AI might reshape memorialization, grief, and continuing bonds with the dead. [Read it here.](https://doi.org/10.57124/thanatos.162347)
   date        : 2026-09-16 12:00:00
 
+- headline    : The Guardian asks how AI is changing the way we mourn
+  body        : Jack Manning spoke with the Guardian about AI depictions of the dead, consent, and what happens when grief moves out of a community and into a private chat window. [Read it here.](https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation)
+  date        : 2026-09-15 12:00:00
+
 - headline    : The Wall Street Journal on AI ghosts and memorialization
   body        : Brubaker spoke with WSJ columnist Julie Jargon about a man who fed 17,500 pages of his late father's writing into a chatbot, and about what happens when the AI agent you use every day outlives you. [Read it here.](https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c)
   date        : 2026-09-12 12:00:00
@@ -27,6 +31,10 @@
 - headline    : Best Paper Honorable Mention at DIS 2026
   body        : Jack Manning presented "Designing Conversations with the Dead" in Singapore, where the paper earned a Best Paper Honorable Mention. [Read the paper.](https://dl.acm.org/doi/10.1145/3800645.3813090)
   date        : 2026-06-17 12:00:00
+
+- headline    : Communications of the ACM on the ethics of post-mortem avatars
+  body        : Brubaker spoke with Communications of the ACM about how ghostbots should be designed, from the way an interface frames a "ghost" to why these systems need a way to be retired, and why push notifications take agency away from someone who is grieving. [Read it here.](https://cacm.acm.org/news/should-there-be-limitations-on-post-mortem-avatars/)
+  date        : 2026-04-28 12:00:00
 
 - headline    : For generative ghosts, feeling authentic matters more than facts
   body        : Our latest work examines how people interact with "generative ghosts" — AI systems that simulate deceased loved ones — finding that emotional authenticity matters more than factual accuracy. The paper will appear at ACM DIS 2026.
