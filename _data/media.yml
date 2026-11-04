@@ -11,21 +11,21 @@
 #   date    : 2026-01-31
 #   projects: [project-slug, another-slug]   (the slug is the page's filename, no underscore, no .md)
 
-- title   : How We've Taught Algorithms to See Identity
+- title   : 'How We''ve Taught Algorithms to See Identity'
   url     : https://medium.com/@morganklausscheuerman/how-weve-taught-algorithms-to-see-identity-a34e2b731dcc
   type    : blog
   author  : Morgan Klaus Scheuerman
   date    : 2020-05-19
   projects: [identity-and-algorithms]
 
-- title   : Break-ups Suck. They Could Suck Less.
+- title   : 'Break-ups Suck. They Could Suck Less.'
   url     : https://medium.com/acm-cscw/breakups-suck-they-could-suck-less-6122aee9465f
   type    : blog
   author  : Anthony Pinter
   date    : 2019-10-02
   projects: [identity-and-algorithms]
 
-- title   : Even after blocking an ex on Facebook, the platform promotes painful reminders
+- title   : 'Even after blocking an ex on Facebook, the platform promotes painful reminders'
   url     : https://theconversation.com/even-after-blocking-an-ex-on-facebook-the-platform-promotes-painful-reminders-132240
   type    : press
   outlet  : The Conversation
@@ -33,7 +33,7 @@
   date    : 2020-03-03
   projects: [identity-and-algorithms]
 
-- title   : How social media makes breakups that much worse
+- title   : 'How social media makes breakups that much worse'
   url     : https://www.colorado.edu/today/2020/02/13/how-social-media-makes-breakups-much-worse
   type    : press
   outlet  : CU Boulder Today
@@ -41,10 +41,78 @@
   date    : 2020-02-13
   projects: [identity-and-algorithms]
 
-- title   : The Problem With Putting Social Media in Charge of Our Memories
+- title   : 'The Problem With Putting Social Media in Charge of Our Memories'
   url     : https://onezero.medium.com/welcome-back-to-your-past-d67fc8e6caa9
   type    : press
   outlet  : OneZero
   author  : Jayne Williamson-Lee
   date    : 2020-05-09
   projects: [identity-and-algorithms]
+
+- title   : '"Control Your Emotions, Potter": An Analysis of Grief Policing on Facebook in Response to Celebrity Death'
+  url     : https://medium.com/@kzgach/control-your-emotions-potter-an-analysis-of-grief-policing-on-facebook-in-response-to-celebrity-1c0e39827eca
+  type    : blog
+  author  : Katie Gach
+  date    : 2018-09-16
+  projects: [grief-policing-cscw2018]
+
+- title   : 'Stories of grief — and hope — pour out on Twitter after suicides'
+  url     : https://www.bostonglobe.com/lifestyle/health-wellness/2018/06/14/stories-grief-and-hope-pour-out-twitter-after-suicides/G0tWv69d5VV8pJJpjh6VMK/story.html
+  type    : press
+  outlet  : The Boston Globe
+  date    : 2018-06-14
+  projects: [grief-policing-cscw2018]
+
+- title   : '‘Grief Policing’ After Celebrity Deaths'
+  url     : https://www.byuradio.org/episode/7b45649a-d229-4ea0-8e69-dd170a22539d/top-of-mind-with-julie-rose-puerto-rico-recovery-man-flu-metoo
+  type    : press
+  outlet  : BYU Radio
+  author  : Julie Rose
+  date    : 2018-01-04
+  projects: [grief-policing-cscw2018]
+
+- title   : 'When celebrities die, ''grief policing'' abounds, social media gets toxic'
+  url     : https://www.colorado.edu/today/2017/12/06/when-celebrities-die-grief-policing-abounds-social-media-gets-toxic
+  type    : press
+  outlet  : CU Boulder Today
+  author  : Lisa Marshall
+  date    : 2017-12-06
+  projects: [grief-policing-cscw2018]
+
+- title   : 'Do You Really Know Your GIFs?'
+  url     : https://medium.com/acm-cscw/do-you-really-know-your-gifs-b90c2af7b7d1
+  type    : blog
+  author  : Aaron Jiang
+  date    : 2018-09-26
+  projects: [gifeels]
+
+- title   : 'Tending Unmarked Graves: Automatic Identification of Post-mortem Content on Social Media'
+  url     : https://medium.com/acm-cscw/tending-unmarked-graves-automatic-identification-of-post-mortem-content-on-social-media-ca6870461b66
+  type    : blog
+  author  : Aaron Jiang
+  date    : 2018-10-19
+  projects: [mortality-classification]
+
+- title   : '‘I created my mom and talk to her’: AI ghosts and deathslop are changing the way we mourn'
+  url     : https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation
+  type    : press
+  outlet  : The Guardian
+  author  : Alaina Demopoulos
+  date    : 2026-09-15
+  projects: [ai-afterlife]
+
+- title   : 'A Dead Father, Reincarnated With AI: Is This How We Will Remember Loved Ones Now?'
+  url     : https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c
+  type    : press
+  outlet  : The Wall Street Journal
+  author  : Julie Jargon
+  date    : 2026-09-12
+  projects: [ai-afterlife]
+
+- title   : 'If you could chat with an AI ghost, what would you want them to say? New study explores'
+  url     : https://www.colorado.edu/today/2026/06/29/if-you-could-chat-ai-ghost-what-would-you-want-them-say-new-study-explores
+  type    : press
+  outlet  : CU Boulder Today
+  author  : Lisa Marshall
+  date    : 2026-06-29
+  projects: [ai-afterlife]

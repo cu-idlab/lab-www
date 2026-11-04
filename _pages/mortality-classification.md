@@ -17,5 +17,4 @@ User-generated content is central to social computing scholarship. However, rese
 ### Publications
 {% bibliography --query @*[tags~=mortality-classification] %}
 
-### Blog
-[Tending Unmarked Graves: Automatic Identification of Post-mortem Content on Social Media](https://medium.com/acm-cscw/tending-unmarked-graves-automatic-identification-of-post-mortem-content-on-social-media-ca6870461b66)
+{% include media.html project="mortality-classification" %}

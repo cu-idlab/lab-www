@@ -20,12 +20,7 @@ Since naming that design space, we have run the first user-experience study of p
 ### Researchers
 [Jack Manning](https://jackmanning.me/), [Dylan Thomas Doyle](https://dylanthomasdoyle.com/), [Anthony Pinter](https://www.anthonypinter.com), Daniel Sullivan, Joseph Trybala, Ella Krelovich, [Jed Brubaker](http://www.jedbrubaker.com)
 
-### Press
-[‘I created my mom and talk to her’: AI ghosts and deathslop are changing the way we mourn](https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation)
-
-[A Dead Father, Reincarnated With AI: Is This How We Will Remember Loved Ones Now?](https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c)
-
-[If you could chat with an AI ghost, what would you want them to say? New study explores](https://www.colorado.edu/today/2026/06/29/if-you-could-chat-ai-ghost-what-would-you-want-them-say-new-study-explores)
-
 ### Publications
 {% bibliography --query @*[tags~=ai-afterlife] %}
+
+{% include media.html project="ai-afterlife" %}
