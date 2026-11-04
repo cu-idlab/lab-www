@@ -1030,6 +1030,20 @@ body.screenshot {
   margin-bottom: 5px;
 }
 
+.media-list {
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.media-list li {
+  margin-bottom: 1rem;
+}
+
+.media-meta {
+  display: block;
+}
+
 .modBlogPost .tags {
   padding: 5px 0;
 }

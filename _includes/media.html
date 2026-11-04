@@ -1,0 +1,22 @@
+{% comment %}
+Lists press and blog items from _data/media.yml tagged with a project slug.
+Usage: {% include media.html project="identity-and-algorithms" %}
+Newest first. Press shows outlet, author and date; blog shows author and date.
+Renders nothing for a section with no items.
+{% endcomment %}
+{% assign media_items = site.data.media | where_exp: "m", "m.projects contains include.project" | sort: "date" | reverse %}
+{% assign media_sections = "blog,press" | split: "," %}
+{% for section in media_sections %}
+{% assign section_items = media_items | where: "type", section %}
+{% if section_items.size > 0 %}
+<h3 id="{{ section }}">{% if section == "blog" %}Blog{% else %}Press{% endif %}</h3>
+<ul class="media-list">
+{% for m in section_items %}
+  <li>
+    <a href="{{ m.url }}">{{ m.title }}</a>
+    <span class="media-meta">{% if section == "press" and m.outlet %}{{ m.outlet }}{% endif %}{% if m.author %}{% if section == "press" and m.outlet %} &middot; {% endif %}{{ m.author }}{% endif %}{% if m.date %}{% if m.author or section == "press" and m.outlet %} &middot; {% endif %}{{ m.date | date: "%B %-d, %Y" }}{% endif %}</span>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
