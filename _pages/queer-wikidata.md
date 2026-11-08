@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: "/project/queer-wikidata/"
-title:  'Queer Representation on WikiData'
+title:  'Queer Representation on Wikidata'
 category: project
 image: /images/projects/wikidata.png
 image_crop: /images/projects/wikidata.png
@@ -17,7 +17,7 @@ LGBT equality depends on LGBT representation. Despite the advances in civil righ
 Underrepresentation for the LGBTQ community on Wiki platforms like Wikipedia and Wikidata is intertwined with systemic under/misrepresentation of the LGBTQ community and individuals online. As our society increasingly builds data-driven web-based platforms and moves interactions online, this problem will only grow.
 
 Currently we are focusing on:
-* Quantifing the disparities around LGBTQ representation.
+* Quantifying the disparities around LGBTQ representation.
 * Analyzing editorial policies around articles for entries about people that may discriminate against LGBTQ people (e.g., the "notability" requirement for Wikipedia pages on people and how notability is operationalized).
 * Using network analysis methods to characterize and visualize how LGBTQ pages are integrated within/linked to other content (another form of marginalization).
 
