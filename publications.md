@@ -7,6 +7,13 @@ author_profile: false
 # Publications
 {: .page-title}
 
+<div id="pub-featured" class="pub-featured" markdown="0" hidden>
+  <h2 class="pub-section-title">Selected papers</h2>
+  <div class="pub-feat-grid"></div>
+</div>
+
+<h2 class="pub-section-title">All publications</h2>
+
 <div id="pub-filters" class="pub-filters" markdown="0">
   <div class="pub-chips" role="group" aria-label="Filter publications">
     <button type="button" class="pub-chip active" data-filter="all">All</button>
@@ -32,6 +39,7 @@ author_profile: false
   var count = bar.querySelector('.pub-count');
   var years = bar.querySelector('.pub-years');
   var total = 0;
+  var featured = document.getElementById('pub-featured');
 
   var groups = lists.map(function (ol) {
     var h = ol.previousElementSibling;
@@ -55,8 +63,63 @@ author_profile: false
     years.appendChild(a);
   });
 
+
+  // Selected papers: build cards from the entries tagged "featured".
+  (function () {
+    var grid = featured.querySelector('.pub-feat-grid');
+    groups.forEach(function (g) {
+      g.rows.forEach(function (r) {
+        if (r.cats.indexOf('featured') === -1) return;
+        var li = r.li, card = document.createElement('div');
+        card.className = 'feat-card';
+        var side = li.querySelector('.pub-side');
+        if (side) {
+          var tags = document.createElement('div');
+          tags.className = 'feat-tags';
+          tags.innerHTML = side.innerHTML;
+          card.appendChild(tags);
+        }
+        var t = li.querySelector('.title'), pdf = null, doi = null;
+        [].slice.call(li.querySelectorAll('li.pill a')).forEach(function (a) {
+          if (a.textContent.trim() === 'PDF') pdf = a;
+          if (/doi\.org/.test(a.href)) doi = a;
+        });
+        var link = pdf || doi, title = document.createElement('div');
+        title.className = 'feat-title';
+        if (link) {
+          var ta = document.createElement('a');
+          ta.href = link.href;
+          ta.textContent = t ? t.textContent : '';
+          title.appendChild(ta);
+        } else {
+          title.textContent = t ? t.textContent : '';
+        }
+        card.appendChild(title);
+        var au = li.querySelector('.author');
+        if (au) {
+          var ad = document.createElement('div');
+          ad.className = 'feat-authors';
+          ad.innerHTML = au.innerHTML;
+          card.appendChild(ad);
+        }
+        var vd = document.createElement('div');
+        vd.className = 'feat-venue';
+        var n = au ? au.nextSibling : null;
+        while (n && !(n.id && /-materials$/.test(n.id))) {
+          if (n.nodeType === 1 && n.tagName !== 'BR') vd.appendChild(n.cloneNode(true));
+          else if (n.nodeType === 3 && n.textContent.trim()) vd.appendChild(document.createTextNode(n.textContent));
+          n = n.nextSibling;
+        }
+        card.appendChild(vd);
+        grid.appendChild(card);
+      });
+    });
+    if (grid.children.length) featured.hidden = false;
+  })();
+
   function apply(filter) {
     var shown = 0;
+    if (featured) featured.style.display = filter === 'all' ? '' : 'none';
     groups.forEach(function (g) {
       var any = false;
       g.rows.forEach(function (r) {
