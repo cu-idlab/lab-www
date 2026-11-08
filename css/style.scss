@@ -4082,6 +4082,31 @@ ol.bibliography li {
   font-weight: bold;
   white-space: nowrap;
 }
+/* Venue pill before each title (rectangular) */
+.bibliography .venue-pill {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 0.08em 0.5em;
+  font-size: 0.72em;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+  color: #fff;
+  background: #5b5f66;
+  border-radius: 2px;
+}
+.bibliography .vp-chi { background: #1f5fa8; }
+.bibliography .vp-cscw { background: #2e7d4f; }
+.bibliography .vp-journal { background: #3d3d3d; }
+.bibliography .vp-workshop {
+  color: #555;
+  background: #fff;
+  border: 1px solid #aaa;
+}
+.bibliography .articleno:before {
+  content: ", ";
+}
 .bibliography .award-icon {
   width: 1.15em;
   height: 1.15em;
