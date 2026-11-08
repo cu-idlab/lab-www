@@ -50,6 +50,19 @@ h1.page-title {
   float: left;
 }
 
+// Funder logos: lay out with flexbox so a tile that is a pixel taller than its neighbours cannot snag the next row (the 500x501 NSF logo did).
+.funder-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.funder-row:before,
+.funder-row:after {
+  display: none;
+}
+.funder-row > .columns {
+  float: none;
+}
+
 .centered-text {
   text-align: center;
 }
