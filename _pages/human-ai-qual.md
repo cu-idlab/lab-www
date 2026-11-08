@@ -3,10 +3,10 @@ layout: project
 permalink: "/project/human-ai-qual/"
 title:  'Human-AI Collaboration for Qualitative Analysis'
 category: project
-image: /images/projects/positional_ML.png
-image_crop: /images/projects/positional_ML.png
+image: /images/projects/human-ai-qual.png
+image_crop: /images/projects/human-ai-qual.png
 images:
-  - /images/projects/positional_ML.png
+  - /images/projects/human-ai-qual.png
 excerpt:
   Computational tools have long served quantitative scholars, but what role can AI play in qualitative analysis? We studied how tools can support, rather than supplant, qualitative scholars, attending to the time, perspective, and serendipity that interpretive work depends on.
 homepage: false
