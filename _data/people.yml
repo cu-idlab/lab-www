@@ -15,7 +15,7 @@
 - name        : "Jed R. Brubaker"
   position    : "Lab Director"
   program     : "Associate Professor"
-  uri         : "http://www.jedbrubaker.com"
+  uri         : "https://www.jedbrubaker.com"
   email       : "jed.brubaker@colorado.edu"
   avatar      : images/members/brubaker-bio.jpg
   facebook    : "jedbrubaker"
@@ -37,7 +37,7 @@
   program    : "Information Science"
   email      : "Dylan.doyle@colorado.edu"
   bio        : "I'm a Post-Doctoral Researcher in the ID Lab. As an HCI researcher, my work focuses on the intersection of values-based design and organizational systems, particularly within emotionally intense scenarios such as end-of-life support. I'm also the Director of the AI for All Tomorrows non-profit and podcast. I received my PhD from the University of Colorado Boulder, a Master of Divinity from Columbia University, and BA from Sarah Lawrence College. Prior to a career in technology research, I served as a Unitarian Universalist minister and hospital chaplain."
-  uri        : "http://dylanthomasdoyle.com"
+  uri        : "https://dylanthomasdoyle.com/"
   avatar     : images/members/dylandoyle.jpeg
   twitter    : "dylantdoyle"
 
@@ -46,9 +46,9 @@
   program    : "Information Science"
   email      : "camille.butera@colorado.edu"
   bio        : "I am a PhD student in Information Science. Previously I completed a BA in Sociology at Smith College, an MSc in the Social Science of the Internet at the Oxford Internet Institute. My research focuses on the ways in which the design and infrastructure of technology shapes the way we conceptualize ourselves and our ties to other. Outside of the lab, I'm currently trying to learn as many kinds of fiber arts as I feasibly can."
-  uri        : "http://www.camillebutera.com"
+  uri        : "https://camillebutera.com/"
   avatar     : images/members/camille-1.jpeg
-  twitter    : "https://x.com/hedgefruit"
+  twitter    : "hedgefruit"
 
 - name       : "Joseph Trybala"
   position   : "Ph.D. Student"
