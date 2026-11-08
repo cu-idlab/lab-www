@@ -39,7 +39,19 @@
 {% elsif entry.journal %}{% assign vp = "Journal" %}{% assign vpc = "journal" %}
 {% elsif entry.type == "incollection" %}{% assign vp = "Chapter" %}{% assign vpc = "workshop" %}
 {% endif %}
-<span class="title">{% if vp != "" %}<span class="venue-pill vp-{{vpc}}">{{vp}}</span>{% endif %}{{entry.title}}</span>
+<div class="pub-row">
+<div class="pub-side">
+{% if vp != "" %}<span class="venue-pill vp-{{vpc}}">{{vp}}</span>{% endif %}
+{% if entry.award %}
+<div class="awards">
+{% assign award_list = entry.award | split: ";" %}
+{% for a in award_list %}{% assign a = a | strip %}<span class="award {% if a contains "Honorable" %}award-hm{% elsif a contains "Nomination" %}award-nom{% elsif a contains "Best Paper" %}award-best{% else %}award-di{% endif %}"><svg class="award-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><polygon class="ribbon" points="7.5,13 5.5,23 12,19.5 18.5,23 16.5,13"/><circle class="medal" cx="12" cy="9" r="7"/><circle class="ring" cx="12" cy="9" r="4.3"/></svg>{{a}}</span>
+{% endfor %}
+</div>
+{% endif %}
+</div>
+<div class="pub-main">
+<span class="title">{{entry.title}}</span>
 <span class="author">{{entry.author}}</span><br />
 {% if entry.booktitle %}<span class="venue">{{entry.booktitle}}</span>{% endif %}
 {% if entry.school %}<span class="venue">{{entry.school}}</span>{% endif %}
@@ -59,13 +71,6 @@
 {% endif %}
 {% if entry.articleno %}<span class="articleno">Article {{entry.articleno}}</span>{% endif %}
 
-{% if entry.award %}
-<div class="awards">
-{% assign award_list = entry.award | split: ";" %}
-{% for a in award_list %}{% assign a = a | strip %}<span class="award {% if a contains "Honorable" %}award-hm{% elsif a contains "Nomination" %}award-nom{% elsif a contains "Best Paper" %}award-best{% else %}award-di{% endif %}"><svg class="award-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><polygon class="ribbon" points="7.5,13 5.5,23 12,19.5 18.5,23 16.5,13"/><circle class="medal" cx="12" cy="9" r="7"/><circle class="ring" cx="12" cy="9" r="4.3"/></svg>{{a}}</span>
-{% endfor %}
-</div>
-{% endif %}
 
 <div id="{{key}}-materials">
   <ul class="nav nav-pills">
@@ -107,4 +112,6 @@
     <p id="{{key}}-abstract" class="collapse" style="display:none;">{{entry.abstract}}</p>
   {% endif %}
 
+</div>
+</div>
 </div>

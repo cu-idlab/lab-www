@@ -4082,12 +4082,55 @@ ol.bibliography li {
   font-weight: bold;
   white-space: nowrap;
 }
+/* Two-column entry: venue pill and awards on the left, details on the right */
+.bibliography .pub-row {
+  display: flex;
+  align-items: flex-start;
+}
+.bibliography .pub-side {
+  flex: 0 0 11em;
+  padding-right: 1em;
+  padding-top: 0.15em;
+}
+.bibliography .pub-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.bibliography .pub-side .venue-pill {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 0.5em;
+}
+.bibliography .pub-side .awards {
+  margin: 0;
+}
+.bibliography .pub-side .award {
+  display: block;
+  margin: 0 0 0.35em;
+  font-size: 0.8em;
+  line-height: 1.3;
+  white-space: normal;
+}
+@media only screen and (max-width: 40em) {
+  .bibliography .pub-row {
+    display: block;
+  }
+  .bibliography .pub-side {
+    padding: 0 0 0.4em;
+  }
+  .bibliography .pub-side .venue-pill,
+  .bibliography .pub-side .award {
+    display: inline-block;
+    margin-right: 0.6em;
+  }
+}
 /* Venue pill before each title (rectangular) */
 .bibliography .venue-pill {
   display: inline-block;
   margin-right: 0.6em;
   padding: 0.08em 0.5em;
-  font-size: 0.72em;
+  font-size: 0.78em;
   font-weight: bold;
   letter-spacing: 0.03em;
   line-height: 1.5;
