@@ -11,6 +11,7 @@
 #   avatar      : "/assets/images/members/brubaker.jpg"
 #   facebook    : "TBC"
 #   twitter     : "TBC"
+#   current_position : "Role at Employer (alumni only; shown on the About page instead of position)"
 
 - name       : "Daniel Sullivan"
   position   : "BAM Student"
@@ -47,13 +48,13 @@
   year       : "2021"
 
 - name       : "Casey Paul"
-  position   : "BAM Student"
+  position    : "BAM Student"
   degree     : "M.S. in"
   program    : "Information Science"
   year       : "2023"
 #  bio        : "I am a senior at the University of Colorado Boulder studying Information Science with a minor in Creative Technology and Design. I am also earning my master's degree in Information Science concurrently with my bachelors degree through a Bachelor's Accelerated Masters program. My research has consisted of understanding the needs and preferences of data and online platforms for deceased users, and how the bereaved needs can be met. Outside of this work I enjoy sports photography, reading, skiing, and doing puzzles."
   avatar     : images/members/caseypaul.jpg
-  position   : "UX Designer at IDE Interactive"
+  current_position : "UX Designer at IDE Interactive; Live Content Creator at Major League Baseball"
 
 - name        : "Kandrea Wade"
   position    : "Ph.D. Student"
@@ -61,7 +62,7 @@
   program     : "Information Science"
   year        : "2023"
   avatar      : images/members/kandrea_wade_bio.jpg
-  position    : "Head of UX Research at Material"
+  current_position : "Associate Vice President and Head of UXR at Material"
 
 - name        : "Katie Gach"
   degree      : "Ph.D. in "
@@ -69,7 +70,7 @@
   year        : "2021"
   avatar      : images/members/gach-bio.jpg
   twitter     : "kzgach"
-  position    : "Researcher at Meta"
+  current_position : "Researcher at Meta"
 
 - name        : "Aaron Jiang"
   degree      : "Ph.D. in "
@@ -77,7 +78,7 @@
   year        : "2020"
   avatar      : images/members/aaron_jiang_bio.jpg
   twitter     : "aaroniidx"
-  position    : "Researcher at Meta"
+  current_position : "Quantitative Researcher at Meta"
 
 - name        : "Blake Hallinan"
   degree      : "Ph.D. in "
@@ -85,9 +86,10 @@
   year        : "2019"
   avatar      : images/members/blake-hallinan.jpg
   twitter     : "blakeplease"
-  position    : "Assistant Professor at Aarhus University"
+  current_position : "Associate Professor at Aarhus University"
 
 - name        : "Ethan Hanner"
   program     : "Computer Science"
   avatar      : images/members/ethanhanner.jpg
   twitter     : "ethan_hanner"
+  current_position : "Developer at South Carolina Department of Public Health"
