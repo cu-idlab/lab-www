@@ -53,11 +53,11 @@
 </div>
 <div class="pub-main">
 <span class="title">{{entry.title}}</span>
-{% comment %} Author line: "First Last, First Last, and First Last". Jed is bold. Falls back to the raw text for any name that does not split as "Last, First". {% endcomment %}
+{% comment %} Author line: "First Last, First Last, and First Last". Falls back to the raw text for any name that does not split as "Last, First". {% endcomment %}
 {% assign au_names = entry.author | split: " and " %}
 {% assign au_count = au_names | size %}
 {% assign au_penult = au_count | minus: 1 %}
-{% capture au_line %}{% for n in au_names %}{% assign au_parts = n | split: ", " %}{% if au_parts.size == 2 %}{% capture au_name %}{{ au_parts[1] }} {{ au_parts[0] }}{% endcapture %}{% else %}{% assign au_name = n %}{% endif %}{% if au_name contains "Brubaker" and au_name contains "Jed" %}<strong>{{ au_name }}</strong>{% else %}{{ au_name }}{% endif %}{% unless forloop.last %}{% if au_count == 2 %} and {% elsif forloop.index == au_penult %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endcapture %}
+{% capture au_line %}{% for n in au_names %}{% assign au_parts = n | split: ", " %}{% if au_parts.size == 2 %}{% capture au_name %}{{ au_parts[1] }} {{ au_parts[0] }}{% endcapture %}{% else %}{% assign au_name = n %}{% endif %}{{ au_name }}{% unless forloop.last %}{% if au_count == 2 %} and {% elsif forloop.index == au_penult %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endcapture %}
 <span class="author">{{ au_line }}</span><br />
 {% if entry.booktitle %}<span class="venue">{{entry.booktitle}}</span>{% endif %}
 {% if entry.school %}<span class="venue">{{entry.school}}</span>{% endif %}
