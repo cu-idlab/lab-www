@@ -15,9 +15,9 @@ This year, I am looking to take on new PhD students who are interested in studyi
 
 You will join a hyper-collaborative lab studying intersections between identity and technology. Our daily interactions include discussions about mortality, gender, marginalized communities, algorithmic bias, online moderation, and most importantly, how to make the internet a kinder place.
 
-Interested students can learn more about the lab [here](https://cmci.colorado.edu/idlab/).
-And more about joining our team [here](https://cmci.colorado.edu/idlab/join/).
+Interested students can learn more about the lab [here](https://www.cuidentitylab.com/).
+And more about joining our team [here](https://www.cuidentitylab.com/join/).
 
-The Identity Lab is housed in the department of Information Science at CU Boulder, part of a larger interdisciplinary community at Boulder focused on Human Centered Computing. As such, I accept PhD students through [five different programs](https://cmci.colorado.edu/idlab/join/). Students interested in the Information Science PhD program can find more details [here](https://www.colorado.edu/infoscience/phd-2021).
+The Identity Lab is housed in the department of Information Science at CU Boulder, part of a larger interdisciplinary community at Boulder focused on Human Centered Computing. As such, I accept PhD students through [five different programs](https://www.cuidentitylab.com/join/). Students interested in the Information Science PhD program can find more details [here](https://www.colorado.edu/cmdi/infoscience/graduate-degrees).
 
 Feel free to request more information about applying from the various programs directly, but feel free to reach out to me directly as well. jed - dot - brubaker - at - colorado - dot - edu.

@@ -19,7 +19,7 @@ homepage: false
 **Do you not know what to do about it?**
 
 Consider participating in this research study of postmortem Facebook account deletion.
-We ask that you read this information and ask any questions you may have before agreeing to be in the study. The study is being conducted by [Katie Gach](https://cmci.colorado.edu/idlab/about/), a PhD Candidate at the ATLAS Institute, University of Colorado Boulder. Katie may be reached at [catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu).
+We ask that you read this information and ask any questions you may have before agreeing to be in the study. The study is being conducted by [Katie Gach](https://www.cuidentitylab.com/about/), a PhD Candidate at the ATLAS Institute, University of Colorado Boulder. Katie may be reached at [catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu).
 
 The purpose of the study is to better understand people’s experiences with postmortem account deletion, and to examine a possible method of improving that experience.
 
@@ -52,6 +52,6 @@ Taking part in this study is voluntary. You may choose not to take part or may l
 You will not receive monetary compensation. You may benefit from the technical support Katie can provide as a former employee of Facebook’s Memorialization team. You may benefit from reflecting on the life of your loved one and tying up a loose end of their digital assets.
 
 ### Questions or Problems
-If you have questions or are interested in participating please contact [Katie Gach](https://cmci.colorado.edu/idlab/about/) at [catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu). This study was reviewed and approved by the CU IRB #20-0316.
+If you have questions or are interested in participating please contact [Katie Gach](https://www.cuidentitylab.com/about/) at [catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu). This study was reviewed and approved by the CU IRB #20-0316.
 
 {% include note.html content="Interested in participating? Email Katie Gach ([catherine.gach@colorado.edu](mailto:catherine.gach@colorado.edu)) for more information!" %}

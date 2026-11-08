@@ -20,6 +20,6 @@ There are two phases of this project. We are currently in Phase 1, which is cond
 
 __We are looking for people interested in participating! If you're interested, please click the link above!__ You will receive a $10 Amazon gift card for your participation in this phase of the study.
 
-This project is currently being led by Chris Koehler, Kyle Frye, Jacob Paul and Tom Slesinger who are Undergrads in the Identity Lab. Their advisor is Dr. Jed Brubaker, who is leading the frontier of post-mortem interactions. More information about Dr. Brubaker can be on the [About](http://cmci.colorado.edu/idlab/about/) page.
+This project is currently being led by Chris Koehler, Kyle Frye, Jacob Paul and Tom Slesinger who are Undergrads in the Identity Lab. Their advisor is Dr. Jed Brubaker, who is leading the frontier of post-mortem interactions. More information about Dr. Brubaker can be on the [About](https://www.cuidentitylab.com/about/) page.
 
 {% include note.html content="[Interested in participating? Click here!](https://goo.gl/forms/shxmS4b0lQSxmfxC2)" %}

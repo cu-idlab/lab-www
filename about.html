@@ -9,7 +9,7 @@ section_id: about
     <div class='medium-6 columns'>
       <h1>Who are we?</h1>
       <div class='spacing'></div>
-      <p>The Identity Lab is led by <a href="http://www.jedbrubaker.com">Jed Brubaker</a>, an Associate Professor of Information Science in CU Boulder's College of Communication, Media, Design and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology.</p>
+      <p>The Identity Lab is led by <a href="https://www.jedbrubaker.com">Jed Brubaker</a>, an Associate Professor of Information Science in CU Boulder's College of Communication, Media, Design and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology.</p>
     </div>
     <!-- <div class='medium-6 columns'>
       <h3>Our skills</h3>
@@ -292,7 +292,7 @@ section_id: about
         <div class='small-6 medium-4 large-2 columns'>
           <!-- <div class='mod style-2'> -->
             <div class='funder'>
-              <img class="avatar" alt="{{funder.name}}" src="{{site.baseurl}}/{{funder.logo}}" />
+              {% if funder.logo %}<img class="avatar" alt="{{funder.name}}" src="{{site.baseurl}}/{{funder.logo}}" />{% endif %}
               <p class="name text-center">{{funder.name}}</p>
             </div>
           <!-- </div> -->

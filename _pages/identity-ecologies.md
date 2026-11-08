@@ -32,7 +32,7 @@ Following Phase 1, we anticipate conducting a trace ethnography and network anal
 
 #### Research Team
 
-This project is led by Anthony Pinter, a PhD student in the Identity Lab. Anthony's pronouns are he/his. More information about Anthony can be found on the [About](http://cmci.colorado.edu/idlab/about/) page. Anthony's advisor, Dr. Jed Brubaker, is also involved in the project, and has experience in this research area (see [Haimson, Brubaker, Dombrowski, & Hayes, 2015](http://cmci.colorado.edu/idlab/assets/bibliography/pdf/p1176-haimson.pdf) and [Haimson, Brubaker, Dombrowski, & Hayes, 2016](http://cmci.colorado.edu/idlab/assets/bibliography/pdf/p2895-haimson.pdf)).
+This project is led by Anthony Pinter, a PhD student in the Identity Lab. Anthony's pronouns are he/his. More information about Anthony can be found on the [About](https://www.cuidentitylab.com/about/) page. Anthony's advisor, Dr. Jed Brubaker, is also involved in the project, and has experience in this research area (see [Haimson, Brubaker, Dombrowski, & Hayes, 2015](https://www.cuidentitylab.com/assets/bibliography/pdf/p1176-haimson.pdf) and [Haimson, Brubaker, Dombrowski, & Hayes, 2016](https://www.cuidentitylab.com/assets/bibliography/pdf/p2895-haimson.pdf)).
 
 Currently supporting Anthony in this project are two undergraduate research assistants:
 - Kayden Adams is an undergraduate student at CU Boulder, majoring in Computer Science. Kayden's pronouns are they/them.
