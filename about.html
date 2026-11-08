@@ -252,7 +252,7 @@ section_id: about
           {% for member in site.data.alum-postdocs %}
             <li>
               <!-- {{member.name}} ({{member.program}}) -->
-              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.position %}({{member.position}}){% endif %}
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.current_position %}({{member.current_position}}){% endif %}
             </li>
           {% endfor %}
         </ul>
@@ -263,7 +263,7 @@ section_id: about
           {% for member in site.data.alum %}
             <li>
               <!-- {{member.name}} ({{member.program}}) -->
-              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.position %}({{member.position}}){% endif %}
+              {{member.name}}, {{member.degree}} {{member.program}} {{member.year}} {% if member.current_position %}({{member.current_position}}){% endif %}
             </li>
           {% endfor %}
         </ul>
