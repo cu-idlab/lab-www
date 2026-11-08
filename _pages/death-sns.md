@@ -9,7 +9,10 @@ images:
   - /images/projects/fb-grave.jpg
 excerpt:
   What becomes of a social network profile when the person it represents has died? We examine how death reshapes online identity through three themes—embodiment, representation, and temporality—and what it means to design for digital representations that survive their owners.
-homepage: true
+homepage: false
+status: past
+last_active: 2020
+order: 190
 ---
 
 The mass adoption of social network sites includes, as a natural consequence, the growing presence of profiles representing individuals who are no longer alive. However, the death of a user does not result in the elimination of his or her account nor the profile’s place inside a network of digital peers. Indeed, the fact that friends use a user’s profile page, post mortem, to say last goodbyes, share memories, and coordinate funereal arrangements is well known, if not frequently discussed.  Death plays an increasingly significant role, then, in the experience of social networking. More broadly, the entwining of online and offline experience highlights the importance of thinking about digital representations as things that might well survive their owners or referents.

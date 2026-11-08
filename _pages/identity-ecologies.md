@@ -10,6 +10,8 @@ images:
 excerpt:
   How do people manage who they are across many platforms and audiences at once? We investigate identity ecologies—how people craft different identities for different online spaces—and how identities and audiences cross platform boundaries as people shift, join, and leave platforms over time.
 homepage: false
+status: past
+order: 240
 ---
 
 It's rare for someone to only have an account on one social media website; people create accounts across all sorts of social media sites, ranging from the more commonly used, like Facebook or Twitter, to more niche sites that cater to specific interests. What's more, people often create multiple accounts within a single site, even when the site itself explicitly prohibits this type of behavior. Across all of these sites and accounts, people create identities that their audiences subsequently see, interpret, and react to.

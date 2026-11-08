@@ -10,6 +10,9 @@ images:
 excerpt:
   What happens to the photos, posts, and connections left behind when a relationship ends? We explore how people navigate their online identities after breakups—the challenges of managing relationship data, the way algorithms resurface difficult memories, and how platforms can better support people through relationship dissolution.
 homepage: true
+status: active
+last_active: 2025
+order: 90
 ---
 
 After a romantic relationship ends, people are left with digital remnants—photos, posts, connections, and memories that represent a relationship that no longer exists. These digital traces can serve as unwanted reminders of the past, interfere with moving on, and complicate how people present themselves to others online.

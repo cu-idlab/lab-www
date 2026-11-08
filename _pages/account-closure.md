@@ -10,6 +10,9 @@ images:
 excerpt:
   We study what causes people to abandon or delete their digital accounts, and build systems to support that process and the extraction of their data.
 homepage: true
+status: active
+last_active: 2026
+order: 40
 ---
 Many people have more online accounts than they can easily manage. The average internet user maintains over 100 accounts across social media platforms, email providers, cloud storage services, and other digital services. However, users, despite knowing they have many accounts, tend to underestimate how many abandoned accounts they have. Additionally, many users have little idea what options are actually available to them when they aim to leave a platform, remove their data, or plan for what happens to their accounts after they die. Users' digital footprints grow larger and more complex to manage over time.
 

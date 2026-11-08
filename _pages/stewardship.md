@@ -10,6 +10,9 @@ image_crop: /images/projects/stewardship-crop.png
 homepage: false
 excerpt:
   We are exploring issues around inheritance and post-mortem data management of Facebook accounts. We are finding that people focus less on ownership of data, and instead on the duties and potential conflicts associated with maintaining accounts post-mortem. "Stewardship" is an alternative to inheritance when designing for post-mortem data management practices.
+status: past
+last_active: 2021
+order: 170
 ---
 
 Given the important role that social network sites play in online bereavement practices, we are exploring issues around inheritance and post-mortem data management of Facebook accounts. We are finding that people focus less on ownership of data, and instead on the duties and potential conflicts associated with maintaining accounts post-mortem.

@@ -10,6 +10,9 @@ images:
 excerpt:
   Social computing research tends to assume its users are alive—but a growing number of profiles represent people who have died. We develop computational methods to detect mortality at scale from social media content, helping designers manage post-mortem content, support the bereaved, and improve the quality of data science.
 homepage: false
+status: past
+last_active: 2018
+order: 210
 ---
 
 User-generated content is central to social computing scholarship. However, researchers and practitioners often presume that these users are alive. Failing to account for mortality is problematic in social media where an increasing number of profiles represent those who have died. Identifying mortality can empower designers to better manage content and support the bereaved, as well as promote high-quality data science. Based on a computational linguistic analysis of post-mortem social media profiles and content, we report on classifiers developed to detect mortality and show that mortality can be determined after the first few occurrences of post-mortem content. Applying our classifiers to content from two other platforms also provided good results. Finally, we discuss trade-offs between models that emphasize pre- vs. post-mortem precision in this sensitive context. These results mark a first step toward identifying mortality at scale, and show how designers and scientists can attend to mortality in their work.

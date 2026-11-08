@@ -11,6 +11,9 @@ excerpt:
   The clinic offers resources and personalized guidance to empower individuals and families in making informed decisions about their digital lives.
 homepage: true
 featured: true
+status: active
+last_active: 2026
+order: 10
 ---
 This initiative addresses the challenges of managing digital legacies in end-of-life contexts. The clinic offers resources and personalized guidance to empower individuals and families in making informed decisions about their digital lives. Outcomes include practical tools, policies, and scholarly contributions shaping academic and industry approaches to digital legacy management.
 

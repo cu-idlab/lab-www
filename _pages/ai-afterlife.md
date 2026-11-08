@@ -10,6 +10,9 @@ images:
 excerpt:
   As AI systems learn to model specific people, "generative ghosts" of the deceased may become common. We study how people engage with these AI afterlives.
 homepage: true
+status: active
+last_active: 2026
+order: 20
 ---
 As AI systems improve in both breadth and depth of performance, they make it possible to create increasingly realistic agents—including agents modeled on specific people. We anticipate that within our lifetimes it may become common practice for people to create "generative ghosts": AI agents that represent the deceased and that the living can converse with.
 

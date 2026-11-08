@@ -10,6 +10,8 @@ images:
 excerpt:
   We study the history of digital accounts as a socio-technical artifact, and the technical constraints and social contexts that have shaped them.
 homepage: false
+status: past
+order: 250
 ---
 We have been conducting historically driven research on how accounts have evolved as technical and social objects. A primary focus for our research is how account design has been iterated on and expanded over the history of networked and/or shared systems.
 

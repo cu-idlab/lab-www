@@ -10,6 +10,9 @@ images:
 excerpt:
   From restrictive identity categories to moderation that disproportionately targets queer content, LGBTQ+ people face unique challenges with technology. We examine how technology can better serve queer communities—documenting the state of LGBTQ+ research in HCI, investigating queer users' experiences across platforms, and developing design recommendations that center queer needs.
 homepage: true
+status: active
+last_active: 2025
+order: 60
 ---
 
 LGBTQ+ people face unique challenges with technology—from restrictive identity categories that fail to capture the nuance of queer identities, to harmful content moderation that disproportionately affects queer content, to fundamental lack of representation in the design process and research community.

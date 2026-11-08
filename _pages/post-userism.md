@@ -7,9 +7,12 @@ image_crop: /images/projects/post-userism.png
 image: /images/projects/post-userism.png
 images:
   - /images/projects/post-userism.png
-homepage: true
+homepage: false
 excerpt:
   We examine what the construct of the user highlights, as well as what it conceals. We introduce *post-userism*, a perspective that simultaneously acknowledges the limits of, and proposes alternatives to, the central construct of the user as proxy for the "human" in HCI.
+status: past
+last_active: 2024
+order: 140
 ---
 
 HCI is focused on improving the interactions we have with technology and innovating new types of interactions, as well as expanding the types of people for whom those interactions are designed. Central to these efforts is the simultaneously empowering and contested construct of the “user.”

@@ -10,6 +10,8 @@ images:
 excerpt:
   We study how people switch between multiple accounts on social media, and how platforms do/do not support their practices.
 homepage: false
+status: past
+order: 260
 ---
 This project investigates the mechanisms that people use for managing switching between multiple social media accounts. Our research questions what the technical practices involved are, and what they reveal about established industry norms and support for switching between multiple accounts.
 

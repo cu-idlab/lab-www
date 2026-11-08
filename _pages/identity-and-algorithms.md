@@ -10,6 +10,9 @@ images:
 excerpt:
   What happens when complex, fluid human identities get folded into the rigid categories of automated systems? We research how to build algorithms—like those behind computer vision—that are sensitive to the nuanced identities of the people they classify, informing design that is empowering and safe for all users.
 homepage: true
+status: active
+last_active: 2025
+order: 50
 ---
 
 Characteristics that make up human identity have become increasingly embedded into technological systems. Human characteristics like age, gender, race, and sexuality are being folded into the categorical structures of automated systems, such as algorithmic computer vision methods. However, these characteristics are often complex, nuanced, and fluid--and linked to social and historical instances of bias and discrimination. The simple and discrete categorization of these characteristics leads to tensions that can clash with human values and identity, and result in risky ramifications for already marginalized populations.
