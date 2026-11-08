@@ -45,6 +45,11 @@ h1.page-title {
   line-height: 42px;
 }
 
+// Foundation floats a row's last column right, which strands a short final row of team tiles in the far slot.
+.row > .team-col.columns:last-child {
+  float: left;
+}
+
 .centered-text {
   text-align: center;
 }
