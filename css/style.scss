@@ -4109,6 +4109,10 @@ ol.bibliography li {
   margin: 0 0.7em 0.3em 0;
   font-size: 0.85em;
 }
+/* Keep the year heading visible below the sticky top bar after a jump. */
+h3[id^="year-"] {
+  scroll-margin-top: 90px;
+}
 .bibliography .pub-meta {
   display: none;
 }
