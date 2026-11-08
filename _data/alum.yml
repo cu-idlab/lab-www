@@ -19,6 +19,7 @@
   program    : "Information Science"
   year       : "2025"
   avatar     : images/members/daniel-sullivan.png
+  current_position : "Colorado Department of Transportation"
 
 - name        : "Katy Weathington"
   position    : "Ph.D. Candidate"
@@ -28,8 +29,8 @@
   year        : "2025"
   email       : "katy.weathington@colorado.edu"
   bio         : "Katy Weathington is a fourth year PhD student at University of Colorado Boulder's Department of Information Science. Her research examines how queer identities are made into and utilized as data."
-  uri         : "http://katyweathington.com/"
-  twitter     : "https://twitter.com/katyweathington"
+  uri         : "https://katyweathington.com/"
+  twitter     : "katyweathington"
   avatar      : images/members/katy_bio.jpg
 
 - name        : "Malinda (Mally) Dietrich"
@@ -39,6 +40,7 @@
   year        : "2025"
   email       : "malinda.dietrich@colorado.edu"
   twitter     : "mallydietrich"
+  current_position : "Technical Writer at Epic Games"
   bio         : "As a PhD student in the Communication department, I strive to be an interdisciplinary scholar interested in understanding how technologies inscribe data and organize information through mainly ethnographic and archival methods. I earned my B.A. in Communication (concentration in Media) and my M.S. in Communication from North Carolina State University. I enjoy caffeine consumption, hiking (read: spending time with my dog), playing video games, making art, and watching hockey."
   avatar      : images/members/mally_dietrich_bio.jpeg
 
@@ -46,6 +48,7 @@
   degree     : "M.A. in"
   program    : "Communication"
   year       : "2021"
+  current_position : "Death Scholars"
 
 - name       : "Casey Paul"
   position    : "BAM Student"
