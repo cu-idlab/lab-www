@@ -7,13 +7,6 @@ author_profile: false
 # Publications
 {: .page-title}
 
-<div id="pub-featured" class="pub-featured" markdown="0" hidden>
-  <h2 class="pub-section-title">Selected papers</h2>
-  <div class="pub-feat-grid"></div>
-</div>
-
-<h2 class="pub-section-title">All publications</h2>
-
 <div id="pub-filters" class="pub-filters" markdown="0">
   <div class="pub-chips" role="group" aria-label="Filter publications">
     <button type="button" class="pub-chip active" data-filter="all">All</button>
@@ -39,7 +32,7 @@ author_profile: false
   var count = bar.querySelector('.pub-count');
   var years = bar.querySelector('.pub-years');
   var total = 0;
-  var featured = document.getElementById('pub-featured');
+  var featured = null; // Selected papers band temporarily removed; to restore, re-add the #pub-featured block and set this to document.getElementById('pub-featured')
 
   var groups = lists.map(function (ol) {
     var h = ol.previousElementSibling;
@@ -65,7 +58,7 @@ author_profile: false
 
 
   // Selected papers: build cards from the entries tagged "featured".
-  (function () {
+  if (featured) (function () {
     var grid = featured.querySelector('.pub-feat-grid');
     groups.forEach(function (g) {
       g.rows.forEach(function (r) {
