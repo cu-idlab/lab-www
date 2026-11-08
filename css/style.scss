@@ -4139,6 +4139,18 @@ ol.bibliography li {
     flex-basis: 100%;
   }
 }
+.type-tag {
+  display: inline-block;
+  margin: 0 0 0.3em 0.4em;
+  padding: 0 0.45em;
+  font-size: 0.7em;
+  line-height: 1.7;
+  color: #555;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
 /* Two-column entry: venue pill and awards on the left, details on the right */
 .bibliography .pub-row {
   display: flex;
