@@ -7,7 +7,7 @@ section_id: about
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <h1>Who are we?</h1>
+      <h1 class="page-title">Who are we?</h1>
       <div class='spacing'></div>
       <p>The Identity Lab is led by <a href="https://www.jedbrubaker.com">Jed Brubaker</a>, an Associate Professor of Information Science in CU Boulder's College of Communication, Media, Design and Information. The lab focuses on studying and designing how identity is designed, represented and experienced in technology.</p>
     </div>
@@ -116,6 +116,7 @@ section_id: about
     </div>
     {% cycle "", "", "", "</div>" %}
 {% endfor %}
+{% assign people_rem = site.data.people.size | modulo: 4 %}{% if people_rem != 0 %}</div>{% endif %}
 
 <!--
 <div class='two spacing'></div>
