@@ -34,7 +34,6 @@ section_id: projects
       {% assign current_projects = all_projects | where: "status", "active" | sort: "order" %}
       {% assign earlier_projects = all_projects | where_exp: "p", "p.status != 'active'" | sort: "order" %}
 
-      <h3 class='projects-section-title'>Current work</h3>
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in current_projects %}
           <li class='{{work.class}}'>
