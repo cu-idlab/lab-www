@@ -9,7 +9,7 @@ images:
   - /images/projects/diy-commemoration.png
 excerpt:
   We study the shift toward do-it-yourself deathcare in Australia, from direct cremation to creative treatment of ashes, and what it means for families and the deathcare industry.
-homepage: false
+homepage: true
 status: active
 order: 45
 ---
