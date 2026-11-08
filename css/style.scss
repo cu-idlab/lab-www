@@ -4038,8 +4038,13 @@ body {
 /** Publications **/
 //*[@id="main"]/ol[2]/li
 
+ol.bibliography {
+  margin-left: 0;
+  padding-left: 0;
+}
 ol.bibliography li {
   list-style: none;
+  margin-left: 0;
 }
 // li:before{
 //    content: '';
