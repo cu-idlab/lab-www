@@ -35,7 +35,6 @@ section_id: projects
       {% assign earlier_projects = all_projects | where_exp: "p", "p.status != 'active'" | sort: "order" %}
 
       <h3 class='projects-section-title'>Current work</h3>
-      <p class='projects-section-note'>Projects with active research or recent publications.</p>
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in current_projects %}
           <li class='{{work.class}}'>
@@ -50,7 +49,6 @@ section_id: projects
       </ul>
 
       <h3 class='projects-section-title'>Earlier work</h3>
-      <p class='projects-section-note'>Past projects that shaped the lab.</p>
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in earlier_projects %}
           <li class='{{work.class}}'>
