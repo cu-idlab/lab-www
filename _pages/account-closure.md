@@ -22,3 +22,8 @@ Building from the account closure model, the second thread of research then aims
 
 ### Researchers
 [Camille Butera](https://camillebutera.com/), [Joseph J. Trybala III](https://josephtry.github.io/), [Jack Manning](https://jackmanning.me/), [Jed Brubaker](https://www.jedbrubaker.com/)
+
+
+### Publications
+
+{% bibliography --query @*[tags~=account-closure] %}
