@@ -8,17 +8,25 @@
 #   logo        : "/assets/images/funders/image.jpg"
 
 - name        : "National Science Foundation"
-  uri         : "http://www.nsf.org"
+  uri         : "https://www.nsf.gov"
   logo        : images/funders/nsf_crop.png
 
 - name        : "Facebook"
-  uri         : "http://www.facebook.com"
+  uri         : "https://www.facebook.com/"
   logo        : images/funders/fb_crop.png
 
 - name        : "Mozilla Foundation"
-  uri         : "https://www.mozilla.org/en-US/foundation/"
+  uri         : "https://www.mozillafoundation.org/en/"
   logo        : images/funders/mozilla_crop.png
 
 - name        : "Gill Foundation"
   uri         : "https://gillfoundation.org"
   logo        : images/funders/GillFoundation_crop.png
+
+- name        : "Google"
+  uri         : "https://www.google.com"
+  logo        : images/funders/google_crop.png
+
+- name        : "OpenAI"
+  uri         : "https://openai.com"
+  logo        : images/funders/openai_crop.png
