@@ -39,6 +39,12 @@ h6 {
   letter-spacing: 1px;
 }
 
+// Page titles share one size (matches the former Join Us! h2).
+h1.page-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
 .centered-text {
   text-align: center;
 }
