@@ -4071,6 +4071,34 @@ ol.bibliography li {
   margin-right: 0.5em;
 }
 
+/* Award badges on publications (icon drawn inline in _layouts/reference.html) */
+.bibliography .awards {
+  margin: 0.2em 0 0.3em;
+}
+.bibliography .award {
+  display: inline-block;
+  margin-right: 1.1em;
+  font-size: 0.9em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.bibliography .award-icon {
+  width: 1.15em;
+  height: 1.15em;
+  margin-right: 0.35em;
+  vertical-align: -0.2em;
+}
+.bibliography .award-icon .ribbon { fill: currentColor; opacity: 0.75; }
+.bibliography .award-icon .medal { fill: currentColor; }
+.bibliography .award-icon .ring { fill: none; stroke: #fff; stroke-width: 1.4; }
+.bibliography .award-best { color: #b8860b; }
+.bibliography .award-hm { color: #6f7b86; }
+.bibliography .award-nom { color: #8a8a8a; font-weight: normal; }
+.bibliography .award-nom .award-icon .medal { fill: none; stroke: currentColor; stroke-width: 1.6; }
+.bibliography .award-nom .award-icon .ribbon { opacity: 0.45; }
+.bibliography .award-nom .award-icon .ring { stroke: none; }
+.bibliography .award-di { color: #7a4fa3; }
+
 /* Publications filter bar */
 .pub-filters {
   margin: 0 0 1.5em;
@@ -4087,7 +4115,7 @@ ol.bibliography li {
   color: inherit;
   background: #fff;
   border: 1px solid #cfcfcf;
-  border-radius: 1em;
+  border-radius: 3px;
   cursor: pointer;
 }
 .pub-chip:hover {

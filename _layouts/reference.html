@@ -5,7 +5,7 @@
 {% comment %} Filter tags for the chip bar on /publications/. Read by the script in publications.md. {% endcomment %}
 {% capture pub_venue %}{{entry.booktitle}} {{entry.journal}} {{entry.howpublished}}{% endcapture %}
 {% assign pub_cats = "" %}
-{% if entry.note contains "Best Paper" %}{% assign pub_cats = pub_cats | append: " awards" %}{% endif %}
+{% if entry.award and entry.award != "Best Paper Nomination" %}{% assign pub_cats = pub_cats | append: " awards" %}{% endif %}
 {% if pub_venue contains "CHI" %}{% assign pub_cats = pub_cats | append: " chi" %}{% endif %}
 {% if pub_venue contains "CSCW" or pub_venue contains "Cooperative Work" %}{% assign pub_cats = pub_cats | append: " cscw" %}{% endif %}
 {% if entry.journal %}{% assign pub_cats = pub_cats | append: " journals" %}{% endif %}
@@ -28,8 +28,12 @@
   {% if entry.pages %}<span class="pages">{{entry.pages}}</span>{% endif %}
 {% endif %}
 
-{% if entry.note %}
-<span class="award">{{entry.note}}</span>
+{% if entry.award %}
+<div class="awards">
+{% assign award_list = entry.award | split: ";" %}
+{% for a in award_list %}{% assign a = a | strip %}<span class="award {% if a contains "Honorable" %}award-hm{% elsif a contains "Nomination" %}award-nom{% elsif a contains "Best Paper" %}award-best{% else %}award-di{% endif %}"><svg class="award-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><polygon class="ribbon" points="7.5,13 5.5,23 12,19.5 18.5,23 16.5,13"/><circle class="medal" cx="12" cy="9" r="7"/><circle class="ring" cx="12" cy="9" r="4.3"/></svg>{{a}}</span>
+{% endfor %}
+</div>
 {% endif %}
 
 <div id="{{key}}-materials">
