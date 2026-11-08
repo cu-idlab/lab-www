@@ -11,6 +11,8 @@ excerpt:
 homepage: false
 ---
 
+<div data-alert class="alert-box warning radius">This search is closed. We are no longer accepting applications for this position. The description below is kept for reference.</div>
+
 
 Technology impacts all parts of human life, but we have not yet adequately designed systems to support the end of life. The Identity Lab is currently engaged in research to support people approaching and at the end of life. Whether we are considering cognitive decline or terminal illnesses, people, their families, and their support networks deserve better tools.
 
@@ -41,4 +43,4 @@ The caregiver support project is a multi-institutional NIH-funded project that i
 
 Due to funding restrictions, candidates must be U.S. citizens or permanent residents. The start date for the position is July 2022, but can be flexible for the right candidate.
 
-You are encouraged to contact Prof. Jed Brubaker (jed.brubaker@colorado.edu) with questions. You can learn more about the position and apply at [CU Boulder Jobs](https://jobs.colorado.edu/jobs/JobDetail/?jobId=37162). Applications should include a CV, a cover letter describing your interests in these projects and career path, and contact information for references.
+You are encouraged to contact Prof. Jed Brubaker (jed.brubaker@colorado.edu) with questions. Applications should include a CV, a cover letter describing your interests in these projects and career path, and contact information for references.
