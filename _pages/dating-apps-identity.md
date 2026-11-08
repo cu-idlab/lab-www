@@ -9,7 +9,7 @@ images:
   - /images/projects/queer_dating_apps.png
 excerpt:
   What happens when the rigid data categories of a dating app can't hold who you are? We are critically examining the range of identities dating apps allow and the experiences of trans and non-binary users, aiming to improve these apps for LGBTQ people and contribute broader insight into the "queering" of dating apps.
-homepage: true
+homepage: false
 status: active
 last_active: 2025
 order: 100

@@ -9,7 +9,7 @@ images:
   - /images/projects/account-switching.jpg
 excerpt:
   We study how people switch between multiple accounts on social media, and how platforms do/do not support their practices.
-homepage: false
+homepage: true
 status: active
 order: 136
 ---

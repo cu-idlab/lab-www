@@ -9,7 +9,7 @@ images:
   - /images/projects/account-histories.jpg
 excerpt:
   We study the history of digital accounts as a socio-technical artifact, and the technical constraints and social contexts that have shaped them.
-homepage: false
+homepage: true
 status: active
 order: 133
 ---

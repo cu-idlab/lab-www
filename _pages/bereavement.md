@@ -9,7 +9,7 @@ images:
   - /images/projects/bereavement.png
 excerpt:
   We are examining how online platforms facilitate community support for people bereaved by suicide, the challenges platforms encounter, and what those challenges mean for the design of supportive technologies.
-homepage: true
+homepage: false
 status: active
 last_active: 2024
 order: 120
