@@ -249,5 +249,14 @@ $(document).ready(function(){
 	- Used by Jekyll Scholar for showing refs
 ---------------------------------------------*/
 function toggleDiv(divId) {
-		 $("#"+divId).toggle();
+		 // Only one panel (abstract, reference or BibTeX) is open per entry at a time.
+		 var m = divId.match(/^(.*)-(abstract|reference|bibtex)$/);
+		 var target = document.getElementById(divId);
+		 if (!m || !target) { $("#"+divId).toggle(); return; }
+		 var opening = target.style.display === "none";
+		 ["abstract", "reference", "bibtex"].forEach(function (part) {
+		   var el = document.getElementById(m[1] + "-" + part);
+		   if (el) { el.style.display = "none"; }
+		 });
+		 if (opening) { target.style.display = "block"; }
 }
